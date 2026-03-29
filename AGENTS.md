@@ -72,6 +72,7 @@ Historical backfill:
 - source: arXiv OAI-PMH `oaipmh.arxiv.org/oai`
 - harvest scope: `set=cs`, then local filtering to configured categories
 - day labels in backfill mode are **created dates**
+- weekly backfill bundles apply a modern arXiv ID/month window guard before final export
 
 ### 2. Normalize
 
@@ -117,6 +118,7 @@ Code:
 Behavior:
 
 - merges topic daily matches into one weekly bundle
+- drops modern arXiv IDs whose `YYMM` prefix is inconsistent with the requested window
 - writes JSON and a human-readable Markdown inspection file
 
 Outputs:

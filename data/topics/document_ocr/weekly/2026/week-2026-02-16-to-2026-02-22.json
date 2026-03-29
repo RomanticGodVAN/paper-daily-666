@@ -3,8 +3,9 @@
   "topic_name": "Document AI and OCR",
   "start_date": "2026-02-16",
   "end_date": "2026-02-22",
-  "created_at": "2026-03-29T13:23:40Z",
-  "paper_count": 19,
+  "created_at": "2026-03-29T14:12:35Z",
+  "paper_id_window_filtered_count": 5,
+  "paper_count": 14,
   "papers": [
     {
       "paper_id": "2602.19188",
@@ -197,55 +198,6 @@
         "OCR evaluation"
       ],
       "llm_reason": "Chinese font generation with explicit OCR metrics for evaluation; core document AI task",
-      "included": true
-    },
-    {
-      "paper_id": "2603.13245",
-      "base_paper_id": "2603.13245",
-      "version": null,
-      "title": "Automating Document Intelligence in Statutory City Planning",
-      "abstract": "UK planning authorities face a legislative conflict between the Planning Act, which mandates public access to application documents, and the Data Protection Act, which requires protection of personal information. This situation creates a manually intensive workload for processing large document volumes, diverting planning officers to administrative tasks and creating legal compliance risks. This paper presents an integrated AI system designed to address these challenges. The system automates the identification and redaction of personal information, extracts key metadata from planning documents, and analyzes architectural drawings for specified features. It operates with an AI-in-the-Loop (AI2L) design, presenting all suggestions for review and confirmation by planning officers directly within their existing software; no action is committed without explicit human approval. The system is designed to improve its performance over time by learning from this human oversight through active learning prioritization rather than autoapproval. The system is currently being piloted at four diverse UK local authorities. The paper details the system design, the AI2L workflow, and the evaluation framework used in the pilot. Additionally, it describes a preliminary Return on Investment (ROI) model developed to quantify potential savings and secure partner participation. This work provides a case study on deploying AI to reduce administrative burden and manage compliance risk in a public sector environment.",
-      "authors": [
-        "Lars Malmqvist",
-        "Robin Barber"
-      ],
-      "comments": "Accepted for presentation at Computing Conference 2026",
-      "categories": [
-        "cs.AI"
-      ],
-      "primary_subject": "cs.AI",
-      "abs_url": "https://arxiv.org/abs/2603.13245",
-      "announcement_date": "2026-02-20",
-      "submitted_date": "2026-02-20",
-      "source_categories": [
-        "cs.AI"
-      ],
-      "fetched_at": "2026-03-29T12:22:52Z",
-      "keyword_score": 3,
-      "keyword_strong_hits": [
-        "document intelligence"
-      ],
-      "keyword_medium_hits": [],
-      "keyword_candidate_hits": [
-        "document",
-        "documents",
-        "form"
-      ],
-      "keyword_contextual_hits": [
-        "document+understand"
-      ],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 0.95,
-      "llm_tags": [
-        "document intelligence",
-        "redaction",
-        "metadata extraction",
-        "architectural drawings"
-      ],
-      "llm_reason": "Central task is automating document intelligence for city planning: redaction, metadata extraction, drawing analysis. Explicit 'document intelligence' hit.",
       "included": true
     },
     {
@@ -448,67 +400,6 @@
       "included": true
     },
     {
-      "paper_id": "2510.08886",
-      "base_paper_id": "2510.08886",
-      "version": null,
-      "title": "FinAuditing: A Financial Taxonomy-Structured Multi-Document Benchmark for Evaluating LLMs",
-      "abstract": "Going beyond simple text processing, financial auditing requires detecting semantic, structural, and numerical inconsistencies across large-scale disclosures. As financial reports are filed in XBRL, a structured XML format governed by accounting standards, auditing becomes a structured information extraction and reasoning problem involving concept alignment, taxonomy-defined relations, and cross-document consistency. Although large language models (LLMs) show promise on isolated financial tasks, their capability in professional-grade auditing remains unclear. We introduce FinAuditing, a taxonomy-aligned, structure-aware benchmark built from real XBRL filings. It contains 1,102 annotated instances averaging over 33k tokens and defines three tasks: Financial Semantic Matching (FinSM), Financial Relationship Extraction (FinRE), and Financial Mathematical Reasoning (FinMR). Evaluations of 13 state-of-the-art LLMs reveal substantial gaps in concept retrieval, taxonomy-aware relation modeling, and consistent cross-document reasoning. These findings highlight the need for realistic, structure-aware benchmarks. We release the evaluation code at https://github.com/The-FinAI/FinAuditing and the dataset at https://huggingface.co/collections/TheFinAI/finauditing. The task currently serves as the official benchmark of an ongoing public evaluation contest at https://open-finance-lab.github.io/SecureFinAI_Contest_2026/.",
-      "authors": [
-        "Yan Wang",
-        "Keyi Wang",
-        "Shanshan Yang",
-        "Jaisal Patel",
-        "Jeff Zhao",
-        "Fengran Mo",
-        "Xueqing Peng",
-        "Lingfei Qian",
-        "Jimin Huang",
-        "Guojun Xiong",
-        "Yankai Chen",
-        "Víctor Gutiérrez-Basulto",
-        "Xiao-Yang Liu",
-        "Xue Liu",
-        "Jian-Yun Nie"
-      ],
-      "comments": "",
-      "categories": [
-        "cs.CE",
-        "cs.CL",
-        "cs.IR"
-      ],
-      "primary_subject": "cs.CL",
-      "abs_url": "https://arxiv.org/abs/2510.08886",
-      "announcement_date": "2026-02-19",
-      "submitted_date": "2026-02-19",
-      "source_categories": [
-        "cs.CL"
-      ],
-      "fetched_at": "2026-03-29T12:22:52Z",
-      "keyword_score": 1,
-      "keyword_strong_hits": [],
-      "keyword_medium_hits": [
-        "information extraction"
-      ],
-      "keyword_candidate_hits": [
-        "document",
-        "form"
-      ],
-      "keyword_contextual_hits": [],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 0.9,
-      "llm_tags": [
-        "financial auditing",
-        "structured information extraction",
-        "XBRL",
-        "document understanding"
-      ],
-      "llm_reason": "Central task is structured information extraction from financial documents (XBRL filings), targeting document understanding and parsing.",
-      "included": true
-    },
-    {
       "paper_id": "2602.16872",
       "base_paper_id": "2602.16872",
       "version": null,
@@ -612,55 +503,6 @@
         "document understanding"
       ],
       "llm_reason": "Central task is designing OCR systems for India, with focus on multilingual OCR and extracting structured fields from government documents.",
-      "included": true
-    },
-    {
-      "paper_id": "2603.13238",
-      "base_paper_id": "2603.13238",
-      "version": null,
-      "title": "KazakhOCR: A Synthetic Benchmark for Evaluating Multimodal Models in Low-Resource Kazakh Script OCR",
-      "abstract": "Kazakh is a Turkic language using the Arabic, Cyrillic, and Latin scripts, making it unique in terms of optical character recognition (OCR). Work on OCR for low-resource Kazakh scripts is very scarce, and no OCR benchmarks or images exist for the Arabic and Latin scripts. We construct a synthetic OCR dataset of 7,219 images for all three scripts with font, color, and noise variations to imitate real OCR tasks. We evaluated three multimodal large language models (MLLMs) on a subset of the benchmark for OCR and language identification: Gemma-3-12B-it, Qwen2.5-VL-7B-Instruct, and Llama-3.2-11B-Vision-Instruct. All models are unsuccessful with Latin and Arabic script OCR, and fail to recognize the Arabic script as Kazakh text, misclassifying it as Arabic, Farsi, and Kurdish. We further compare MLLMs with a classical OCR baseline and find that while traditional OCR has lower character error rates, MLLMs fail to match this performance. These findings show significant gaps in current MLLM capabilities to process low-resource Abjad-based scripts and demonstrate the need for inclusive models and benchmarks supporting low-resource scripts and languages.",
-      "authors": [
-        "Henry Gagnier",
-        "Sophie Gagnier",
-        "Ashwin Kirubakaran"
-      ],
-      "comments": "Accepted to AbjadNLP @ EACL 2026",
-      "categories": [
-        "cs.CL",
-        "cs.CV"
-      ],
-      "primary_subject": "cs.CV",
-      "abs_url": "https://arxiv.org/abs/2603.13238",
-      "announcement_date": "2026-02-17",
-      "submitted_date": "2026-02-17",
-      "source_categories": [
-        "cs.CL",
-        "cs.CV"
-      ],
-      "fetched_at": "2026-03-29T12:22:52Z",
-      "keyword_score": 6,
-      "keyword_strong_hits": [
-        "ocr",
-        "optical character recognition"
-      ],
-      "keyword_medium_hits": [],
-      "keyword_candidate_hits": [
-        "form"
-      ],
-      "keyword_contextual_hits": [],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 1.0,
-      "llm_tags": [
-        "OCR",
-        "benchmark",
-        "low-resource",
-        "multilingual"
-      ],
-      "llm_reason": "Central task is OCR for low-resource Kazakh scripts, with creation of a synthetic OCR benchmark and evaluation of models on OCR performance.",
       "included": true
     },
     {
@@ -830,111 +672,6 @@
         "structured content extraction"
       ],
       "llm_reason": "Central task is document-to-table extraction from unstructured documents; explicitly targets document understanding and structured content extraction.",
-      "included": true
-    },
-    {
-      "paper_id": "2601.03100",
-      "base_paper_id": "2601.03100",
-      "version": null,
-      "title": "Text-Guided Layer Fusion Mitigates Hallucination in Multimodal LLMs",
-      "abstract": "Multimodal large language models (MLLMs) typically rely on a single late-layer feature from a frozen vision encoder, leaving the encoder's rich hierarchy of visual cues under-utilized. MLLMs still suffer from visually ungrounded hallucinations, often relying on language priors rather than image evidence. While many prior mitigation strategies operate on the text side, they leave the visual representation unchanged and do not exploit the rich hierarchy of features encoded across vision layers. Existing multi-layer fusion methods partially address this limitation but remain static, applying the same layer mixture regardless of the query. In this work, we introduce TGIF (Text-Guided Inter-layer Fusion), a lightweight module that treats encoder layers as depth-wise \"experts\" and predicts a prompt-dependent fusion of visual features. TGIF follows the principle of direct external fusion, requires no vision-encoder updates, and adds minimal overhead. Integrated into LLaVA-1.5-7B, TGIF provides consistent improvements across hallucination, OCR, and VQA benchmarks, while preserving or improving performance on ScienceQA, GQA, and MMBench. These results suggest that query-conditioned, hierarchy-aware fusion is an effective way to strengthen visual grounding and reduce hallucination in modern MLLMs.",
-      "authors": [
-        "Chenchen Lin",
-        "Sanbao Su",
-        "Rachel Luo",
-        "Yuxiao Chen",
-        "Yan Wang",
-        "Marco Pavone",
-        "Fei Miao"
-      ],
-      "comments": "",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "primary_subject": "cs.CV",
-      "abs_url": "https://arxiv.org/abs/2601.03100",
-      "announcement_date": "2026-02-17",
-      "submitted_date": "2026-02-17",
-      "source_categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "fetched_at": "2026-03-29T12:22:52Z",
-      "keyword_score": 3,
-      "keyword_strong_hits": [
-        "ocr"
-      ],
-      "keyword_medium_hits": [],
-      "keyword_candidate_hits": [
-        "form"
-      ],
-      "keyword_contextual_hits": [],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 0.8,
-      "llm_tags": [
-        "multimodal LLMs",
-        "hallucination mitigation",
-        "OCR evaluation"
-      ],
-      "llm_reason": "Explicitly evaluates on OCR benchmarks as a core contribution; TGIF method aims to improve visual grounding including text recognition in images.",
-      "included": true
-    },
-    {
-      "paper_id": "2502.19412",
-      "base_paper_id": "2502.19412",
-      "version": null,
-      "title": "The Mighty ToRR: A Benchmark for Table Reasoning and Robustness",
-      "abstract": "Despite its real-world significance, model performance on tabular data remains underexplored, leaving uncertainty about which model to rely on and which prompt configuration to adopt. To address this gap, we create ToRR, a benchmark for Table Reasoning and Robustness, measuring model performance and robustness on table-related tasks. The benchmark includes 10 datasets that cover different types of table reasoning capabilities across varied domains. ToRR goes beyond model performance rankings, and is designed to reflect whether models can handle tabular data consistently and robustly, across a variety of common table representation formats. We present a leaderboard as well as comprehensive analyses of the results of leading models over ToRR. Our results reveal a striking pattern of brittle model behavior, where even strong models are unable to perform robustly on tabular data tasks. Although no specific table format leads to consistently better performance, we show that testing over multiple formats is crucial for reliably estimating model capabilities. Moreover, we show that the reliability boost from testing multiple prompts can be equivalent to adding more test examples. Overall, our findings show that table understanding and reasoning tasks remain a significant challenge.",
-      "authors": [
-        "Shir Ashury-Tahan",
-        "Yifan Mai",
-        "Rajmohan C",
-        "Ariel Gera",
-        "Yotam Perlitz",
-        "Asaf Yehudai",
-        "Elron Bandel",
-        "Leshem Choshen",
-        "Eyal Shnarch",
-        "Percy Liang",
-        "Michal Shmueli-Scheuer"
-      ],
-      "comments": "",
-      "categories": [
-        "cs.CL"
-      ],
-      "primary_subject": "cs.CL",
-      "abs_url": "https://arxiv.org/abs/2502.19412",
-      "announcement_date": "2026-02-17",
-      "submitted_date": "2026-02-17",
-      "source_categories": [
-        "cs.CL"
-      ],
-      "fetched_at": "2026-03-29T12:22:52Z",
-      "keyword_score": 1,
-      "keyword_strong_hits": [],
-      "keyword_medium_hits": [
-        "table understanding"
-      ],
-      "keyword_candidate_hits": [
-        "table",
-        "form"
-      ],
-      "keyword_contextual_hits": [],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 0.9,
-      "llm_tags": [
-        "table understanding",
-        "benchmark",
-        "robustness"
-      ],
-      "llm_reason": "Central focus on table understanding and reasoning, core document AI task",
       "included": true
     },
     {

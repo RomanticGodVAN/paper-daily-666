@@ -3,8 +3,9 @@
   "topic_name": "Document AI and OCR",
   "start_date": "2026-01-01",
   "end_date": "2026-01-04",
-  "created_at": "2026-03-29T13:23:40Z",
-  "paper_count": 7,
+  "created_at": "2026-03-29T14:12:35Z",
+  "paper_id_window_filtered_count": 3,
+  "paper_count": 4,
   "papers": [
     {
       "paper_id": "2601.01088",
@@ -53,106 +54,6 @@
         "low-resource language"
       ],
       "llm_reason": "Explicitly creates synthetic dataset for optical character recognition in Kashmiri script",
-      "included": true
-    },
-    {
-      "paper_id": "2511.05818",
-      "base_paper_id": "2511.05818",
-      "version": null,
-      "title": "LRANet++: Low-Rank Approximation Network for Accurate and Efficient Text Spotting",
-      "abstract": "End-to-end text spotting aims to jointly optimize text detection and recognition within a unified framework. Despite significant progress, designing an accurate and efficient end-to-end text spotter for arbitrary-shaped text remains challenging. We identify the primary bottleneck as the lack of a reliable and efficient text detection method. To address this, we propose a novel parameterized text shape representation based on low-rank approximation for precise detection and a triple assignment detection head for fast inference. Specifically, unlike current data-irrelevant shape representation methods, we exploit shape correlations among labeled text boundaries to construct a robust low-rank subspace. By minimizing an $\\ell_1$-norm objective, we extract orthogonal vectors that capture the intrinsic text shape from noisy annotations, enabling precise reconstruction via the linear combination of only a few basis vectors. Next, the triple assignment scheme decouples training complexity from inference speed. It utilizes a deep sparse branch to guide an ultra-lightweight inference branch, while a dense branch provides rich parallel supervision. Building upon these advancements, we integrate the enhanced detection module with a lightweight recognition branch to form an end-to-end text spotting framework, termed LRANet++, capable of accurately and efficiently spotting arbitrary-shaped text. Extensive experiments on challenging benchmarks demonstrate the superiority of LRANet++ compared to state-of-the-art methods. Code is available at: https://github.com/ychensu/LRANet-PP.",
-      "authors": [
-        "Yuchen Su",
-        "Zhineng Chen",
-        "Yongkun Du",
-        "Zuxuan Wu",
-        "Hongtao Xie",
-        "Yu-Gang Jiang"
-      ],
-      "comments": "Accepted by IEEE TPAMI",
-      "categories": [
-        "cs.CV"
-      ],
-      "primary_subject": "cs.CV",
-      "abs_url": "https://arxiv.org/abs/2511.05818",
-      "announcement_date": "2026-01-03",
-      "submitted_date": "2026-01-03",
-      "source_categories": [
-        "cs.CV"
-      ],
-      "fetched_at": "2026-03-29T12:22:51Z",
-      "keyword_score": 4,
-      "keyword_strong_hits": [
-        "text spotting"
-      ],
-      "keyword_medium_hits": [
-        "text detection"
-      ],
-      "keyword_candidate_hits": [
-        "form",
-        "parse"
-      ],
-      "keyword_contextual_hits": [],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 0.95,
-      "llm_tags": [
-        "text spotting",
-        "text detection",
-        "end-to-end recognition"
-      ],
-      "llm_reason": "Core contribution is end-to-end text spotting (detection+recognition), central OCR task",
-      "included": true
-    },
-    {
-      "paper_id": "2310.00546",
-      "base_paper_id": "2310.00546",
-      "version": null,
-      "title": "Seal2Real: Prompt Prior Learning on Diffusion Model for Unsupervised Document Seal Data Generation and Realisation",
-      "abstract": "Seal-related tasks in document processing-such as seal segmentation, authenticity verification, seal removal, and text recognition under seals-hold substantial commercial importance. However, progress in these areas has been hindered by the scarcity of labeled document seal datasets, which are essential for supervised learning. To address this limitation, we propose Seal2Real, a novel generative framework designed to synthesize large-scale labeled document seal data. As part of this work, we also present Seal-DB, a comprehensive dataset containing 20,000 labeled images to support seal-related research. Seal2Real introduces a prompt prior learning architecture built upon a pre-trained Stable Diffusion model, effectively transferring its generative capability to the unsupervised domain of seal image synthesis. By producing highly realistic synthetic seal images, Seal2Real significantly enhances the performance of downstream seal-related tasks on real-world data. Experimental evaluations on the Seal-DB dataset demonstrate the effectiveness and practical value of the proposed framework. The dataset is available at https://github.com/liuyifan6613/DocBank-Document-Enhancement-Dataset.",
-      "authors": [
-        "Mingfu Yan",
-        "Jiancheng Huang",
-        "Shifeng Chen"
-      ],
-      "comments": "",
-      "categories": [
-        "cs.CV"
-      ],
-      "primary_subject": "cs.CV",
-      "abs_url": "https://arxiv.org/abs/2310.00546",
-      "announcement_date": "2026-01-03",
-      "submitted_date": "2026-01-03",
-      "source_categories": [
-        "cs.CV"
-      ],
-      "fetched_at": "2026-03-29T12:22:51Z",
-      "keyword_score": 1,
-      "keyword_strong_hits": [],
-      "keyword_medium_hits": [
-        "text recognition"
-      ],
-      "keyword_candidate_hits": [
-        "document",
-        "table",
-        "form"
-      ],
-      "keyword_contextual_hits": [
-        "document+understand"
-      ],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 0.95,
-      "llm_tags": [
-        "document seal",
-        "text recognition",
-        "document processing"
-      ],
-      "llm_reason": "Explicitly targets document seal processing including text recognition under seals, core document AI task",
       "included": true
     },
     {
@@ -303,55 +204,6 @@
         "multimodal dataset"
       ],
       "llm_reason": "Central contribution is dataset for scientific figure-text understanding from papers, targeting scientific paper parsing and multimodal alignment.",
-      "included": true
-    },
-    {
-      "paper_id": "2512.02660",
-      "base_paper_id": "2512.02660",
-      "version": null,
-      "title": "Spatially-Grounded Document Retrieval via Patch-to-Region Relevance Propagation",
-      "abstract": "Late-interaction multimodal retrieval models like ColPali achieve state-of-the-art document retrieval by embedding pages as images and computing fine-grained similarity between query tokens and visual patches. However, they operate at page-level granularity, limiting utility for retrieval-augmented generation (RAG) where precise context is paramount. Conversely, OCR-based systems extract structured text with bounding box coordinates but lack semantic grounding for relevance assessment. We propose a hybrid architecture that unifies these paradigms: using ColPali's patch-level similarity scores as spatial relevance filters over OCR-extracted regions. We formalize the coordinate mapping between vision transformer patch grids and OCR bounding boxes, introduce intersection metrics for relevance propagation, and establish theoretical bounds on area efficiency. We evaluate on BBox-DocVQA with ground-truth bounding boxes. For within-page localization (given correct page retrieval), ColQwen3-4B with percentile-50 thresholding achieves 59.7% hit rate at IoU@0.5 (84.4% at IoU@0.25, 35.8% at IoU@0.7), with mean IoU of 0.569, compared to ~6.7% for random region selection. Our approach reduces context tokens by 28.8% compared to returning all OCR regions and by 52.3% compared to full-page image tokens. Our approach operates at inference time without additional training. We release Snappy, an open-source implementation at https://github.com/athrael-soju/Snappy.",
-      "authors": [
-        "Athos Georgiou"
-      ],
-      "comments": "21 pages, 6 figures, 8 tables. Includes ancillary files with full benchmark results and ablation studies. Code available at https://github.com/athrael-soju/Snappy",
-      "categories": [
-        "cs.CV",
-        "cs.IR"
-      ],
-      "primary_subject": "cs.CV",
-      "abs_url": "https://arxiv.org/abs/2512.02660",
-      "announcement_date": "2026-01-01",
-      "submitted_date": "2026-01-01",
-      "source_categories": [
-        "cs.CV"
-      ],
-      "fetched_at": "2026-03-29T12:22:51Z",
-      "keyword_score": 6,
-      "keyword_strong_hits": [
-        "ocr",
-        "docvqa"
-      ],
-      "keyword_medium_hits": [],
-      "keyword_candidate_hits": [
-        "document",
-        "form"
-      ],
-      "keyword_contextual_hits": [
-        "document+understand"
-      ],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 1.0,
-      "llm_tags": [
-        "document retrieval",
-        "DocVQA",
-        "OCR integration",
-        "spatial grounding"
-      ],
-      "llm_reason": "Core contribution unifies OCR-based systems with vision models for document retrieval and localization, explicitly targeting DocVQA with OCR bounding boxes.",
       "included": true
     }
   ]

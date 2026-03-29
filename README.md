@@ -16,7 +16,7 @@ The current implementation is built around four stages:
 
 1. `ingest`
    Reads arXiv `list/<category>/pastweek` pages for rolling current-week runs.
-   Historical backfill uses the arXiv API with `submittedDate` filters.
+   Historical backfill uses arXiv OAI-PMH over `set=cs`, then filters locally.
 2. `normalize`
    Fetches per-paper `abs/<id>` pages, extracts abstract-level metadata, and deduplicates across categories.
 3. `recall`
@@ -30,6 +30,7 @@ Important:
 - day labels in `data/raw/`, `data/normalized/`, and `data/topics/.../daily/` are therefore **announcement dates**
 - this matches "what appeared on arXiv that day" better than original submission timestamps
 - `backfill-range` is the exception: it uses arXiv OAI-PMH and groups by **created date**
+- weekly backfill bundles also apply a modern arXiv ID/month guard to drop papers whose numeric ID prefix does not match the requested month window
 
 ## Repository Layout
 
@@ -94,6 +95,7 @@ Backfill notes:
 - source: arXiv OAI-PMH (`oaipmh.arxiv.org/oai`)
 - harvest scope: `set=cs`, then local filtering to configured categories
 - date semantics: created-date based, not announcement-page based
+- weekly outputs apply an additional modern arXiv ID/month consistency guard
 
 You can also run stages separately:
 

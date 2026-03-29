@@ -2,6 +2,10 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 from pathlib import Path
+import re
+
+
+MODERN_ARXIV_ID_RE = re.compile(r"^(?P<prefix>\d{4})\.\d{4,5}(?:v\d+)?$")
 
 
 def parse_iso_date(value: str) -> date:
@@ -49,6 +53,28 @@ def split_week_windows(start: date, end: date, week_starts_on: str = "monday") -
         windows.append((current, window_end))
         current = window_end + timedelta(days=1)
     return windows
+
+
+def month_prefixes_for_range(start: date, end: date) -> set[str]:
+    if end < start:
+        raise ValueError("end date must be on or after start date")
+    prefixes: set[str] = set()
+    current = date(start.year, start.month, 1)
+    last = date(end.year, end.month, 1)
+    while current <= last:
+        prefixes.add(current.strftime("%y%m"))
+        if current.month == 12:
+            current = date(current.year + 1, 1, 1)
+        else:
+            current = date(current.year, current.month + 1, 1)
+    return prefixes
+
+
+def paper_id_matches_month_window(paper_id: str, start: date, end: date) -> bool:
+    match = MODERN_ARXIV_ID_RE.match((paper_id or "").strip())
+    if match is None:
+        return True
+    return match.group("prefix") in month_prefixes_for_range(start, end)
 
 
 def week_bucket_dir(root: str | Path, day: date, week_starts_on: str = "monday") -> Path:
