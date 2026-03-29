@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-daily"
+version = "0.1.0"
+description = "Topic-focused arXiv monitoring and report generation."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "requests>=2.32",
+]
+
+[project.optional-dependencies]
+docs = ["mkdocs>=1.6", "mkdocs-material>=9.5"]
+
+[project.scripts]
+paper-daily = "paper_daily.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,20 @@
+[source]
+provider = "arxiv"
+timezone = "Asia/Shanghai"
+week_starts_on = "monday"
+categories = ["cs.AI", "cs.CL", "cs.CV", "cs.LG", "cs.MA"]
+user_agent = "paper-daily/0.1 (local research prototype)"
+list_page_show = 2000
+request_timeout_seconds = 60
+abs_fetch_workers = 4
+
+[storage]
+raw_root = "data/raw"
+normalized_root = "data/normalized"
+state_root = "data/state"
+topics_root = "data/topics"
+
+[normalization]
+canonical_id = "base_arxiv_id"
+track_versions = true
+deduplicate_across_categories = true

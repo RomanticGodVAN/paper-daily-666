@@ -1,0 +1,73 @@
+[topic]
+id = "document_ocr"
+name = "Document AI and OCR"
+description = "Document intelligence, OCR, layout understanding, text spotting, DocVQA, form and table understanding."
+enabled = true
+
+[retrieval]
+minimum_score = 6
+strong_terms = [
+  "ocr",
+  "optical character recognition",
+  "document understanding",
+  "document intelligence",
+  "document ai",
+  "layout analysis",
+  "layout understanding",
+  "docvqa",
+  "text spotting",
+  "scene text",
+  "handwritten text recognition",
+  "document parsing"
+]
+medium_terms = [
+  "document image",
+  "reading order",
+  "table recognition",
+  "table understanding",
+  "form understanding",
+  "receipt understanding",
+  "invoice understanding",
+  "chart understanding",
+  "text detection",
+  "text recognition",
+  "information extraction"
+]
+candidate_terms = [
+  "document",
+  "documents",
+  "pdf",
+  "citation",
+  "handwritten",
+  "scientific paper",
+  "scientific papers",
+  "historical newspaper",
+  "newspaper",
+  "diagram",
+  "scene text",
+  "text rendering",
+  "layout",
+  "table",
+  "form",
+  "invoice",
+  "receipt",
+  "chart",
+  "webpage",
+  "poster",
+  "slide",
+  "html/css",
+  "parsing",
+  "parse",
+]
+exclude_terms = [
+  "language modeling benchmark",
+  "speech recognition",
+  "protein sequence"
+]
+llm_model = "deepseek-chat"
+llm_batch_size = 12
+llm_temperature = 0.0
+
+[weekly]
+enabled = true
+include_match_explanations = true
