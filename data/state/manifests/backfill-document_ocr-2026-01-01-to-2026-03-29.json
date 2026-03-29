@@ -1,0 +1,114 @@
+{
+  "stage": "backfill",
+  "topic_id": "document_ocr",
+  "start_date": "2026-01-01",
+  "end_date": "2026-03-29",
+  "created_at": "2026-03-29T13:23:40Z",
+  "week_windows": [
+    {
+      "start_date": "2026-01-01",
+      "end_date": "2026-01-04",
+      "paper_count": 7,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-01-to-2026-01-04.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-01-to-2026-01-04.md"
+    },
+    {
+      "start_date": "2026-01-05",
+      "end_date": "2026-01-11",
+      "paper_count": 29,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-05-to-2026-01-11.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-05-to-2026-01-11.md"
+    },
+    {
+      "start_date": "2026-01-12",
+      "end_date": "2026-01-18",
+      "paper_count": 25,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-12-to-2026-01-18.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-12-to-2026-01-18.md"
+    },
+    {
+      "start_date": "2026-01-19",
+      "end_date": "2026-01-25",
+      "paper_count": 22,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-19-to-2026-01-25.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-19-to-2026-01-25.md"
+    },
+    {
+      "start_date": "2026-01-26",
+      "end_date": "2026-02-01",
+      "paper_count": 37,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-26-to-2026-02-01.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-01-26-to-2026-02-01.md"
+    },
+    {
+      "start_date": "2026-02-02",
+      "end_date": "2026-02-08",
+      "paper_count": 30,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-02-to-2026-02-08.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-02-to-2026-02-08.md"
+    },
+    {
+      "start_date": "2026-02-09",
+      "end_date": "2026-02-15",
+      "paper_count": 41,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-09-to-2026-02-15.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-09-to-2026-02-15.md"
+    },
+    {
+      "start_date": "2026-02-16",
+      "end_date": "2026-02-22",
+      "paper_count": 19,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-16-to-2026-02-22.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-16-to-2026-02-22.md"
+    },
+    {
+      "start_date": "2026-02-23",
+      "end_date": "2026-03-01",
+      "paper_count": 35,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-23-to-2026-03-01.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-02-23-to-2026-03-01.md"
+    },
+    {
+      "start_date": "2026-03-02",
+      "end_date": "2026-03-08",
+      "paper_count": 33,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-02-to-2026-03-08.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-02-to-2026-03-08.md"
+    },
+    {
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-15",
+      "paper_count": 38,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-09-to-2026-03-15.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-09-to-2026-03-15.md"
+    },
+    {
+      "start_date": "2026-03-16",
+      "end_date": "2026-03-22",
+      "paper_count": 38,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-16-to-2026-03-22.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-16-to-2026-03-22.md"
+    },
+    {
+      "start_date": "2026-03-23",
+      "end_date": "2026-03-29",
+      "paper_count": 34,
+      "json_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-23-to-2026-03-29.json",
+      "markdown_path": "data\\topics\\document_ocr\\weekly\\2026\\week-2026-03-23-to-2026-03-29.md"
+    }
+  ],
+  "window_count": 13,
+  "ingest": {
+    "total_entries": 56847
+  },
+  "normalize": {
+    "total_unique_papers": 40502
+  },
+  "recall": {
+    "input_papers": 40502,
+    "llm_input_papers": 1557,
+    "included_papers": 396
+  },
+  "ingest_stage": "ingest_oai",
+  "date_kind": "created_date"
+}

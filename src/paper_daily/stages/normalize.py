@@ -33,8 +33,11 @@ def run_normalize(source_config: ArxivSourceConfig, start_date, end_date) -> dic
             continue
 
         merged: dict[str, dict[str, Any]] = {}
+        direct_api_records = True
         for file in files:
             payload = read_json(file)
+            if payload.get("source") not in {"arxiv_api_query", "arxiv_oai_query"}:
+                direct_api_records = False
             for entry in payload["entries"]:
                 paper_id = entry["paper_id"]
                 if paper_id not in merged:
@@ -45,12 +48,20 @@ def run_normalize(source_config: ArxivSourceConfig, start_date, end_date) -> dic
                     current["source_categories"] = sorted(
                         set(current["source_categories"] + [entry["source_category"]])
                     )
-                    current["subject_categories"] = sorted(
-                        set(current["subject_categories"] + entry["subject_categories"])
-                    )
+                    if "subject_categories" in current and "subject_categories" in entry:
+                        current["subject_categories"] = sorted(
+                            set(current["subject_categories"] + entry["subject_categories"])
+                        )
+                    if "categories" in current and "categories" in entry:
+                        current["categories"] = sorted(
+                            set(current["categories"] + entry["categories"])
+                        )
 
         stubs = [merged[key] for key in sorted(merged)]
-        records = fetch_abs_records(stubs, source_config)
+        if direct_api_records:
+            records = [_normalize_api_stub(stub) for stub in stubs]
+        else:
+            records = fetch_abs_records(stubs, source_config)
 
         out_path = normalized_day_path(
             normalized_root,
@@ -81,3 +92,22 @@ def run_normalize(source_config: ArxivSourceConfig, start_date, end_date) -> dic
         },
     )
     return manifest
+
+
+def _normalize_api_stub(stub: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "paper_id": stub["paper_id"],
+        "base_paper_id": stub.get("base_paper_id", stub["paper_id"].split("v", 1)[0]),
+        "version": stub.get("version"),
+        "title": stub["title"],
+        "abstract": stub["abstract"],
+        "authors": stub.get("authors", []),
+        "comments": stub.get("comments", ""),
+        "categories": sorted(set(stub.get("categories", stub.get("subject_categories", [])))),
+        "primary_subject": stub.get("primary_subject", ""),
+        "abs_url": stub["abs_url"],
+        "announcement_date": stub["announcement_date"],
+        "submitted_date": stub.get("submitted_date", stub["announcement_date"]),
+        "source_categories": sorted(set(stub.get("source_categories", []))),
+        "fetched_at": stub.get("fetched_at", datetime.utcnow().isoformat(timespec="seconds") + "Z"),
+    }

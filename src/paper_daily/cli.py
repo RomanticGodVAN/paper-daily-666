@@ -6,6 +6,7 @@ from pathlib import Path
 
 from .config import load_arxiv_source_config, load_topic_config
 from .dates import parse_iso_date
+from .stages.backfill import run_backfill
 from .stages.ingest import run_ingest
 from .stages.normalize import run_normalize
 from .stages.recall import run_recall
@@ -56,6 +57,7 @@ def build_parser() -> argparse.ArgumentParser:
         ("recall-window", "Run OCR/document topic recall for a date window."),
         ("weekly-window", "Materialize a weekly bundle for a date window."),
         ("run-window", "Run ingest, normalize, recall, and weekly stages."),
+        ("backfill-range", "Run ingest/normalize/recall once, then materialize weekly bundles across the date range."),
     ]:
         command = subparsers.add_parser(name, help=help_text)
         command.add_argument(
@@ -65,7 +67,7 @@ def build_parser() -> argparse.ArgumentParser:
         )
         command.add_argument("--start-date", required=True, help="Start date in YYYY-MM-DD.")
         command.add_argument("--end-date", required=True, help="End date in YYYY-MM-DD.")
-        if name in {"recall-window", "weekly-window", "run-window"}:
+        if name in {"recall-window", "weekly-window", "run-window", "backfill-range"}:
             command.add_argument(
                 "--topic",
                 default="topics/document_ocr.toml",
@@ -101,6 +103,7 @@ def main(argv: list[str] | None = None) -> int:
         "recall-window",
         "weekly-window",
         "run-window",
+        "backfill-range",
     }:
         source_config = load_arxiv_source_config(Path(args.source))
         start_date = parse_iso_date(args.start_date)
@@ -160,6 +163,16 @@ def main(argv: list[str] | None = None) -> int:
                         "recall": recall,
                         "weekly": weekly,
                     },
+                    indent=2,
+                    ensure_ascii=False,
+                )
+            )
+            return 0
+
+        if args.command == "backfill-range":
+            print(
+                json.dumps(
+                    run_backfill(source_config, topic_config, start_date, end_date),
                     indent=2,
                     ensure_ascii=False,
                 )

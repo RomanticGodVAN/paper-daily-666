@@ -15,7 +15,8 @@ It does not attempt final report writing, GitHub Pages publishing, or WeChat pos
 The current implementation is built around four stages:
 
 1. `ingest`
-   Reads arXiv `list/<category>/pastweek` pages for configured categories and stores per-day raw snapshots.
+   Reads arXiv `list/<category>/pastweek` pages for rolling current-week runs.
+   Historical backfill uses the arXiv API with `submittedDate` filters.
 2. `normalize`
    Fetches per-paper `abs/<id>` pages, extracts abstract-level metadata, and deduplicates across categories.
 3. `recall`
@@ -28,6 +29,7 @@ Important:
 - the current ingestion source is based on **arXiv announcement pages**
 - day labels in `data/raw/`, `data/normalized/`, and `data/topics/.../daily/` are therefore **announcement dates**
 - this matches "what appeared on arXiv that day" better than original submission timestamps
+- `backfill-range` is the exception: it uses arXiv OAI-PMH and groups by **created date**
 
 ## Repository Layout
 
@@ -80,6 +82,19 @@ $env:DEEPSEEK_API_KEY = "your-key"
 .\scripts\run_topic_week.ps1 -StartDate 2026-03-22 -EndDate 2026-03-28
 ```
 
+Backfill a longer range and emit one weekly bundle per calendar week slice:
+
+```powershell
+$env:DEEPSEEK_API_KEY = "your-key"
+.\scripts\run_topic_backfill.ps1 -StartDate 2026-01-01 -EndDate 2026-03-29
+```
+
+Backfill notes:
+
+- source: arXiv OAI-PMH (`oaipmh.arxiv.org/oai`)
+- harvest scope: `set=cs`, then local filtering to configured categories
+- date semantics: created-date based, not announcement-page based
+
 You can also run stages separately:
 
 ```powershell
@@ -89,6 +104,17 @@ python -m paper_daily.cli normalize-window --start-date 2026-03-22 --end-date 20
 $env:DEEPSEEK_API_KEY = "your-key"
 python -m paper_daily.cli recall-window --start-date 2026-03-22 --end-date 2026-03-28 --topic topics/document_ocr.toml
 python -m paper_daily.cli weekly-window --start-date 2026-03-22 --end-date 2026-03-28 --topic topics/document_ocr.toml
+```
+
+Or use the range backfill command directly:
+
+```powershell
+$env:PYTHONPATH = "src"
+$env:DEEPSEEK_API_KEY = "your-key"
+python -m paper_daily.cli backfill-range `
+  --start-date 2026-01-01 `
+  --end-date 2026-03-29 `
+  --topic topics/document_ocr.toml
 ```
 
 ## Output Contract

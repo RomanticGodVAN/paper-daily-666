@@ -1,0 +1,1884 @@
+{
+  "topic_id": "document_ocr",
+  "topic_name": "Document AI and OCR",
+  "start_date": "2026-02-23",
+  "end_date": "2026-03-01",
+  "created_at": "2026-03-29T13:23:40Z",
+  "paper_count": 35,
+  "papers": [
+    {
+      "paper_id": "2603.01016",
+      "base_paper_id": "2603.01016",
+      "version": null,
+      "title": "Implementation of Licensed Plate Detection and Noise Removal in Image Processing",
+      "abstract": "Car license plate recognition system is an image processing technology used to identify vehicles by capturing their Car License Plates. The car license plate recognition technology is also known as automatic number-plate recognition, automatic vehicle identification, car license plate recognition or optical character recognition for cars. In Malaysia, as the number of vehicle is increasing rapidly nowadays, a pretty great number of vehicle on the road has brought about the considerable demands of car license plate recognition system. Car license plate recognition system can be implemented in electronic parking payment system, highway toll-fee system, traffic surveillance system and as police enforcement tools. Additionally, car license plate recognition system technology also has potential to be combined with various techniques in other different fields like biology, aerospace and so on to achieve the goal of solving some specialized problems.",
+      "authors": [
+        "Yiquan Gao"
+      ],
+      "comments": "13 pages. This is the author's version, accepted manuscript",
+      "categories": [
+        "cs.CV",
+        "eess.IV",
+        "eess.SP"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2603.01016",
+      "announcement_date": "2026-03-01",
+      "submitted_date": "2026-03-01",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "optical character recognition"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "OCR",
+        "text recognition",
+        "license plate recognition"
+      ],
+      "llm_reason": "Directly targets optical character recognition for license plates, a core OCR task with explicit mention in abstract.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.00895",
+      "base_paper_id": "2603.00895",
+      "version": null,
+      "title": "Evaluating AI Grading on Real-World Handwritten College Mathematics: A Large-Scale Study Toward a Benchmark",
+      "abstract": "Grading in large undergraduate STEM courses often yields minimal feedback due to heavy instructional workloads. We present a large-scale empirical study of AI grading on real, handwritten single-variable calculus work from UC Irvine. Using OCR-conditioned large language models with structured, rubric-guided prompting, our system produces scores and formative feedback for thousands of free-response quiz submissions from nearly 800 students. In a setting with no single ground-truth label, we evaluate performance against official teaching-assistant grades, student surveys, and independent human review, finding strong alignment with TA scoring and a large majority of AI-generated feedback rated as correct or acceptable across quizzes. Beyond calculus, this setting highlights core challenges in OCR-conditioned mathematical reasoning and partial-credit assessment. We analyze key failure modes, propose practical rubric- and prompt-design principles, and introduce a multi-perspective evaluation protocol for reliable, real-course deployment. Building on the dataset and evaluation framework developed here, we outline a standardized benchmark for AI grading of handwritten mathematics to support reproducible comparison and future research.",
+      "authors": [
+        "Zhiqi Yu",
+        "Xingping Liu",
+        "Haobin Mao",
+        "Mingshuo Liu",
+        "Long Chen",
+        "Jack Xin",
+        "Yifeng Yu"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_subject": "cs.LG",
+      "abs_url": "https://arxiv.org/abs/2603.00895",
+      "announcement_date": "2026-03-01",
+      "submitted_date": "2026-03-01",
+      "source_categories": [
+        "cs.LG"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "handwritten",
+        "table",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "OCR",
+        "handwritten text recognition",
+        "document understanding"
+      ],
+      "llm_reason": "Central focus on OCR-conditioned systems for handwritten mathematics grading, explicitly targeting OCR for document-like images.",
+      "included": true
+    },
+    {
+      "paper_id": "2509.23624",
+      "base_paper_id": "2509.23624",
+      "version": null,
+      "title": "DiffInk: Glyph- and Style-Aware Latent Diffusion Transformer for Text to Online Handwriting Generation",
+      "abstract": "Deep generative models have advanced text-to-online handwriting generation (TOHG), which aims to synthesize realistic pen trajectories conditioned on textual input and style references. However, most existing methods still primarily focus on character- or word-level generation, resulting in inefficiency and a lack of holistic structural modeling when applied to full text lines. To address these issues, we propose DiffInk, the first latent diffusion Transformer framework for full-line handwriting generation. We first introduce InkVAE, a novel sequential variational autoencoder enhanced with two complementary latent-space regularization losses: (1) an OCR-based loss enforcing glyph-level accuracy, and (2) a style-classification loss preserving writing style. This dual regularization yields a semantically structured latent space where character content and writer styles are effectively disentangled. We then introduce InkDiT, a novel latent diffusion Transformer that integrates target text and reference styles to generate coherent pen trajectories. Experimental results demonstrate that DiffInk outperforms existing state-of-the-art (SOTA) methods in both glyph accuracy and style fidelity, while significantly improving generation efficiency.",
+      "authors": [
+        "Wei Pan",
+        "Huiguo He",
+        "Hiuyi Cheng",
+        "Yilin Shi",
+        "Lianwen Jin"
+      ],
+      "comments": "Accepted by ICLR 2026",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2509.23624",
+      "announcement_date": "2026-03-01",
+      "submitted_date": "2026-03-01",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "handwriting generation",
+        "OCR",
+        "glyph accuracy"
+      ],
+      "llm_reason": "Central task is text-to-online handwriting generation with OCR-based loss for glyph accuracy, directly relevant to document generation/derendering.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.00755",
+      "base_paper_id": "2603.00755",
+      "version": null,
+      "title": "BornoViT: A Novel Efficient Vision Transformer for Bengali Handwritten Basic Characters Classification",
+      "abstract": "Handwritten character classification in the Bengali script is a significant challenge due to the complexity and variability of the characters. The models commonly used for classification are often computationally expensive and data-hungry, making them unsuitable for resource-limited languages such as Bengali. In this experiment, we propose a novel, efficient, and lightweight Vision Transformer model that effectively classifies Bengali handwritten basic characters and digits, addressing several shortcomings of traditional methods. The proposed solution utilizes a deep convolutional neural network (DCNN) in a more simplified manner compared to traditional DCNN architectures, with the aim of reducing computational burden. With only 0.65 million parameters, a model size of 0.62 MB, and 0.16 GFLOPs, our model, BornoViT, is significantly lighter than current state-of-the-art models, making it more suitable for resource-limited environments, which is essential for Bengali handwritten character classification. BornoViT was evaluated on the BanglaLekha Isolated dataset, achieving an accuracy of 95.77%, and demonstrating superior efficiency compared to existing state-of-the-art approaches. Furthermore, the model was evaluated on our self-collected dataset, Bornomala, consisting of approximately 222 samples from different age groups, where it achieved an accuracy of 91.51%.",
+      "authors": [
+        "Rafi Hassan Chowdhury",
+        "Naimul Haque",
+        "Kaniz Fatiha"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2603.00755",
+      "announcement_date": "2026-02-28",
+      "submitted_date": "2026-02-28",
+      "source_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 0,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "handwritten",
+        "table",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "handwritten character recognition",
+        "multilingual",
+        "lightweight models"
+      ],
+      "llm_reason": "Central task is Bengali handwritten character classification, a core OCR problem with model efficiency contributions.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.00707",
+      "base_paper_id": "2603.00707",
+      "version": null,
+      "title": "Towards Khmer Scene Document Layout Detection",
+      "abstract": "While document layout analysis for Latin scripts has advanced significantly, driven by the advent of large multimodal models (LMMs), progress for the Khmer language remains constrained because of the scarcity of annotated training data. This gap is particularly acute for scene documents, where perspective distortions and complex backgrounds challenge traditional methods. Given the structural complexities of Khmer script, such as diacritics and multi-layer character stacking, existing Latin-based layout analysis models fail to accurately delineate semantic layout units, particularly for dense text regions (e.g., list items). In this paper, we present the first comprehensive study on Khmer scene document layout detection. We contribute a novel framework comprising three key elements: (1) a robust training and benchmarking dataset specifically for Khmer scene layouts; (2) an open-source document augmentation tool capable of synthesizing realistic scene documents to scale training data; and (3) layout detection baselines utilizing YOLO-based architectures with oriented bounding boxes (OBB) to handle geometric distortions. To foster further research in the Khmer document analysis and recognition (DAR) community, we release our models, code, and datasets in this gated repository (in review).",
+      "authors": [
+        "Marry Kong",
+        "Rina Buoy",
+        "Sovisal Chenda",
+        "Nguonly Taing",
+        "Masakazu Iwamura",
+        "Koichi Kise"
+      ],
+      "comments": "17 pages, 7 figures, 6 tables",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2603.00707",
+      "announcement_date": "2026-02-28",
+      "submitted_date": "2026-02-28",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "layout analysis"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "layout"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "layout analysis",
+        "document understanding",
+        "multilingual"
+      ],
+      "llm_reason": "Focuses on document layout detection for Khmer scene documents, a core document AI task with dataset and tool contributions.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.00702",
+      "base_paper_id": "2603.00702",
+      "version": null,
+      "title": "Towards Universal Khmer Text Recognition",
+      "abstract": "Khmer is a low-resource language characterized by a complex script, presenting significant challenges for optical character recognition (OCR). While document printed text recognition has advanced because of available datasets, performance on other modalities, such as handwritten and scene text, remains limited by data scarcity. Training modality-specific models for each modality does not allow cross-modality transfer learning, from which modalities with limited data could otherwise benefit. Moreover, deploying many modality-specific models results in significant memory overhead and requires error-prone routing each input image to the appropriate model. On the other hand, simply training on a combined dataset with a non-uniform data distribution across different modalities often leads to degraded performance on underrepresented modalities. To address these, we propose a universal Khmer text recognition (UKTR) framework capable of handling diverse text modalities. Central to our method is a novel modality-aware adaptive feature selection (MAFS) technique designed to adapt visual features according to a particular input image modality and enhance recognition robustness across modalities. Extensive experiments demonstrate that our model achieves state-of-the-art (SoTA) performance. Furthermore, we introduce the first comprehensive benchmark for universal Khmer text recognition, which we release to the community to facilitate future research. Our datasets and models can be accessible via this gated repository\\footnote{in review}.",
+      "authors": [
+        "Marry Kong",
+        "Rina Buoy",
+        "Sovisal Chenda",
+        "Nguonly Taing",
+        "Masakazu Iwamura",
+        "Koichi Kise"
+      ],
+      "comments": "17 pages, 9 figures, 6 tables",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2603.00702",
+      "announcement_date": "2026-02-28",
+      "submitted_date": "2026-02-28",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 10,
+      "keyword_strong_hits": [
+        "ocr",
+        "optical character recognition",
+        "scene text"
+      ],
+      "keyword_medium_hits": [
+        "text recognition"
+      ],
+      "keyword_candidate_hits": [
+        "document",
+        "handwritten",
+        "scene text",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "OCR",
+        "text recognition",
+        "multilingual",
+        "low-resource"
+      ],
+      "llm_reason": "Central task is universal Khmer text recognition across modalities (printed, handwritten, scene text), directly targeting OCR challenges.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.00595",
+      "base_paper_id": "2603.00595",
+      "version": null,
+      "title": "UNICBench: UNIfied Counting Benchmark for MLLM",
+      "abstract": "Counting is a core capability for multimodal large language models (MLLMs), yet there is no unified counting dataset to rigorously evaluate this ability across image, text, and audio. We present UNICBench, a unified multimodal, multi level counting benchmark and evaluation toolkit with accurate ground truth, deterministic numeric parsing, and stratified reporting. The corpus comprises 5,300 images (5,508 QA), 872 documents (5,888 QA), and 2,069 audio clips (2,905 QA), annotated with a three level capability taxonomy and difficulty tags. Under a standardized protocol with fixed splits/prompts/seeds and modality specific matching rules, we evaluate 45 state-of-the-art MLLMs across modalities. Results show strong performance on some basic counting tasks but significant gaps on reasoning and the hardest partitions, highlighting long-tail errors and substantial headroom for improving general counting. UNICBench offers a rigorous and comparable basis for measurement and a public toolkit to accelerate progress.",
+      "authors": [
+        "Chenggang Rong",
+        "Tao Han",
+        "Zhiyuan Zhao",
+        "Yaowu Fan",
+        "Jia Wan",
+        "Song Guo",
+        "Yuan Yuan",
+        "Junyu Gao"
+      ],
+      "comments": "This paper has been accepted by CVPR 2026",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2603.00595",
+      "announcement_date": "2026-02-28",
+      "submitted_date": "2026-02-28",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 0,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "form",
+        "parsing"
+      ],
+      "keyword_contextual_hits": [
+        "document+parse"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.8,
+      "llm_tags": [
+        "counting benchmark",
+        "document parsing",
+        "MLLM evaluation"
+      ],
+      "llm_reason": "Includes document counting as a core modality in unified benchmark, with explicit document parsing.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.00510",
+      "base_paper_id": "2603.00510",
+      "version": null,
+      "title": "What Do Visual Tokens Really Encode? Uncovering Sparsity and Redundancy in Multimodal Large Language Models",
+      "abstract": "Multimodal large language models (MLLMs) project visual tokens into the embedding space of language models, yet the internal structuring and processing of visual semantics remain poorly understood. In this work, we introduce a two-fold analytical framework featuring a novel probing tool, $\\textbf{EmbedLens}$, to conduct a fine-grained analysis. We uncover a pronounced semantic sparsity at the input level: visual tokens consistently partition into sink, dead, and alive categories. Remarkably, only the alive tokens, comprising $\\approx60\\%$ of the total input, carry image-specific meaning. Furthermore, using a targeted patch-compression benchmark, we demonstrate that these alive tokens already encode rich, fine-grained cues (e.g., objects, colors, and OCR) prior to entering the LLM. Internal visual computations (such as visual attention and feed-forward networks) are redundant for most standard tasks. For the small subset of highly vision-centric tasks that actually benefit from internal processing, we reveal that alive tokens naturally align with intermediate LLM layers rather than the initial embedding space, indicating that shallow-layer processing is unnecessary and that direct mid-layer injection is both sufficient. Ultimately, our findings provide a unified mechanistic view of visual token processing, paving the way for more efficient and interpretable MLLM architectures through selective token pruning, minimized visual computation, and mid-layer injection. The code is released at: https://github.com/EIT-NLP/EmbedLens.",
+      "authors": [
+        "Yingqi Fan",
+        "Junlong Tong",
+        "Anhao Zhao",
+        "Xiaoyu Shen"
+      ],
+      "comments": "Accepted by CVPR2026",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2603.00510",
+      "announcement_date": "2026-02-28",
+      "submitted_date": "2026-02-28",
+      "source_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "table"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.85,
+      "llm_tags": [
+        "OCR",
+        "MLLM analysis",
+        "visual tokens"
+      ],
+      "llm_reason": "Explicitly analyzes OCR as a key capability in visual token encoding for MLLMs.",
+      "included": true
+    },
+    {
+      "paper_id": "2601.04786",
+      "base_paper_id": "2601.04786",
+      "version": null,
+      "title": "AgentOCR: Reimagining Agent History via Optical Self-Compression",
+      "abstract": "Recent advances in large language models (LLMs) enable agentic systems trained with reinforcement learning (RL) over multi-turn interaction trajectories, but practical deployment is bottlenecked by rapidly growing textual histories that inflate token budgets and memory usage. We introduce AgentOCR, a framework that exploits the superior information density of visual tokens by representing the accumulated observation-action history as a compact rendered image. To make multi-turn rollouts scalable, AgentOCR proposes segment optical caching. By decomposing history into hashable segments and maintaining a visual cache, this mechanism eliminates redundant re-rendering. Beyond fixed rendering, AgentOCR introduces agentic self-compression, where the agent actively emits a compression rate and is trained with compression-aware reward to adaptively balance task success and token efficiency. We conduct extensive experiments on challenging agentic benchmarks, ALFWorld and search-based QA. Remarkably, results demonstrate that AgentOCR preserves over 95\\% of text-based agent performance while substantially reducing token consumption (>50\\%), yielding consistent token and memory efficiency. Our further analysis validates a 20x rendering speedup from segment optical caching and the effective strategic balancing of self-compression.",
+      "authors": [
+        "Lang Feng",
+        "Fuchao Yang",
+        "Feng Chen",
+        "Xin Cheng",
+        "Haiyang Xu",
+        "Zhenglin Wan",
+        "Ming Yan",
+        "Bo An"
+      ],
+      "comments": "Work in progress",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_subject": "cs.LG",
+      "abs_url": "https://arxiv.org/abs/2601.04786",
+      "announcement_date": "2026-02-28",
+      "submitted_date": "2026-02-28",
+      "source_categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "OCR",
+        "agent history compression",
+        "visual tokens"
+      ],
+      "llm_reason": "Uses OCR/visual rendering as core method for agent history compression, central to framework.",
+      "included": true
+    },
+    {
+      "paper_id": "2510.07233",
+      "base_paper_id": "2510.07233",
+      "version": null,
+      "title": "LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding",
+      "abstract": "Question answering over visually rich documents (VRDs) requires reasoning not only over isolated content but also over documents' structural organization and cross-page dependencies. However, conventional retrieval-augmented generation (RAG) methods encode content in isolated chunks during ingestion, losing structural and cross-page dependencies, and retrieve a fixed number of pages at inference, regardless of the specific demands of the question or context. This often results in incomplete evidence retrieval and degraded answer quality for multi-page reasoning tasks. To address these limitations, we propose LAD-RAG, a novel Layout-Aware Dynamic RAG framework. During ingestion, LAD-RAG constructs a symbolic document graph that captures layout structure and cross-page dependencies, adding it alongside standard neural embeddings to yield a more holistic representation of the document. During inference, an LLM agent dynamically interacts with the neural and symbolic indices to adaptively retrieve the necessary evidence based on the query. Experiments on MMLongBench-Doc, LongDocURL, DUDE, and MP-DocVQA demonstrate that LAD-RAG improves retrieval, achieving over 90% perfect recall on average without any top-k tuning, and outperforming baseline retrievers by up to 20% in recall at comparable noise levels, yielding higher QA accuracy with minimal latency.",
+      "authors": [
+        "Zhivar Sourati",
+        "Zheng Wang",
+        "Marianne Menglin Liu",
+        "Yazhe Hu",
+        "Mengqing Guo",
+        "Sujeeth Bharadwaj",
+        "Kyu Han",
+        "Tao Sheng",
+        "Sujith Ravi",
+        "Morteza Dehghani",
+        "Dan Roth"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2510.07233",
+      "announcement_date": "2026-02-28",
+      "submitted_date": "2026-02-28",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 6,
+      "keyword_strong_hits": [
+        "document understanding",
+        "docvqa"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "layout",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.98,
+      "llm_tags": [
+        "document understanding",
+        "DocVQA",
+        "layout-aware RAG",
+        "visually-rich documents"
+      ],
+      "llm_reason": "Core contribution is layout-aware RAG for document understanding and QA over visually-rich documents.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.15636",
+      "base_paper_id": "2603.15636",
+      "version": null,
+      "title": "AIDABench: AI Data Analytics Benchmark",
+      "abstract": "As AI-driven document understanding and processing tools become increasingly prevalent in real-world applications, the need for rigorous evaluation standards has grown increasingly urgent. Existing benchmarks and evaluations often focus on isolated capabilities or simplified scenarios, failing to capture the end-to-end task effectiveness required in practical settings. To address this gap, we introduce AIDABench, a comprehensive benchmark for evaluating AI systems on complex data analytics tasks in an end-to-end manner. AIDABench encompasses 600+ diverse document analysis tasks across three core capability dimensions: question answering, data visualization, and file generation. These tasks are grounded in realistic scenarios involving heterogeneous data types, including spreadsheets, databases, financial reports, and operational records, and reflect analytical demands across diverse industries and job functions. Notably, the tasks in AIDABench are sufficiently challenging that even human experts require 1-2 hours per question when assisted by AI tools, underscoring the benchmark's difficulty and real-world complexity. We evaluate 11 state-of-the-art models on AIDABench, spanning both proprietary (e.g., Claude Sonnet 4.5, Gemini 3 Pro Preview) and open-source (e.g., Qwen3-Max-2026-01-23-Thinking) families. Our results reveal that complex, real-world data analytics tasks remain a significant challenge for current AI systems, with the best-performing model achieving only 59.43% pass-at-1. We provide a detailed analysis of failure modes across each capability dimension and identify key challenges for future research. AIDABench offers a principled reference for enterprise procurement, tool selection, and model optimization, and is publicly available at https://github.com/MichaelYang-lyx/AIDABench.",
+      "authors": [
+        "Yibo Yang",
+        "Fei Lei",
+        "Yixuan Sun",
+        "Yantao Zeng",
+        "Chengguang Lv",
+        "Jiancao Hong",
+        "Jiaojiao Tian",
+        "Tianyu Qiu",
+        "Xin Wang",
+        "Yanbing Chen",
+        "Yanjie Li",
+        "Zheng Pan",
+        "Xiaochen Zhou",
+        "Guanzhou Chen",
+        "Haoran Lv",
+        "Yuning Xu",
+        "Yue Ou",
+        "Haodong Liu",
+        "Shiqi He",
+        "Anya Jia",
+        "Yulei Xin",
+        "Huan Wu",
+        "Liang Liu",
+        "Jiaye Ge",
+        "Jianxin Dong",
+        "Dahua Lin",
+        "Wenxiu Sun"
+      ],
+      "comments": "22 pages (including appendix), 9 figures, 4 tables. Code: https://github.com/MichaelYang-lyx/AIDABench. Dataset: https://huggingface.co/datasets/MichaelYang-lyx/AIDA",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_subject": "cs.AI",
+      "abs_url": "https://arxiv.org/abs/2603.15636",
+      "announcement_date": "2026-02-27",
+      "submitted_date": "2026-02-27",
+      "source_categories": [
+        "cs.AI"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "document understanding"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "document understanding",
+        "benchmark",
+        "document analysis"
+      ],
+      "llm_reason": "Explicitly focuses on document understanding benchmark with tasks like QA, visualization, and file generation for documents.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.24134",
+      "base_paper_id": "2602.24134",
+      "version": null,
+      "title": "AgenticOCR: Parsing Only What You Need for Efficient Retrieval-Augmented Generation",
+      "abstract": "The expansion of retrieval-augmented generation (RAG) into multimodal domains has intensified the challenge for processing complex visual documents, such as financial reports. While page-level chunking and retrieval is a natural starting point, it creates a critical bottleneck: delivering entire pages to the generator introduces excessive extraneous context. This not only overloads the generator's attention mechanism but also dilutes the most salient evidence. Moreover, compressing these information-rich pages into a limited visual token budget further increases the risk of hallucinations. To address this, we introduce AgenticOCR, a dynamic parsing paradigm that transforms optical character recognition (OCR) from a static, full-text process into a query-driven, on-demand extraction system. By autonomously analyzing document layout in a \"thinking with images\" manner, AgenticOCR identifies and selectively recognizes regions of interest. This approach performs on-demand decompression of visual tokens precisely where needed, effectively decoupling retrieval granularity from rigid page-level chunking. AgenticOCR has the potential to serve as the \"third building block\" of the visual document RAG stack, operating alongside and enhancing standard Embedding and Reranking modules. Experimental results demonstrate that AgenticOCR improves both the efficiency and accuracy of visual RAG systems, achieving expert-level performance in long document understanding. Code and models are available at https://github.com/OpenDataLab/AgenticOCR.",
+      "authors": [
+        "Zhengren Wang",
+        "Dongsheng Ma",
+        "Huaping Zhong",
+        "Jiayu Li",
+        "Wentao Zhang",
+        "Bin Wang",
+        "Conghui He"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.24134",
+      "announcement_date": "2026-02-27",
+      "submitted_date": "2026-02-27",
+      "source_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 9,
+      "keyword_strong_hits": [
+        "ocr",
+        "optical character recognition",
+        "document understanding"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "layout",
+        "form",
+        "parsing"
+      ],
+      "keyword_contextual_hits": [
+        "document+parse",
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "OCR",
+        "document understanding",
+        "layout",
+        "parsing",
+        "RAG"
+      ],
+      "llm_reason": "Central focus on OCR and document parsing with dynamic, query-driven extraction. Explicitly targets OCR and document understanding.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.23746",
+      "base_paper_id": "2602.23746",
+      "version": null,
+      "title": "Shape vs. Context: Examining Human--AI Gaps in Ambiguous Japanese Character Recognition",
+      "abstract": "High text recognition performance does not guarantee that Vision-Language Models (VLMs) share human-like decision patterns when resolving ambiguity. We investigate this behavioral gap by directly comparing humans and VLMs using continuously interpolated Japanese character shapes generated via a $β$-VAE. We estimate decision boundaries in a single-character recognition (shape-only task) and evaluate whether VLM responses align with human judgments under shape in context (i.e., embedding an ambiguous character near the human decision boundary in word-level context). We find that human and VLM decision boundaries differ in the shape-only task, and that shape in context can improve human alignment in some conditions. These results highlight qualitative behavioral differences, offering foundational insights toward human--VLM alignment benchmarking.",
+      "authors": [
+        "Daichi Haraguchi"
+      ],
+      "comments": "Accepted to CHI 2026 Poster track",
+      "categories": [
+        "cs.CV",
+        "cs.HC"
+      ],
+      "primary_subject": "cs.HC",
+      "abs_url": "https://arxiv.org/abs/2602.23746",
+      "announcement_date": "2026-02-27",
+      "submitted_date": "2026-02-27",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 1,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [
+        "text recognition"
+      ],
+      "keyword_candidate_hits": [
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.8,
+      "llm_tags": [
+        "text recognition",
+        "character recognition",
+        "Japanese",
+        "ambiguity"
+      ],
+      "llm_reason": "Focuses on text recognition (Japanese characters) and human-AI comparison in ambiguous recognition, central to OCR.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.23061",
+      "base_paper_id": "2602.23061",
+      "version": null,
+      "title": "MoDora: Tree-Based Semi-Structured Document Analysis System",
+      "abstract": "Semi-structured documents integrate diverse interleaved data elements (e.g., tables, charts, hierarchical paragraphs) arranged in various and often irregular layouts. These documents are widely observed across domains and account for a large portion of real-world data. However, existing methods struggle to support natural language question answering over these documents due to three main technical challenges: (1) The elements extracted by techniques like OCR are often fragmented and stripped of their original semantic context, making them inadequate for analysis. (2) Existing approaches lack effective representations to capture hierarchical structures within documents (e.g., associating tables with nested chapter titles) and to preserve layout-specific distinctions (e.g., differentiating sidebars from main content). (3) Answering questions often requires retrieving and aligning relevant information scattered across multiple regions or pages, such as linking a descriptive paragraph to table cells located elsewhere in the document. To address these issues, we propose MoDora, an LLM-powered system for semi-structured document analysis. First, we adopt a local-alignment aggregation strategy to convert OCR-parsed elements into layout-aware components, and conduct type-specific information extraction for components with hierarchical titles or non-text elements. Second, we design the Component-Correlation Tree (CCTree) to hierarchically organize components, explicitly modeling inter-component relations and layout distinctions through a bottom-up cascade summarization process. Finally, we propose a question-type-aware retrieval strategy that supports (1) layout-based grid partitioning for location-based retrieval and (2) LLM-guided pruning for semantic-based retrieval. Experiments show MoDora outperforms baselines by 5.97%-61.07% in accuracy. The code is at https://github.com/weAIDB/MoDora.",
+      "authors": [
+        "Bangrui Xu",
+        "Qihang Yao",
+        "Zirui Tang",
+        "Xuanhe Zhou",
+        "Yeye He",
+        "Shihan Yu",
+        "Qianqian Xu",
+        "Bin Wang",
+        "Guoliang Li",
+        "Conghui He",
+        "Fan Wu"
+      ],
+      "comments": "Extension of our SIGMOD 2026 paper. Please refer to source code available at https://github.com/weAIDB/MoDora",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.DB",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "primary_subject": "cs.IR",
+      "abs_url": "https://arxiv.org/abs/2602.23061",
+      "announcement_date": "2026-02-27",
+      "submitted_date": "2026-02-27",
+      "source_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 4,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [
+        "information extraction"
+      ],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "layout",
+        "table",
+        "form",
+        "chart",
+        "parse"
+      ],
+      "keyword_contextual_hits": [
+        "document+parse",
+        "document+understand",
+        "visual-doc-generation"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "document analysis",
+        "OCR",
+        "layout",
+        "table",
+        "parsing"
+      ],
+      "llm_reason": "Central focus on semi-structured document analysis with OCR, layout understanding, and parsing. Explicitly addresses OCR limitations.",
+      "included": true
+    },
+    {
+      "paper_id": "2512.08016",
+      "base_paper_id": "2512.08016",
+      "version": null,
+      "title": "FRIEDA: Benchmarking Multi-Step Cartographic Reasoning in Vision-Language Models",
+      "abstract": "Cartographic reasoning is the skill of interpreting geographic relationships by aligning legends, map scales, compass directions, map texts, and geometries across one or more map images. Although essential as a concrete cognitive capability and for critical tasks such as disaster response and urban planning, it remains largely unevaluated. Building on progress in chart and infographic understanding, recent large vision language model studies on map visual question-answering often treat maps as a special case of charts. In contrast, map VQA demands comprehension of layered symbology (e.g., symbols, geometries, and text labels) as well as spatial relations tied to orientation and distance that often span multiple maps and are not captured by chart-style evaluations. To address this gap, we introduce FRIEDA, a benchmark for testing complex open-ended cartographic reasoning in LVLMs. FRIEDA sources real map images from documents and reports in various domains and geographical areas. Following classifications in Geographic Information System (GIS) literature, FRIEDA targets all three categories of spatial relations: topological (border, equal, intersect, within), metric (distance), and directional (orientation). All questions require multi-step inference, and many require cross-map grounding and reasoning. We evaluate eleven state-of-the-art LVLMs under two settings: (1) the direct setting, where we provide the maps relevant to the question, and (2) the contextual setting, where the model may have to identify the maps relevant to the question before reasoning. Even the strongest models, Gemini-2.5-Pro and GPT-5-Think, achieve only 38.20% and 37.20% accuracy, respectively, far below human performance of 84.87%. These results reveal a persistent gap in multi-step cartographic reasoning, positioning FRIEDA as a rigorous benchmark to drive progress on spatial intelligence in LVLMs.",
+      "authors": [
+        "Jiyoon Pyo",
+        "Yuankun Jiao",
+        "Dongwon Jung",
+        "Zekun Li",
+        "Leeje Jang",
+        "Sofia Kirsanova",
+        "Jina Kim",
+        "Yijun Lin",
+        "Qin Liu",
+        "Junyi Xie",
+        "Hadi Askari",
+        "Nan Xu",
+        "Muhao Chen",
+        "Yao-Yi Chiang"
+      ],
+      "comments": "Accepted to ICLR 2026",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2512.08016",
+      "announcement_date": "2026-02-27",
+      "submitted_date": "2026-02-27",
+      "source_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 0,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "form",
+        "chart"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand",
+        "visual-doc-generation"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.6,
+      "llm_tags": [
+        "cartographic reasoning",
+        "map VQA",
+        "chart understanding",
+        "document images"
+      ],
+      "llm_reason": "Benchmark for map understanding from documents/reports, involving text and layout parsing. Borderline but fits document AI for map/chart parsing.",
+      "included": true
+    },
+    {
+      "paper_id": "2510.20812",
+      "base_paper_id": "2510.20812",
+      "version": null,
+      "title": "Small Drafts, Big Verdict: Information-Intensive Visual Reasoning via Speculation",
+      "abstract": "Large Vision-Language Models (VLMs) have achieved remarkable progress in multimodal understanding, yet they struggle when reasoning over information-intensive images that densely interleave textual annotations with fine-grained graphical elements. The main challenges lie in precisely localizing critical cues in dense layouts and multi-hop reasoning to integrate dispersed evidence. We propose Speculative Verdict (SV), a training-free framework inspired by speculative decoding that combines multiple lightweight draft experts with a large verdict model. In the draft stage, small VLMs act as draft experts to generate reasoning paths that provide diverse localization candidates; in the verdict stage, a strong VLM synthesizes these paths to produce the final answer, minimizing computational cost while recovering correct answers. To further improve efficiency and accuracy, SV introduces a consensus expert selection mechanism that forwards only high-agreement reasoning paths to the verdict. Empirically, SV achieves consistent gains on challenging information-intensive and high-resolution visual question answering benchmarks, including InfographicVQA, ChartMuseum, ChartQAPro, and HR-Bench 4K. By synthesizing correct insights from multiple partially accurate reasoning paths, SV achieves both error correction and cost-efficiency compared to large proprietary models or training pipelines. Code is available at https://github.com/Tinaliu0123/speculative-verdict.",
+      "authors": [
+        "Yuhan Liu",
+        "Lianhui Qin",
+        "Shengjie Wang"
+      ],
+      "comments": "Accepted to ICLR 2026",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2510.20812",
+      "announcement_date": "2026-02-27",
+      "submitted_date": "2026-02-27",
+      "source_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 0,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "layout",
+        "form",
+        "chart"
+      ],
+      "keyword_contextual_hits": [
+        "visual-doc-generation"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.7,
+      "llm_tags": [
+        "visual reasoning",
+        "layout",
+        "chart understanding",
+        "VQA"
+      ],
+      "llm_reason": "Focuses on reasoning over information-intensive images with dense layouts and charts, relevant to document understanding (e.g., infographics, charts).",
+      "included": true
+    },
+    {
+      "paper_id": "2504.17192",
+      "base_paper_id": "2504.17192",
+      "version": null,
+      "title": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
+      "abstract": "Despite the rapid growth of machine learning research, corresponding code implementations are often unavailable, making it slow and labor-intensive for researchers to reproduce results and build upon prior work. In the meantime, recent Large Language Models (LLMs) excel at understanding scientific documents and generating high-quality code. Inspired by this, we introduce PaperCoder, a multi-agent LLM framework that transforms machine learning papers into operational code repositories. PaperCoder operates in three stages: planning, where it constructs a high-level roadmap, designs the system architecture with diagrams, identifies file dependencies, and generates configuration files; analysis, which focuses on interpreting implementation-specific details; and generation, where modular, dependency-aware code is produced. Moreover, each phase is instantiated through a set of specialized agents designed to collaborate effectively across the pipeline. We then evaluate PaperCoder on generating code implementations from machine learning papers based on both model-based and human evaluations, particularly from the authors of those papers, with author-released repositories as ground truth if available. Our results demonstrate the effectiveness of PaperCoder in creating high-quality, faithful implementations. Furthermore, it consistently shows strengths in the recently released PaperBench benchmark, surpassing strong baselines by substantial margins. Code is available at: https://github.com/going-doer/Paper2Code.",
+      "authors": [
+        "Minju Seo",
+        "Jinheon Baek",
+        "Seongyun Lee",
+        "Sung Ju Hwang"
+      ],
+      "comments": "ICLR 2026",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2504.17192",
+      "announcement_date": "2026-02-27",
+      "submitted_date": "2026-02-27",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 0,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "scientific paper",
+        "scientific papers",
+        "diagram",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand",
+        "diagram+parse"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.8,
+      "llm_tags": [
+        "scientific paper parsing",
+        "code generation",
+        "diagram understanding"
+      ],
+      "llm_reason": "Central task is automating code generation from scientific papers, involving paper parsing and diagram understanding. Fits document AI inclusion.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.22918",
+      "base_paper_id": "2602.22918",
+      "version": null,
+      "title": "Where Vision Becomes Text: Locating the OCR Routing Bottleneck in Vision-Language Models",
+      "abstract": "Vision-language models (VLMs) can read text from images, but where does this optical character recognition (OCR) information enter the language processing stream? We investigate the OCR routing mechanism across three architecture families (Qwen3-VL, Phi-4, InternVL3.5) using causal interventions. By computing activation differences between original images and text-inpainted versions, we identify architecture-specific OCR bottlenecks whose dominant location depends on the vision-language integration strategy: DeepStack models (Qwen) show peak sensitivity at mid-depth (about 50%) for scene text, while single-stage projection models (Phi-4, InternVL) peak at early layers (6-25%), though the exact layer of maximum effect varies across datasets. The OCR signal is remarkably low-dimensional: PC1 captures 72.9% of variance. Crucially, principal component analysis (PCA) directions learned on one dataset transfer to others, demonstrating shared text-processing pathways. Surprisingly, in models with modular OCR circuits (notably Qwen3-VL-4B), OCR removal can improve counting performance (up to +6.9 percentage points), suggesting OCR interferes with other visual processing in sufficiently modular architectures.",
+      "authors": [
+        "Jonathan Steinberg",
+        "Oren Gal"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2602.22918",
+      "announcement_date": "2026-02-26",
+      "submitted_date": "2026-02-26",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 9,
+      "keyword_strong_hits": [
+        "ocr",
+        "optical character recognition",
+        "scene text"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "scene text",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 1.0,
+      "llm_tags": [
+        "OCR",
+        "vision-language models",
+        "scene text",
+        "routing mechanism"
+      ],
+      "llm_reason": "Explicitly studies OCR routing in VLMs, central to OCR/document understanding. Strong keyword hits and abstract focus on OCR.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.20903",
+      "base_paper_id": "2602.20903",
+      "version": null,
+      "title": "TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering",
+      "abstract": "Visual Text Rendering (VTR) remains a critical challenge in text-to-image generation, where even advanced models frequently produce text with structural anomalies such as distortion, blurriness, and misalignment. However, we find that leading MLLMs and specialist OCR models largely fail to perceive these structural anomalies, creating a critical bottleneck for both VTR evaluation and RL-based optimization. As a result, even state-of-the-art generators (e.g., Seedream4.0, Qwen-Image) still struggle to render structurally faithful text. To address this, we propose TextPecker, a plug-and-play structural anomaly perceptive RL strategy that mitigates noisy reward signals and works with any textto-image generator. To enable this capability, we construct a recognition dataset with character-level structural-anomaly annotations and develop a stroke-editing synthesis engine to expand structural-error coverage. Experiments show that TextPecker consistently improves diverse text-to-image models; even on the well-optimized Qwen-Image, it significantly yields average gains of 4% in structural fidelity and 8.7% in semantic alignment for Chinese text rendering, establishing a new state-of-the-art in high-fidelity VTR. Our work fills a gap in VTR optimization, providing a foundational step towards reliable and structural faithful visual text generation.",
+      "authors": [
+        "Hanshen Zhu",
+        "Yuliang Liu",
+        "Xuecheng Wu",
+        "An-Lan Wang",
+        "Hao Feng",
+        "Dingkang Yang",
+        "Chao Feng",
+        "Can Huang",
+        "Jingqun Tang",
+        "Xiang Bai"
+      ],
+      "comments": "Accepted by CVPR 2026; Code: https://github.com/CIawevy/TextPecker",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.20903",
+      "announcement_date": "2026-02-26",
+      "submitted_date": "2026-02-26",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "text rendering"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "visual text rendering",
+        "OCR",
+        "structural anomaly",
+        "text-to-image"
+      ],
+      "llm_reason": "Central task is improving visual text rendering using OCR and structural anomaly detection, directly targeting text recognition in images.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.08683",
+      "base_paper_id": "2602.08683",
+      "version": null,
+      "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
+      "abstract": "Hypothesis. Artificial general intelligence is, at its core, a compression problem. Effective compression demands resonance: deep learning scales best when its architecture aligns with the fundamental structure of the data. These are the fundamental principles. Yet, modern vision architectures have strayed from these truths: visual signals are highly redundant, while discriminative information, the surprise, is sparse. Current models process dense pixel grids uniformly, wasting vast compute on static background rather than focusing on the predictive residuals that define motion and meaning. We argue that to solve visual understanding, we must align our architectures with the information-theoretic principles of video, i.e., Codecs. Method. OneVision-Encoder encodes video by compressing predictive visual structure into semantic meaning. By adopting Codec Patchification, OV-Encoder abandons uniform computation to focus exclusively on the 3.1%-25% of regions rich in signal entropy. To unify spatial and temporal reasoning under irregular token layouts, OneVision-Encoder employs a shared 3D RoPE and is trained with a large-scale cluster discrimination objective over more than one million semantic concepts, jointly capturing object permanence and motion dynamics. Evidence. The results validate our core hypothesis: efficiency and accuracy are not a trade-off; they are positively correlated. When integrated into LLM, it consistently outperforms strong vision backbones such as Qwen3-ViT and SigLIP2 across 16 image, video, and document understanding benchmarks, despite using substantially fewer visual tokens and pretraining data. Notably, on video understanding tasks, OV-Encoder achieves an average improvement of 4.1% over Qwen3-ViT. Codec-aligned, patch-level sparsity is a foundational principle, enabling OV-Encoder as a scalable engine for next-generation visual generalists.",
+      "authors": [
+        "Feilong Tang",
+        "Xiang An",
+        "Yunyao Yan",
+        "Yin Xie",
+        "Bin Qin",
+        "Kaicheng Yang",
+        "Yifei Shen",
+        "Yuanhan Zhang",
+        "Chunyuan Li",
+        "Shikun Feng",
+        "Changrui Chen",
+        "Huajie Tan",
+        "Ming Hu",
+        "Manyuan Zhang",
+        "Bo Li",
+        "Ziyong Feng",
+        "Ziwei Liu",
+        "Zongyuan Ge",
+        "Jiankang Deng"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.08683",
+      "announcement_date": "2026-02-26",
+      "submitted_date": "2026-02-26",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "document understanding"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "layout",
+        "form",
+        "parse"
+      ],
+      "keyword_contextual_hits": [
+        "document+parse",
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.85,
+      "llm_tags": [
+        "multimodal encoder",
+        "document understanding",
+        "codec-aligned sparsity"
+      ],
+      "llm_reason": "Explicitly targets document understanding as a core task, with strong hits and benchmarks. Central contribution aligns with document AI research.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.22426",
+      "base_paper_id": "2602.22426",
+      "version": null,
+      "title": "SimpleOCR: Rendering Visualized Questions to Teach MLLMs to Read",
+      "abstract": "Despite the rapid advancements in Multimodal Large Language Models (MLLMs), a critical question regarding their visual grounding mechanism remains unanswered: do these models genuinely ``read'' text embedded in images, or do they merely rely on parametric shortcuts in the text prompt? In this work, we diagnose this issue by introducing the Visualized-Question (VQ) setting, where text queries are rendered directly onto images to structurally mandate visual engagement. Our diagnostic experiments on Qwen2.5-VL reveal a startling capability-utilization gap: despite possessing strong OCR capabilities, models suffer a performance degradation of up to 12.7% in the VQ setting, exposing a deep-seated ``modality laziness.'' To bridge this gap, we propose SimpleOCR, a plug-and-play training strategy that imposes a structural constraint on the learning process. By transforming training samples into the VQ format with randomized styles, SimpleOCR effectively invalidates text-based shortcuts, compelling the model to activate and optimize its visual text extraction pathways. Empirically, SimpleOCR yields robust gains without architectural modifications. On four representative OOD benchmarks, it surpasses the base model by 5.4% and GRPO based on original images by 2.7%, while exhibiting extreme data efficiency, achieving superior performance with 30x fewer samples (8.5K) than recent RL-based methods. Furthermore, its plug-and-play nature allows seamless integration with advanced RL strategies like NoisyRollout to yield complementary improvements. Code is available at https://github.com/aiming-lab/SimpleOCR.",
+      "authors": [
+        "Yibo Peng",
+        "Peng Xia",
+        "Ding Zhong",
+        "Kaide Zeng",
+        "Siwei Han",
+        "Yiyang Zhou",
+        "Jiaqi Liu",
+        "Ruiyi Zhang",
+        "Huaxiu Yao"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.22426",
+      "announcement_date": "2026-02-25",
+      "submitted_date": "2026-02-25",
+      "source_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.85,
+      "llm_tags": [
+        "OCR",
+        "multimodal LLMs",
+        "visual text extraction",
+        "training strategy"
+      ],
+      "llm_reason": "Proposes training strategy to improve OCR capabilities in MLLMs; central focus on visual text reading/OCR.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.22026",
+      "base_paper_id": "2602.22026",
+      "version": null,
+      "title": "RGB-Event HyperGraph Prompt for Kilometer Marker Recognition based on Pre-trained Foundation Models",
+      "abstract": "Metro trains often operate in highly complex environments, characterized by illumination variations, high-speed motion, and adverse weather conditions. These factors pose significant challenges for visual perception systems, especially those relying solely on conventional RGB cameras. To tackle these difficulties, we explore the integration of event cameras into the perception system, leveraging their advantages in low-light conditions, high-speed scenarios, and low power consumption. Specifically, we focus on Kilometer Marker Recognition (KMR), a critical task for autonomous metro localization under GNSS-denied conditions. In this context, we propose a robust baseline method based on a pre-trained RGB OCR foundation model, enhanced through multi-modal adaptation. Furthermore, we construct the first large-scale RGB-Event dataset, EvMetro5K, containing 5,599 pairs of synchronized RGB-Event samples, split into 4,479 training and 1,120 testing samples. Extensive experiments on EvMetro5K and other widely used benchmarks demonstrate the effectiveness of our approach for KMR. Both the dataset and source code will be released on https://github.com/Event-AHU/EvMetro5K_benchmark",
+      "authors": [
+        "Xiaoyu Xian",
+        "Shiao Wang",
+        "Xiao Wang",
+        "Daxin Tian",
+        "Yan Tian"
+      ],
+      "comments": "Accepted by IEEE Transactions on Cognitive and Developmental Systems (IEEE TCDS) 2026",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.22026",
+      "announcement_date": "2026-02-25",
+      "submitted_date": "2026-02-25",
+      "source_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "OCR",
+        "kilometer marker recognition",
+        "event cameras",
+        "metro localization"
+      ],
+      "llm_reason": "Central task is Kilometer Marker Recognition using OCR foundation models; targets text recognition in challenging visual conditions.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.21824",
+      "base_paper_id": "2602.21824",
+      "version": null,
+      "title": "DocDjinn: Controllable Synthetic Document Generation with VLMs and Handwriting Diffusion",
+      "abstract": "Effective document intelligence models rely on large amounts of annotated training data. However, procuring sufficient and high-quality data poses significant challenges due to the labor-intensive and costly nature of data acquisition. Additionally, leveraging language models to annotate real documents raises concerns about data privacy. Synthetic document generation has emerged as a promising, privacy-preserving alternative. We propose DocDjinn, a novel framework for controllable synthetic document generation using Vision-Language Models (VLMs) that produces annotated documents from unlabeled seed samples. Our approach generates visually plausible and semantically consistent synthetic documents that follow the distribution of an existing source dataset through clustering-based seed selection with parametrized sampling. By enriching documents with realistic diffusion-based handwriting and contextual visual elements via semantic-visual decoupling, we generate diverse, high-quality annotated synthetic documents. We evaluate across eleven benchmarks spanning key information extraction, question answering, document classification, and document layout analysis. To our knowledge, this is the first work demonstrating that VLMs can generate faithful annotated document datasets at scale from unlabeled seeds that can effectively enrich or approximate real, manually annotated data for diverse document understanding tasks. We show that with only 100 real training samples, our framework achieves on average $87\\%$ of the performance of the full real-world dataset. We publicly release our code and 140k+ synthetic document samples.",
+      "authors": [
+        "Marcel Lamott",
+        "Saifullah Saifullah",
+        "Nauman Riaz",
+        "Yves-Noel Weweler",
+        "Tobias Alt-Veit",
+        "Ahmad Sarmad Ali",
+        "Muhammad Armaghan Shakir",
+        "Adrian Kalwa",
+        "Momina Moetesum",
+        "Andreas Dengel",
+        "Sheraz Ahmed",
+        "Faisal Shafait",
+        "Ulrich Schwanecke",
+        "Adrian Ulges"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_subject": "cs.LG",
+      "abs_url": "https://arxiv.org/abs/2602.21824",
+      "announcement_date": "2026-02-25",
+      "submitted_date": "2026-02-25",
+      "source_categories": [
+        "cs.LG"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 10,
+      "keyword_strong_hits": [
+        "document understanding",
+        "document intelligence",
+        "layout analysis"
+      ],
+      "keyword_medium_hits": [
+        "information extraction"
+      ],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "layout",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "synthetic document generation",
+        "document understanding",
+        "layout analysis",
+        "handwriting diffusion"
+      ],
+      "llm_reason": "Central contribution is controllable synthetic document generation for document understanding tasks like layout analysis and information extraction.",
+      "included": true
+    },
+    {
+      "paper_id": "2402.13604",
+      "base_paper_id": "2402.13604",
+      "version": null,
+      "title": "Breaking the HISCO Barrier: Automatic Occupational Standardization with OccCANINE",
+      "abstract": "This paper introduces OccCANINE, an open-source tool that maps occupational descriptions to HISCO codes. Manual coding is slow and error-prone; OccCANINE replaces weeks of work with results in minutes. We fine-tune CANINE on 15.8 million description-code pairs from 29 sources in 13 languages. The model achieves 96 percent accuracy, precision, and recall. We also show that the approach generalizes to three systems - OCC1950, OCCICEM, and ISCO-68 - and release them open source. By breaking the \"HISCO barrier,\" OccCANINE democratizes access to high-quality occupational coding, enabling broader research in economics, economic history, and related disciplines.",
+      "authors": [
+        "Christian Møller Dahl",
+        "Torben Johansen",
+        "Christian Vedel"
+      ],
+      "comments": "All code and guides on how to use OccCANINE is available on GitHub https://github.com/christianvedels/OccCANINE",
+      "categories": [
+        "cs.CL",
+        "econ.EM"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2402.13604",
+      "announcement_date": "2026-02-25",
+      "submitted_date": "2026-02-25",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.7,
+      "llm_tags": [
+        "occupational coding",
+        "text classification",
+        "HISCO"
+      ],
+      "llm_reason": "Fine-tunes CANINE on occupational descriptions; involves text processing of document-like structured data.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.21053",
+      "base_paper_id": "2602.21053",
+      "version": null,
+      "title": "OCR-Agent: Agentic OCR with Capability and Memory Reflection",
+      "abstract": "Large Vision-Language Models (VLMs) have demonstrated significant potential on complex visual understanding tasks through iterative optimization methods.However, these models generally lack effective self-correction mechanisms, making it difficult for them to independently rectify cognitive biases. Consequently, during multi-turn revisions, they often fall into repetitive and ineffective attempts, failing to achieve stable improvements in answer quality.To address this issue, we propose a novel iterative self-correction framework that endows models with two key capabilities: Capability Reflection and Memory Reflection. This framework guides the model to first diagnose errors and generate a correction plan via Capability Reflection, then leverage Memory Reflection to review past attempts to avoid repetition and explore new solutions, and finally, optimize the answer through rigorous re-reasoning. Experiments on the challenging OCRBench v2 benchmark show that OCR-Agent outperforms the current open-source SOTA model InternVL3-8B by +2.0 on English and +1.2 on Chinese subsets, while achieving state-of-the-art results in Visual Understanding (79.9) and Reasoning (66.5) - surpassing even larger fine-tuned models. Our method demonstrates that structured, self-aware reflection can significantly enhance VLMs' reasoning robustness without additional training. Code: https://github.com/AIGeeksGroup/OCR-Agent.",
+      "authors": [
+        "Shimin Wen",
+        "Zeyu Zhang",
+        "Xingdou Bian",
+        "Hongjie Zhu",
+        "Lulu He",
+        "Layi Shama",
+        "Daji Ergu",
+        "Ying Cai"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.21053",
+      "announcement_date": "2026-02-24",
+      "submitted_date": "2026-02-24",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "table",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 1.0,
+      "llm_tags": [
+        "OCR",
+        "agentic framework",
+        "self-correction",
+        "vision-language models",
+        "iterative optimization"
+      ],
+      "llm_reason": "Central contribution is agentic OCR framework with reflection mechanisms, explicitly targeting OCR tasks.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.21042",
+      "base_paper_id": "2602.21042",
+      "version": null,
+      "title": "OmniOCR: Generalist OCR for Ethnic Minority Languages",
+      "abstract": "Optical character recognition (OCR) has advanced rapidly with deep learning and multimodal models, yet most methods focus on well-resourced scripts such as Latin and Chinese. Ethnic minority languages remain underexplored due to complex writing systems, scarce annotations, and diverse historical and modern forms, making generalization in low-resource or zero-shot settings challenging. To address these challenges, we present OmniOCR, a universal framework for ethnic minority scripts. OmniOCR introduces Dynamic Low-Rank Adaptation (Dynamic LoRA) to allocate model capacity across layers and scripts, enabling effective adaptation while preserving knowledge.A sparsity regularization prunes redundant updates, ensuring compact and efficient adaptation without extra inference cost. Evaluations on TibetanMNIST, Shui, ancient Yi, and Dongba show that OmniOCR outperforms zero-shot foundation models and standard post training, achieving state-of-the-art accuracy with superior parameter efficiency, and compared with the state-of-the-art baseline models, it improves accuracy by 39%-66% on these four datasets. Code: https://github.com/AIGeeksGroup/OmniOCR.",
+      "authors": [
+        "Bonan Liu",
+        "Zeyu Zhang",
+        "Bingbing Meng",
+        "Han Wang",
+        "Hanshuo Zhang",
+        "Chengping Wang",
+        "Daji Ergu",
+        "Ying Cai"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.21042",
+      "announcement_date": "2026-02-24",
+      "submitted_date": "2026-02-24",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 6,
+      "keyword_strong_hits": [
+        "ocr",
+        "optical character recognition"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 1.0,
+      "llm_tags": [
+        "OCR",
+        "ethnic minority languages",
+        "low-resource adaptation",
+        "optical character recognition"
+      ],
+      "llm_reason": "Central task is OCR for ethnic minority scripts, explicitly targeting optical character recognition.",
+      "included": true
+    },
+    {
+      "paper_id": "2603.00122",
+      "base_paper_id": "2603.00122",
+      "version": null,
+      "title": "NovaLAD: A Fast, CPU-Optimized Document Extraction Pipeline for Generative AI and Data Intelligence",
+      "abstract": "Document extraction is an important step before retrieval-augmented generation (RAG), knowledge bases, and downstream generative AI can work. It turns unstructured documents like PDFs and scans into structured text and layout-aware representations. We introduce NovaLAD, a comprehensive document parsing system that integrates two concurrent YOLO object detection models - element detection and layout detection - with rule-based grouping and optional vision-language enhancement. When a page image is sent in, the first thing that happens is that it goes through both models at the same time. The element model finds semantic content like the title, header, text, table, image, and so on, and the layout model finds structural regions like layout_box, column_group, multi_column, row_group, and so on. A key design decision is to first send an image or figure through an image classifier (ViT) that decides whether it is relevant or not. Only useful images are then submitted to the Vision LLM for title, summary, and structured information, which cuts down on noise and costs. NovaLAD is built for speed: it works on CPU, employs parallel execution for detection, classification, OCR, and conversion, and generates several forms, including structured JSON, Markdown, RAG-ready texts, and knowledge graphs. We test on the DP-Bench benchmark (upstage/dp-bench) and get 96.49% TEDS and 98.51% NID, which is better than both commercial and open-source parsers. This paper explains how to extract data, how the architecture works, how data flows, and how to make NovaLAD both accurate and usable without needing a GPU.",
+      "authors": [
+        "Aman Ulla"
+      ],
+      "comments": "17 pages, 10 figures, 5 tables",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2603.00122",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 6,
+      "keyword_strong_hits": [
+        "ocr",
+        "document parsing"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "pdf",
+        "layout",
+        "table",
+        "form",
+        "parsing",
+        "parse"
+      ],
+      "keyword_contextual_hits": [
+        "document+parse",
+        "document+understand",
+        "pdf+parse"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 1.0,
+      "llm_tags": [
+        "document parsing",
+        "OCR",
+        "layout analysis",
+        "PDF",
+        "table extraction"
+      ],
+      "llm_reason": "Central contribution is document extraction pipeline for PDFs/scans with OCR, layout detection, table extraction.",
+      "included": true
+    },
+    {
+      "paper_id": "2602.19828",
+      "base_paper_id": "2602.19828",
+      "version": null,
+      "title": "TextShield-R1: Reinforced Reasoning for Tampered Text Detection",
+      "abstract": "The growing prevalence of tampered images poses serious security threats, highlighting the urgent need for reliable detection methods. Multimodal large language models (MLLMs) demonstrate strong potential in analyzing tampered images and generating interpretations. However, they still struggle with identifying micro-level artifacts, exhibit low accuracy in localizing tampered text regions, and heavily rely on expensive annotations for forgery interpretation. To this end, we introduce TextShield-R1, the first reinforcement learning based MLLM solution for tampered text detection and reasoning. Specifically, our approach introduces Forensic Continual Pre-training, an easy-to-hard curriculum that well prepares the MLLM for tampered text detection by harnessing the large-scale cheap data from natural image forensic and OCR tasks. During fine-tuning, we perform Group Relative Policy Optimization with novel reward functions to reduce annotation dependency and improve reasoning capabilities. At inference time, we enhance localization accuracy via OCR Rectification, a method that leverages the MLLM's strong text recognition abilities to refine its predictions. Furthermore, to support rigorous evaluation, we introduce the Text Forensics Reasoning (TFR) benchmark, comprising over 45k real and tampered images across 16 languages, 10 tampering techniques, and diverse domains. Rich reasoning-style annotations are included, allowing for comprehensive assessment. Our TFR benchmark simultaneously addresses seven major limitations of existing benchmarks and enables robust evaluation under cross-style, cross-method, and cross-language conditions. Extensive experiments demonstrate that TextShield-R1 significantly advances the state of the art in interpretable tampered text detection.",
+      "authors": [
+        "Chenfan Qu",
+        "Yiwu Zhong",
+        "Jian Liu",
+        "Xuekang Zhu",
+        "Bohan Yu",
+        "Lianwen Jin"
+      ],
+      "comments": "AAAI 2026",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2602.19828",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 5,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [
+        "text detection",
+        "text recognition"
+      ],
+      "keyword_candidate_hits": [
+        "table",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "tampered text detection",
+        "OCR",
+        "text recognition",
+        "forensics"
+      ],
+      "llm_reason": "Central tampered text detection using OCR and text recognition",
+      "included": true
+    },
+    {
+      "paper_id": "2602.19583",
+      "base_paper_id": "2602.19583",
+      "version": null,
+      "title": "DEEP: Docker-based Execution and Evaluation Platform",
+      "abstract": "Comparative evaluation of several systems is a recurrent task in researching. It is a key step before deciding which system to use for our work, or, once our research has been conducted, to demonstrate the potential of the resulting model. Furthermore, it is the main task of competitive, public challenges evaluation. Our proposed software (DEEP) automates both the execution and scoring of machine translation and optical character recognition models. Furthermore, it is easily extensible to other tasks. DEEP is prepared to receive dockerized systems, run them (extracting information at that same time), and assess hypothesis against some references. With this approach, evaluators can achieve a better understanding of the performance of each model. Moreover, the software uses a clustering algorithm based on a statistical analysis of the significance of the results yielded by each model, according to the evaluation metrics. As a result, evaluators are able to identify clusters of performance among the swarm of proposals and have a better understanding of the significance of their differences. Additionally, we offer a visualization web-app to ensure that the results can be adequately understood and interpreted. Finally, we present an exemplary case of use of DEEP.",
+      "authors": [
+        "Sergio Gómez González",
+        "Miguel Domingo",
+        "Francisco Casacuberta"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2602.19583",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "optical character recognition"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "OCR",
+        "evaluation platform",
+        "benchmarking"
+      ],
+      "llm_reason": "Direct OCR evaluation platform with OCR as core task",
+      "included": true
+    },
+    {
+      "paper_id": "2602.19543",
+      "base_paper_id": "2602.19543",
+      "version": null,
+      "title": "Hyper-KGGen: A Skill-Driven Knowledge Extractor for High-Quality Knowledge Hypergraph Generation",
+      "abstract": "Knowledge hypergraphs surpass traditional binary knowledge graphs by encapsulating complex $n$-ary atomic facts, providing a more comprehensive paradigm for semantic representation. However, constructing high-quality hypergraphs remains challenging due to the \\textit{scenario gap}: generic extractors struggle to generalize across diverse domains with specific jargon, while existing methods often fail to balance structural skeletons with fine-grained details. To bridge this gap, we propose \\textbf{Hyper-KGGen}, a skill-driven framework that reformulates extraction as a dynamic skill-evolving process. First, Hyper-KGGen employs a \\textit{coarse-to-fine} mechanism to systematically decompose documents, ensuring full-dimensional coverage from binary links to complex hyperedges. Crucially, it incorporates an \\textit{adaptive skill acquisition} module that actively distills domain expertise into a Global Skill Library. This is achieved via a stability-based feedback loop, where extraction stability serves as a relative reward signal to induce high-quality skills from unstable traces and missed predictions. Additionally, we present \\textbf{HyperDocRED}, a rigorously annotated benchmark for document-level knowledge hypergraph extraction. Experiments demonstrate that Hyper-KGGen significantly outperforms strong baselines, validating that evolved skills provide substantially richer guidance than static few-shot examples in multi-scenario settings.",
+      "authors": [
+        "Rizhuo Huang",
+        "Yifan Feng",
+        "Rundong Xue",
+        "Shihui Ying",
+        "Jun-Hai Yong",
+        "Chuan Shi",
+        "Shaoyi Du",
+        "Yue Gao"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2602.19543",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "table",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "document understanding",
+        "knowledge extraction",
+        "hypergraph"
+      ],
+      "llm_reason": "Central document decomposition and structured content extraction",
+      "included": true
+    },
+    {
+      "paper_id": "2601.16713",
+      "base_paper_id": "2601.16713",
+      "version": null,
+      "title": "CER-HV: A Human-in-the-Loop Framework for Cleaning Datasets Applied to Arabic-Script HTR",
+      "abstract": "Handwritten text recognition (HTR) for Arabic-script languages still lags behind Latin-script HTR, despite recent advances in model architectures, datasets, and benchmarks. We show that data quality is a significant limiting factor in many published datasets and propose CER-HV (CER-based Ranking with Human Verification) as a framework to detect and clean label errors. CER-HV combines a CER-based noise detector, built on a carefully configured Convolutional Recurrent Neural Network (CRNN) with early stopping to avoid overfitting noisy samples, and a human-in-the-loop (HITL) step that verifies high-ranking samples. The framework reveals that several existing datasets contain previously underreported problems, including transcription, segmentation, orientation, and non-text content errors. These have been identified with up to 90 percent precision in the Muharaf and 80-86 percent in the PHTI datasets. We also show that our CRNN achieves state-of-the-art performance across five of the six evaluated datasets, reaching 8.45 percent Character Error Rate (CER) on KHATT (Arabic), 8.26 percent on PHTI (Pashto), 10.66 percent on Ajami, and 10.11 percent on Muharaf (Arabic), all without any data cleaning. We establish a new baseline of 11.3 percent CER on the PHTD (Persian) dataset. Applying CER-HV improves the evaluation CER by 0.3-0.6 percent on the cleaner datasets and 1.0-1.8 percent on the noisier ones. Although our experiments focus on documents written in an Arabic-script language, including Arabic, Persian, Urdu, Ajami, and Pashto, the framework is general and can be applied to other text recognition datasets.",
+      "authors": [
+        "Sana Al-azzawi",
+        "Elisa Barney",
+        "Marcus Liwicki"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2601.16713",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 4,
+      "keyword_strong_hits": [
+        "handwritten text recognition"
+      ],
+      "keyword_medium_hits": [
+        "text recognition"
+      ],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "handwritten",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "handwritten text recognition",
+        "data cleaning",
+        "Arabic-script"
+      ],
+      "llm_reason": "Central contribution is a framework for cleaning HTR datasets, directly targeting handwritten text recognition (OCR).",
+      "included": true
+    },
+    {
+      "paper_id": "2512.16183",
+      "base_paper_id": "2512.16183",
+      "version": null,
+      "title": "A Domain-Adapted Pipeline for Structured Information Extraction from Police Incident Announcements on Social Media",
+      "abstract": "Structured information extraction from police incident announcements is crucial for timely and accurate data processing, yet presents considerable challenges due to the variability and informal nature of textual sources such as social media posts. To address these challenges, we developed a domain-adapted extraction pipeline that leverages targeted prompt engineering with parameter-efficient fine-tuning of the Qwen2.5-7B model using Low-Rank Adaptation (LoRA). This approach enables the model to handle noisy, heterogeneous text while reliably extracting 15 key fields, including location, event characteristics, and impact assessment, from a high-quality, manually annotated dataset of 4,933 instances derived from 27,822 police briefing posts on Chinese Weibo (2019-2020). Experimental results demonstrated that LoRA-based fine-tuning significantly improved performance over both the base and instruction-tuned models, achieving an accuracy exceeding 98.36% for mortality detection and Exact Match Rates of 95.31% for fatality counts and 95.54% for province-level location extraction. The proposed pipeline thus provides a validated and efficient solution for multi-task structured information extraction in specialized domains, offering a practical framework for transforming unstructured text into reliable structured data in social science research.",
+      "authors": [
+        "Mengfan Shen",
+        "Kangqi Song",
+        "Xindi Wang",
+        "Wei Jia",
+        "Tao Wang",
+        "Ziqiang Han"
+      ],
+      "comments": "41 pages,3figures and 9 tables",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2512.16183",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 1,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [
+        "information extraction"
+      ],
+      "keyword_candidate_hits": [
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.85,
+      "llm_tags": [
+        "information extraction",
+        "structured extraction",
+        "social media"
+      ],
+      "llm_reason": "Paper targets structured information extraction from text announcements, which is a document AI task (extracting structured content).",
+      "included": true
+    },
+    {
+      "paper_id": "2504.03349",
+      "base_paper_id": "2504.03349",
+      "version": null,
+      "title": "Meta-DAN: towards an efficient prediction strategy for page-level handwritten text recognition",
+      "abstract": "Recent advances in text recognition led to a paradigm shift for page-level recognition, from multi-step segmentation-based approaches to end-to-end attention-based ones. However, the naïve character-level autoregressive decoding process results in long prediction times: it requires several seconds to process a single page image on a modern GPU. We propose the Meta Document Attention Network (Meta-DAN) as a novel decoding strategy to reduce the prediction time while enabling a better context modeling. It relies on two main components: windowed queries, to process several transformer queries altogether, enlarging the context modeling with near future; and multi-token predictions, whose goal is to predict several tokens per query instead of only the next one. We evaluate the proposed approach on 10 full-page handwritten datasets and demonstrate state-of-the-art results on average in terms of character error rate. Source code and weights of trained models are available at https://github.com/FactoDeepLearning/meta_dan.",
+      "authors": [
+        "Denis Coquenet"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/2504.03349",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 4,
+      "keyword_strong_hits": [
+        "handwritten text recognition"
+      ],
+      "keyword_medium_hits": [
+        "text recognition"
+      ],
+      "keyword_candidate_hits": [
+        "document",
+        "handwritten",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "handwritten text recognition",
+        "page-level",
+        "efficiency"
+      ],
+      "llm_reason": "Central contribution is page-level handwritten text recognition, a core OCR task.",
+      "included": true
+    },
+    {
+      "paper_id": "2412.04272",
+      "base_paper_id": "2412.04272",
+      "version": null,
+      "title": "PoTable: Towards Systematic Thinking via Plan-then-Execute Stage Reasoning on Tables",
+      "abstract": "In recent years, table reasoning has garnered substantial research interest, particularly regarding its integration with Large Language Models (LLMs), which have revolutionized natural language applications. Existing LLM-based studies typically achieve step-by-step thinking for table reasoning guided by task semantics. While these approaches emphasize autonomous exploration and enhance fine-grained table understanding, they often overlook systematic thinking in the reasoning process. This oversight can lead to omitted steps, disorganized logic and misleading results, especially in complex scenarios. In this paper, we propose PoTable, a novel stage-oriented plan-then-execute approach that incorporates systematic thinking into table reasoning. Specifically, PoTable involves several distinct analytical stages with clear objectives to provide adequate guidance. To accomplish stage-specific goals, PoTable employs a plan-then-execute mechanism: it first plans the operation chain based on the stage objective, and then executes operations sequentially through code generation, real-time running and feedback processing. Consequently, PoTable produces reliable table reasoning results with highly accurate, step-wise commented and completely executable programs. It mirrors the workflow of a professional data analyst, offering advantages in both accuracy and explainability. Finally, we conduct extensive experiments on four datasets from the WikiTQ and TabFact benchmarks, where the results demonstrate the effectiveness, efficiency and explainability of PoTable. Our code is available at: https://github.com/Double680/PoTable.",
+      "authors": [
+        "Qingyang Mao",
+        "Qi Liu",
+        "Zhi Li",
+        "Mingyue Cheng",
+        "Zheng Zhang",
+        "Rui Li"
+      ],
+      "comments": "12 pages, 8 figures",
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "primary_subject": "cs.IR",
+      "abs_url": "https://arxiv.org/abs/2412.04272",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.AI"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 1,
+      "keyword_strong_hits": [],
+      "keyword_medium_hits": [
+        "table understanding"
+      ],
+      "keyword_candidate_hits": [
+        "table"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "table understanding",
+        "table reasoning",
+        "systematic thinking"
+      ],
+      "llm_reason": "Focus is on table reasoning with systematic thinking, which falls under table understanding in document AI.",
+      "included": true
+    },
+    {
+      "paper_id": "2404.10652",
+      "base_paper_id": "2404.10652",
+      "version": null,
+      "title": "ViTextVQA: A Large-Scale Visual Question Answering Dataset and a Novel Multimodal Feature Fusion Method for Vietnamese Text Comprehension in Images",
+      "abstract": "Visual Question Answering (VQA) is a challenging task that requires the joint understanding of natural language and visual content. While early research primarily focused on recognizing objects and scene context, it often overlooked scene text-an essential source of explicit semantic information. This paper introduces \\textbf{ViTextVQA} (\\textbf{Vi}etnamese \\textbf{Text}-based \\textbf{V}isual \\textbf{Q}uestion \\textbf{A}nswering), the first large-scale Vietnamese dataset specializing in text-based VQA. The dataset contains \\textbf{over 16,000} images and \\textbf{over 50,000} question-answer pairs. To tackle this task efficiently, \\textbf{ViTextBLIP-2} (Vietnamese Text-based Bootstrapped Language-Image Model via Fine-tuning) is proposed, a novel multimodal feature fusion method designed to optimize Vietnamese text-based VQA. Experiments with state-of-the-art models highlight the importance of token ordering in OCR text for answer generation, leading to significant performance improvements. The ViTextVQA dataset is publicly available for research purposes.",
+      "authors": [
+        "Quan Van Nguyen",
+        "Dan Quang Tran",
+        "Huy Quang Pham",
+        "Thang Kien-Bao Nguyen",
+        "Nghia Hieu Nguyen",
+        "Kiet Van Nguyen",
+        "Ngan Luu-Thuy Nguyen"
+      ],
+      "comments": "International Journal of Expert Systems with Applications",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_subject": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2404.10652",
+      "announcement_date": "2026-02-23",
+      "submitted_date": "2026-02-23",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-03-29T12:22:52Z",
+      "keyword_score": 6,
+      "keyword_strong_hits": [
+        "ocr",
+        "scene text"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "scene text",
+        "form"
+      ],
+      "keyword_contextual_hits": [],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "scene text VQA",
+        "OCR",
+        "Vietnamese",
+        "dataset"
+      ],
+      "llm_reason": "Central contribution is a Vietnamese text-based VQA dataset and method, directly targeting OCR and document understanding.",
+      "included": true
+    }
+  ]
+}

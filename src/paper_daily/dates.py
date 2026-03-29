@@ -38,6 +38,19 @@ def week_bounds(day: date, week_starts_on: str = "monday") -> tuple[date, date]:
     return start, end
 
 
+def split_week_windows(start: date, end: date, week_starts_on: str = "monday") -> list[tuple[date, date]]:
+    if end < start:
+        raise ValueError("end date must be on or after start date")
+    windows: list[tuple[date, date]] = []
+    current = start
+    while current <= end:
+        _, week_end = week_bounds(current, week_starts_on)
+        window_end = min(week_end, end)
+        windows.append((current, window_end))
+        current = window_end + timedelta(days=1)
+    return windows
+
+
 def week_bucket_dir(root: str | Path, day: date, week_starts_on: str = "monday") -> Path:
     week_start, week_end = week_bounds(day, week_starts_on)
     return Path(root) / str(day.year) / f"week-{slug_date_range(week_start, week_end)}"

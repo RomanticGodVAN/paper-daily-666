@@ -15,6 +15,7 @@ It does not generate final polished reports or external publications.
 
 - CLI: `python -m paper_daily.cli`
 - wrapper script: `scripts/run_topic_week.ps1`
+- range wrapper script: `scripts/run_topic_backfill.ps1`
 
 ## Required Environment
 
@@ -30,6 +31,17 @@ $env:DEEPSEEK_API_KEY = "your-key"
 python -m paper_daily.cli run-window `
   --start-date 2026-03-22 `
   --end-date 2026-03-28 `
+  --topic topics/document_ocr.toml
+```
+
+Longer historical backfill:
+
+```powershell
+$env:PYTHONPATH = "src"
+$env:DEEPSEEK_API_KEY = "your-key"
+python -m paper_daily.cli backfill-range `
+  --start-date 2026-01-01 `
+  --end-date 2026-03-29 `
   --topic topics/document_ocr.toml
 ```
 
@@ -53,6 +65,13 @@ Important:
 
 - day labels are **announcement dates**, not original submission dates
 - this is intentional because the tracker is designed around "what appeared on arXiv that day"
+
+Historical backfill:
+
+- code: `src/paper_daily/stages/ingest_api.py`
+- source: arXiv OAI-PMH `oaipmh.arxiv.org/oai`
+- harvest scope: `set=cs`, then local filtering to configured categories
+- day labels in backfill mode are **created dates**
 
 ### 2. Normalize
 
@@ -137,6 +156,7 @@ Produced artifacts:
 ## Typical Agent Tasks
 
 - rerun a new week window
+- backfill a longer date range and emit weekly bundles per calendar week
 - tighten or relax document/OCR recall
 - add a second topic config under `topics/`
 - add scheduled execution after the retrieval logic is stable
