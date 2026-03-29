@@ -26,7 +26,7 @@ The current implementation is built around four stages:
 Important:
 
 - the current ingestion source is based on **arXiv announcement pages**
-- day labels in `data/raw/` and `data/topics/.../daily/` are therefore **announcement dates**
+- day labels in `data/raw/`, `data/normalized/`, and `data/topics/.../daily/` are therefore **announcement dates**
 - this matches "what appeared on arXiv that day" better than original submission timestamps
 
 ## Repository Layout
@@ -95,8 +95,8 @@ python -m paper_daily.cli weekly-window --start-date 2026-03-22 --end-date 2026-
 
 The current prototype materializes these artifacts:
 
-- `data/raw/YYYY-MM-DD/arxiv-list.<category>.json`
-- `data/normalized/YYYY-MM-DD/papers.jsonl`
+- `data/raw/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD/arxiv-list.<category>.json`
+- `data/normalized/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD/papers.jsonl`
 - `data/topics/<topic-id>/daily/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD.jsonl`
 - `data/topics/<topic-id>/weekly/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD.json`
 - `data/topics/<topic-id>/weekly/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD.md`

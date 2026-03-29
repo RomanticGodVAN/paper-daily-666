@@ -6,7 +6,7 @@ from typing import Any
 
 from ..arxiv_html import fetch_abs_records
 from ..config import ArxivSourceConfig
-from ..dates import daterange
+from ..dates import daterange, normalized_day_path, raw_day_dir
 from ..storage import append_jsonl, read_json, write_json, write_jsonl
 
 
@@ -26,7 +26,7 @@ def run_normalize(source_config: ArxivSourceConfig, start_date, end_date) -> dic
 
     for day in daterange(start_date, end_date):
         day_str = day.isoformat()
-        day_dir = raw_root / day_str
+        day_dir = raw_day_dir(raw_root, day, source_config.week_starts_on)
         files = sorted(day_dir.glob("arxiv-list.*.json"))
         if not files:
             manifest["days"][day_str] = {"raw_files": 0, "unique_papers": 0}
@@ -52,7 +52,11 @@ def run_normalize(source_config: ArxivSourceConfig, start_date, end_date) -> dic
         stubs = [merged[key] for key in sorted(merged)]
         records = fetch_abs_records(stubs, source_config)
 
-        out_path = normalized_root / day_str / "papers.jsonl"
+        out_path = normalized_day_path(
+            normalized_root,
+            day,
+            source_config.week_starts_on,
+        )
         write_jsonl(out_path, records)
         manifest["days"][day_str] = {
             "raw_files": len(files),

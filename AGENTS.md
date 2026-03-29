@@ -46,7 +46,8 @@ Behavior:
 
 - reads arXiv `list/<category>/pastweek?show=2000`
 - parses announcement-page groupings
-- stores raw per-category per-day snapshots under `data/raw/YYYY-MM-DD/`
+- stores raw per-category per-day snapshots under
+  `data/raw/YYYY/week-<start>-to-<end>/YYYY-MM-DD/`
 
 Important:
 
@@ -64,7 +65,8 @@ Behavior:
 - merges same-day cross-category duplicates by `paper_id`
 - fetches `abs/<id>` pages
 - extracts title, abstract, authors, subjects, comments, submitted date
-- writes canonical daily records to `data/normalized/YYYY-MM-DD/papers.jsonl`
+- writes canonical daily records to
+  `data/normalized/YYYY/week-<start>-to-<end>/YYYY-MM-DD/papers.jsonl`
 
 ### 3. Recall
 

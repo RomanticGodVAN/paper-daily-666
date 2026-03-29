@@ -7,7 +7,7 @@ from typing import Any
 
 from ..arxiv_html import fetch_category_list_page, parse_category_list_page
 from ..config import ArxivSourceConfig
-from ..dates import daterange
+from ..dates import daterange, parse_iso_date, raw_day_dir
 from ..storage import append_jsonl, ensure_dir, write_json
 
 
@@ -44,7 +44,10 @@ def run_ingest(source_config: ArxivSourceConfig, start_date, end_date) -> dict[s
         manifest["total_entries"] += len(filtered)
 
         for day, rows in sorted(by_day.items()):
-            path = raw_root / day / f"arxiv-list.{category}.json"
+            path = (
+                raw_day_dir(raw_root, parse_iso_date(day), source_config.week_starts_on)
+                / f"arxiv-list.{category}.json"
+            )
             write_json(
                 path,
                 {

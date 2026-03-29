@@ -41,7 +41,8 @@ Input:
 
 Output:
 
-- immutable daily snapshots under `data/raw/YYYY-MM-DD/`
+- immutable daily snapshots under
+  `data/raw/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD/`
 - run metadata under `data/state/`
 
 Rules:
@@ -58,7 +59,8 @@ Input:
 
 Output:
 
-- canonical daily paper sets under `data/normalized/YYYY-MM-DD/`
+- canonical daily paper sets under
+  `data/normalized/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD/`
 
 Rules:
 
@@ -104,11 +106,15 @@ Rules:
 ```text
 data/
   raw/
-    YYYY-MM-DD/
-      source-snapshot.json
+    YYYY/
+      week-YYYY-MM-DD-to-YYYY-MM-DD/
+        YYYY-MM-DD/
+          source-snapshot.json
   normalized/
-    YYYY-MM-DD/
-      papers.jsonl
+    YYYY/
+      week-YYYY-MM-DD-to-YYYY-MM-DD/
+        YYYY-MM-DD/
+          papers.jsonl
   state/
     runs.jsonl
     manifests/

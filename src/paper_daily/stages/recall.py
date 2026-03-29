@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from ..config import ArxivSourceConfig, TopicConfig
-from ..dates import daily_topic_path, daterange, parse_iso_date
+from ..dates import daily_topic_path, daterange, normalized_day_path, parse_iso_date
 from ..llm import DeepSeekClient
 from ..storage import append_jsonl, read_jsonl, write_json, write_jsonl
 
@@ -23,7 +23,15 @@ def run_recall(
 
     all_records: list[dict[str, Any]] = []
     for day in daterange(start_date, end_date):
-        all_records.extend(read_jsonl(normalized_root / day.isoformat() / "papers.jsonl"))
+        all_records.extend(
+            read_jsonl(
+                normalized_day_path(
+                    normalized_root,
+                    day,
+                    source_config.week_starts_on,
+                )
+            )
+        )
 
     enriched = [_attach_keyword_features(record, topic_config) for record in all_records]
     llm_candidates = [record for record in enriched if record["llm_candidate"]]

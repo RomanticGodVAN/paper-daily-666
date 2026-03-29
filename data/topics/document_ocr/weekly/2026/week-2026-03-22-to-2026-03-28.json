@@ -3,7 +3,7 @@
   "topic_name": "Document AI and OCR",
   "start_date": "2026-03-22",
   "end_date": "2026-03-28",
-  "created_at": "2026-03-29T09:14:27Z",
+  "created_at": "2026-03-29T09:32:19Z",
   "paper_count": 28,
   "papers": [
     {
@@ -30,14 +30,15 @@
       "source_categories": [
         "cs.CL"
       ],
-      "fetched_at": "2026-03-29T08:36:04Z",
+      "fetched_at": "2026-03-29T09:27:54Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
       "keyword_candidate_hits": [
         "pdf",
         "citation",
-        "form"
+        "form",
+        "parsing"
       ],
       "keyword_contextual_hits": [
         "pdf+parse"
@@ -83,7 +84,7 @@
         "cs.AI",
         "cs.CL"
       ],
-      "fetched_at": "2026-03-29T08:36:00Z",
+      "fetched_at": "2026-03-29T09:27:51Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -105,10 +106,10 @@
       "llm_confidence": 0.8,
       "llm_tags": [
         "scientific paper parsing",
-        "document-grounded DAGs",
-        "structured extraction"
+        "document grounding",
+        "DAG extraction"
       ],
-      "llm_reason": "Targets extracting semantic DAGs from scientific papers, including evidence from prose, equations, captions, and figures. Core document parsing task.",
+      "llm_reason": "Targets constructing semantic DAGs from scientific papers; document-grounded parsing of figures and text is central.",
       "included": true
     },
     {
@@ -134,7 +135,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:58Z",
+      "fetched_at": "2026-03-29T09:27:49Z",
       "keyword_score": 7,
       "keyword_strong_hits": [
         "layout analysis",
@@ -157,9 +158,9 @@
       "llm_tags": [
         "scene text detection",
         "layout analysis",
-        "unified text and layout"
+        "SAM"
       ],
-      "llm_reason": "Explicitly targets unified scene text detection and layout analysis, core OCR and document understanding tasks.",
+      "llm_reason": "Explicitly targets unified scene text detection and layout analysis; strong hits on layout analysis and scene text.",
       "included": true
     },
     {
@@ -185,7 +186,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:57Z",
+      "fetched_at": "2026-03-29T09:27:48Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -206,9 +207,9 @@
       "llm_tags": [
         "document generation",
         "document derendering",
-        "HTML/CSS synthesis"
+        "HTML/CSS"
       ],
-      "llm_reason": "Central task is document generation and derendering in HTML/CSS format, directly targeting structured document creation and understanding.",
+      "llm_reason": "Central focus is document generation/derendering in HTML/CSS format; explicitly targets document AI tasks like intention-to-document and element-to-document.",
       "included": true
     },
     {
@@ -233,7 +234,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:57Z",
+      "fetched_at": "2026-03-29T09:27:48Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -250,11 +251,11 @@
       "llm_decision": "include",
       "llm_confidence": 0.7,
       "llm_tags": [
-        "OCR as tool",
-        "pixel-space agent",
-        "document parsing"
+        "OCR",
+        "visual reasoning",
+        "pixel-space agent"
       ],
-      "llm_reason": "OCR is listed as one of the executable operations in a pixel-space agent. While not the sole focus, OCR is a core tool for visual reasoning in documents.",
+      "llm_reason": "OCR is listed as a core executable operation; the agent operates on images/videos with OCR as a fundamental tool for visual grounding.",
       "included": true
     },
     {
@@ -287,7 +288,7 @@
       "source_categories": [
         "cs.CL"
       ],
-      "fetched_at": "2026-03-29T08:35:56Z",
+      "fetched_at": "2026-03-29T09:27:47Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -307,11 +308,11 @@
       "llm_decision": "include",
       "llm_confidence": 0.8,
       "llm_tags": [
-        "historical newspaper analysis",
-        "OCR-degraded text",
-        "document understanding"
+        "historical documents",
+        "OCR",
+        "newspaper analysis"
       ],
-      "llm_reason": "Explicitly works with OCR-degraded historical newspaper data and evaluates LLMs for sentiment analysis on such data. Central to document analysis in digital humanities.",
+      "llm_reason": "Explicitly works with OCR-degraded historical newspaper data; document parsing/understanding is central to the computational analysis.",
       "included": true
     },
     {
@@ -346,7 +347,7 @@
         "cs.CL",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:54Z",
+      "fetched_at": "2026-03-29T09:27:45Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -395,7 +396,7 @@
         "cs.AI",
         "cs.LG"
       ],
-      "fetched_at": "2026-03-29T08:35:52Z",
+      "fetched_at": "2026-03-29T09:27:43Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -418,10 +419,10 @@
       "llm_confidence": 0.8,
       "llm_tags": [
         "document parsing",
-        "PDF extraction",
+        "PDF parsing",
         "diagram understanding"
       ],
-      "llm_reason": "Core contribution includes PDF/document parsing and diagram interpretation for extracting structured content, central to document AI.",
+      "llm_reason": "Core contribution includes parsing PDFs, diagrams, and tables from engineering documents to extract structured content, central to document understanding.",
       "included": true
     },
     {
@@ -449,7 +450,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:49Z",
+      "fetched_at": "2026-03-29T09:27:40Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "scene text"
@@ -467,9 +468,10 @@
       "llm_confidence": 0.9,
       "llm_tags": [
         "scene text",
-        "text editing"
+        "text editing",
+        "document AI"
       ],
-      "llm_reason": "Central task is scene text editing in natural images, a core OCR/document AI area for text manipulation in document-like images.",
+      "llm_reason": "Central task is scene text editing in images, a document AI subfield targeting text manipulation in document-like images.",
       "included": true
     },
     {
@@ -505,7 +507,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:47Z",
+      "fetched_at": "2026-03-29T09:27:38Z",
       "keyword_score": 4,
       "keyword_strong_hits": [
         "ocr"
@@ -528,7 +530,7 @@
         "text recognition",
         "document AI"
       ],
-      "llm_reason": "Central focus is OCR system development and optimization, directly targeting text recognition in images with explicit OCR tasks.",
+      "llm_reason": "Central focus is OCR system development and optimization, directly targeting text recognition in images with explicit OCR contributions.",
       "included": true
     },
     {
@@ -571,7 +573,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:46Z",
+      "fetched_at": "2026-03-29T09:27:37Z",
       "keyword_score": 10,
       "keyword_strong_hits": [
         "ocr",
@@ -583,7 +585,8 @@
       ],
       "keyword_candidate_hits": [
         "document",
-        "form"
+        "form",
+        "parsing"
       ],
       "keyword_contextual_hits": [
         "document+parse",
@@ -600,7 +603,7 @@
         "visual processing",
         "efficiency"
       ],
-      "llm_reason": "Central contribution is document parsing with coarse-to-fine visual processing; explicitly targets OCR and document understanding with efficiency improvements.",
+      "llm_reason": "Central contribution is document parsing with coarse-to-fine visual processing for OCR/document understanding.",
       "included": true
     },
     {
@@ -631,7 +634,7 @@
       "source_categories": [
         "cs.CL"
       ],
-      "fetched_at": "2026-03-29T08:35:42Z",
+      "fetched_at": "2026-03-29T09:27:34Z",
       "keyword_score": 1,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [
@@ -646,13 +649,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 0.8,
+      "llm_confidence": 0.9,
       "llm_tags": [
         "tabular understanding",
         "multimodal tables",
-        "neuro-symbolic reasoning"
+        "information extraction"
       ],
-      "llm_reason": "Central task is multimodal tabular understanding with information extraction; explicitly targets table understanding, which is within document AI scope.",
+      "llm_reason": "Central task is multimodal tabular understanding (TVMU), which falls under table understanding in document AI.",
       "included": true
     },
     {
@@ -686,7 +689,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:40Z",
+      "fetched_at": "2026-03-29T09:27:32Z",
       "keyword_score": 10,
       "keyword_strong_hits": [
         "document understanding",
@@ -699,7 +702,8 @@
       "keyword_candidate_hits": [
         "document",
         "documents",
-        "layout"
+        "layout",
+        "parsing"
       ],
       "keyword_contextual_hits": [
         "document+parse",
@@ -716,7 +720,7 @@
         "document understanding",
         "end-to-end parsing"
       ],
-      "llm_reason": "Central contribution is document parsing via realistic scene synthesis and document-aware training; explicitly targets document understanding and layout analysis.",
+      "llm_reason": "Central contribution is document parsing with layout analysis and realistic document synthesis. Directly targets document AI.",
       "included": true
     },
     {
@@ -748,7 +752,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:36Z",
+      "fetched_at": "2026-03-29T09:27:28Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -762,13 +766,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 0.8,
+      "llm_confidence": 0.9,
       "llm_tags": [
-        "CAPTCHA solving",
         "OCR",
+        "CAPTCHA",
         "GUI agents"
       ],
-      "llm_reason": "Central task involves robust OCR under noise/stylization for CAPTCHA solving, a document-like text recognition task.",
+      "llm_reason": "Central task involves robust OCR under noise/stylization for CAPTCHA solving, targeting text recognition.",
       "included": true
     },
     {
@@ -798,7 +802,7 @@
         "cs.CL",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:35Z",
+      "fetched_at": "2026-03-29T09:27:27Z",
       "keyword_score": 9,
       "keyword_strong_hits": [
         "ocr",
@@ -811,7 +815,8 @@
         "documents",
         "handwritten",
         "layout",
-        "form"
+        "form",
+        "parsing"
       ],
       "keyword_contextual_hits": [
         "document+parse",
@@ -827,7 +832,7 @@
         "document intelligence",
         "benchmark"
       ],
-      "llm_reason": "Explicitly evaluates OCR pipelines and VLMs on document parsing and QA across diverse document types.",
+      "llm_reason": "Central contribution is evaluating OCR pipelines and VLMs for document parsing across diverse document types.",
       "included": true
     },
     {
@@ -853,7 +858,7 @@
       "source_categories": [
         "cs.AI"
       ],
-      "fetched_at": "2026-03-29T08:35:34Z",
+      "fetched_at": "2026-03-29T09:27:26Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -873,10 +878,10 @@
       "llm_confidence": 0.8,
       "llm_tags": [
         "PDF parsing",
-        "requirements extraction",
-        "document analysis"
+        "document extraction",
+        "requirements engineering"
       ],
-      "llm_reason": "Core contribution is extracting requirements from PDF/DOCX/PPTX documents, targeting document parsing and analysis.",
+      "llm_reason": "Core task involves extracting requirements from PDF/DOCX/PPTX documents; central contribution includes automated parsing of document formats.",
       "included": true
     },
     {
@@ -902,7 +907,7 @@
       "source_categories": [
         "cs.CL"
       ],
-      "fetched_at": "2026-03-29T08:35:28Z",
+      "fetched_at": "2026-03-29T09:27:20Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "document understanding"
@@ -925,13 +930,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 0.9,
+      "llm_confidence": 0.85,
       "llm_tags": [
         "document understanding",
         "PDF parsing",
-        "scientific paper"
+        "scientific paper parsing"
       ],
-      "llm_reason": "Central task is converting PDF papers to interactive systems, explicitly targeting document understanding and parsing.",
+      "llm_reason": "Core contribution is converting PDF papers into interactive systems via end-to-end paper understanding and modeling; explicitly targets document parsing.",
       "included": true
     },
     {
@@ -962,7 +967,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:25Z",
+      "fetched_at": "2026-03-29T09:27:18Z",
       "keyword_score": 1,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [
@@ -981,13 +986,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 1.0,
+      "llm_confidence": 0.95,
       "llm_tags": [
         "table recognition",
         "document analysis",
-        "end-to-end"
+        "structured extraction"
       ],
-      "llm_reason": "Core task is table recognition in documents, a fundamental document AI problem with explicit document focus.",
+      "llm_reason": "Directly addresses table recognition in documents as core contribution; focuses on end-to-end table structure and content understanding.",
       "included": true
     },
     {
@@ -1021,7 +1026,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:25Z",
+      "fetched_at": "2026-03-29T09:27:18Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "docvqa"
@@ -1045,7 +1050,7 @@
         "document understanding",
         "layout analysis"
       ],
-      "llm_reason": "Central contribution is improving VQA on document layouts and infographics, with explicit focus on DocVQA benchmarks.",
+      "llm_reason": "Central task is document VQA with explicit focus on document layouts and infographics; introduces new annotations for MultiPageDocVQA and SinglePageDocVQA benchmarks.",
       "included": true
     },
     {
@@ -1073,7 +1078,7 @@
         "cs.CL",
         "cs.LG"
       ],
-      "fetched_at": "2026-03-29T08:35:23Z",
+      "fetched_at": "2026-03-29T09:27:15Z",
       "keyword_score": 1,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [
@@ -1089,13 +1094,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 0.9,
+      "llm_confidence": 0.85,
       "llm_tags": [
-        "financial document processing",
+        "financial documents",
         "information extraction",
         "multi-agent LLMs"
       ],
-      "llm_reason": "Central task is structured information extraction from financial documents (SEC forms); core contribution targets document understanding.",
+      "llm_reason": "Central task is structured information extraction from financial documents (SEC filings like 10-K forms), targeting document understanding.",
       "included": true
     },
     {
@@ -1123,7 +1128,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:21Z",
+      "fetched_at": "2026-03-29T09:27:13Z",
       "keyword_score": 9,
       "keyword_strong_hits": [
         "ocr",
@@ -1136,7 +1141,8 @@
         "documents",
         "layout",
         "table",
-        "form"
+        "form",
+        "parsing"
       ],
       "keyword_contextual_hits": [
         "document+parse",
@@ -1146,14 +1152,14 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 1.0,
+      "llm_confidence": 0.95,
       "llm_tags": [
         "OCR",
         "document parsing",
         "diffusion models",
         "inverse rendering"
       ],
-      "llm_reason": "Central task is document OCR with explicit focus on OCR, document parsing, and layout; core contribution is OCR methodology.",
+      "llm_reason": "Central contribution is a novel OCR/document parsing framework using diffusion decoding, explicitly targeting document OCR and structured parsing.",
       "included": true
     },
     {
@@ -1181,7 +1187,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:15Z",
+      "fetched_at": "2026-03-29T09:27:08Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -1202,7 +1208,7 @@
         "visual feedback",
         "OCR accuracy"
       ],
-      "llm_reason": "Central contribution is layout refinement with OCR accuracy as key evaluation metric.",
+      "llm_reason": "Layout generation method with OCR accuracy as reward, central to document layout understanding.",
       "included": true
     },
     {
@@ -1230,7 +1236,7 @@
         "cs.CL",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:35:13Z",
+      "fetched_at": "2026-03-29T09:27:06Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -1245,11 +1251,11 @@
       "llm_decision": "include",
       "llm_confidence": 0.9,
       "llm_tags": [
-        "handwritten digit recognition",
-        "dataset",
-        "Burmese script"
+        "handwritten digit dataset",
+        "Burmese script",
+        "OCR dataset"
       ],
-      "llm_reason": "Central contribution is handwritten digit dataset for OCR/recognition tasks.",
+      "llm_reason": "Handwritten digit dataset directly targets OCR/text recognition, central to document AI.",
       "included": true
     },
     {
@@ -1277,7 +1283,7 @@
         "cs.CL",
         "cs.LG"
       ],
-      "fetched_at": "2026-03-29T08:35:02Z",
+      "fetched_at": "2026-03-29T09:26:57Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -1294,13 +1300,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 0.8,
+      "llm_confidence": 0.85,
       "llm_tags": [
-        "clinical trial protocols",
+        "clinical trial parsing",
         "table extraction",
         "PDF parsing"
       ],
-      "llm_reason": "Extracts structured data from clinical trial protocol PDFs/tables, central to document understanding.",
+      "llm_reason": "Central task is extracting time toxicity from Schedule of Assessments tables in PDF protocols, aligning with table understanding and PDF parsing.",
       "included": true
     },
     {
@@ -1328,7 +1334,7 @@
         "cs.AI",
         "cs.CL"
       ],
-      "fetched_at": "2026-03-29T08:35:00Z",
+      "fetched_at": "2026-03-29T09:26:55Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -1343,13 +1349,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 0.75,
+      "llm_confidence": 0.8,
       "llm_tags": [
         "scientific article parsing",
         "hypothesis extraction",
-        "within-document retrieval"
+        "evidence extraction"
       ],
-      "llm_reason": "Central task is extracting structured content from full-text scientific articles.",
+      "llm_reason": "Central task is extracting structured content (hypotheses, evidence) from full-text scientific articles, aligning with document parsing.",
       "included": true
     },
     {
@@ -1379,7 +1385,7 @@
       "source_categories": [
         "cs.CL"
       ],
-      "fetched_at": "2026-03-29T08:34:52Z",
+      "fetched_at": "2026-03-29T09:26:49Z",
       "keyword_score": 1,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [
@@ -1396,10 +1402,10 @@
       "llm_confidence": 0.7,
       "llm_tags": [
         "multimodal information extraction",
-        "scene graphs",
+        "scene graph",
         "structured extraction"
       ],
-      "llm_reason": "Central task is multimodal information extraction with structured output, relevant to document understanding.",
+      "llm_reason": "Central task is multimodal information extraction with structured output; aligns with extracting structured content from documents/images.",
       "included": true
     },
     {
@@ -1429,7 +1435,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:34:37Z",
+      "fetched_at": "2026-03-29T09:26:37Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -1450,7 +1456,7 @@
         "feature aggregation",
         "gradient propagation"
       ],
-      "llm_reason": "Explicitly targets MLLM OCR with architectural improvements",
+      "llm_reason": "Explicitly targets OCR tasks in MLLMs with technical contributions",
       "included": true
     },
     {
@@ -1478,7 +1484,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-03-29T08:34:34Z",
+      "fetched_at": "2026-03-29T09:26:35Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -1500,7 +1506,7 @@
         "vision-language models",
         "risk control"
       ],
-      "llm_reason": "Explicitly targets generative OCR for VLMs with risk control methods",
+      "llm_reason": "Central focus on generative OCR for VLMs with explicit OCR contributions",
       "included": true
     }
   ]

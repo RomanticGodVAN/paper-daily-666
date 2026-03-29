@@ -15,8 +15,8 @@ from .stages.weekly import run_weekly_bundle
 REPO_LAYOUT = """\
 Repository contract:
 
-- data/raw/YYYY-MM-DD/: immutable source snapshots
-- data/normalized/YYYY-MM-DD/: canonical per-day records after deduplication
+- data/raw/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD/: immutable source snapshots
+- data/normalized/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD/papers.jsonl: canonical per-day records after deduplication
 - data/state/: run metadata and checkpoints
 - data/topics/<topic-id>/daily/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD.jsonl: topic daily matches
 - data/topics/<topic-id>/weekly/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD.json: weekly topic bundle

@@ -38,18 +38,38 @@ def week_bounds(day: date, week_starts_on: str = "monday") -> tuple[date, date]:
     return start, end
 
 
+def week_bucket_dir(root: str | Path, day: date, week_starts_on: str = "monday") -> Path:
+    week_start, week_end = week_bounds(day, week_starts_on)
+    return Path(root) / str(day.year) / f"week-{slug_date_range(week_start, week_end)}"
+
+
+def day_bucket_dir(root: str | Path, day: date, week_starts_on: str = "monday") -> Path:
+    return week_bucket_dir(root, day, week_starts_on) / day.isoformat()
+
+
+def raw_day_dir(raw_root: str | Path, day: date, week_starts_on: str = "monday") -> Path:
+    return day_bucket_dir(raw_root, day, week_starts_on)
+
+
+def normalized_day_path(
+    normalized_root: str | Path,
+    day: date,
+    week_starts_on: str = "monday",
+) -> Path:
+    return day_bucket_dir(normalized_root, day, week_starts_on) / "papers.jsonl"
+
+
 def daily_topic_path(
     topics_root: str | Path,
     topic_id: str,
     day: date,
     week_starts_on: str = "monday",
 ) -> Path:
-    week_start, week_end = week_bounds(day, week_starts_on)
     return (
-        Path(topics_root)
-        / topic_id
-        / "daily"
-        / str(day.year)
-        / f"week-{slug_date_range(week_start, week_end)}"
+        week_bucket_dir(
+            Path(topics_root) / topic_id / "daily",
+            day,
+            week_starts_on,
+        )
         / f"{day.isoformat()}.jsonl"
     )
