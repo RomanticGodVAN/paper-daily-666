@@ -115,10 +115,12 @@ data/
   topics/
     <topic-id>/
       daily/
-        YYYY-MM-DD.jsonl
+        YYYY/
+          week-YYYY-MM-DD-to-YYYY-MM-DD/
+            YYYY-MM-DD.jsonl
       weekly/
         YYYY/
-          week-YYYY-Www.json
+          week-YYYY-MM-DD-to-YYYY-MM-DD.json
 ```
 
 ## Config Contracts

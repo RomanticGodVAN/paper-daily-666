@@ -18,7 +18,7 @@ Repository contract:
 - data/raw/YYYY-MM-DD/: immutable source snapshots
 - data/normalized/YYYY-MM-DD/: canonical per-day records after deduplication
 - data/state/: run metadata and checkpoints
-- data/topics/<topic-id>/daily/YYYY-MM-DD.jsonl: topic daily matches
+- data/topics/<topic-id>/daily/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD.jsonl: topic daily matches
 - data/topics/<topic-id>/weekly/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD.json: weekly topic bundle
 - config/arxiv.toml: global source and storage contract
 - topics/*.toml: topic definitions

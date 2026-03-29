@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from ..config import ArxivSourceConfig, TopicConfig
-from ..dates import daterange, slug_date_range
+from ..dates import daily_topic_path, daterange, slug_date_range
 from ..storage import append_jsonl, read_jsonl, write_json
 
 
@@ -22,7 +22,14 @@ def run_weekly_bundle(
     records: list[dict[str, Any]] = []
     for day in daterange(start_date, end_date):
         records.extend(
-            read_jsonl(topics_root / topic_config.topic_id / "daily" / f"{day.isoformat()}.jsonl")
+            read_jsonl(
+                daily_topic_path(
+                    topics_root,
+                    topic_config.topic_id,
+                    day,
+                    source_config.week_starts_on,
+                )
+            )
         )
 
     merged: dict[str, dict[str, Any]] = {}

@@ -97,7 +97,7 @@ The current prototype materializes these artifacts:
 
 - `data/raw/YYYY-MM-DD/arxiv-list.<category>.json`
 - `data/normalized/YYYY-MM-DD/papers.jsonl`
-- `data/topics/<topic-id>/daily/YYYY-MM-DD.jsonl`
+- `data/topics/<topic-id>/daily/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD/YYYY-MM-DD.jsonl`
 - `data/topics/<topic-id>/weekly/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD.json`
 - `data/topics/<topic-id>/weekly/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD.md`
 

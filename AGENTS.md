@@ -78,7 +78,7 @@ Behavior:
 - reads normalized papers
 - applies lexical prefilter first
 - only sends `llm_candidate=true` papers to DeepSeek
-- writes included papers to `data/topics/<topic-id>/daily/YYYY-MM-DD.jsonl`
+- writes included papers to `data/topics/<topic-id>/daily/YYYY/week-<start>-to-<end>/YYYY-MM-DD.jsonl`
 
 Current prefilter logic:
 
@@ -100,6 +100,7 @@ Behavior:
 
 Outputs:
 
+- `data/topics/<topic-id>/daily/YYYY/week-<start>-to-<end>/YYYY-MM-DD.jsonl`
 - `data/topics/<topic-id>/weekly/YYYY/week-<start>-to-<end>.json`
 - `data/topics/<topic-id>/weekly/YYYY/week-<start>-to-<end>.md`
 
@@ -137,4 +138,3 @@ Produced artifacts:
 - tighten or relax document/OCR recall
 - add a second topic config under `topics/`
 - add scheduled execution after the retrieval logic is stable
-

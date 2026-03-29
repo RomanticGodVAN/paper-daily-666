@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from ..config import ArxivSourceConfig, TopicConfig
-from ..dates import daterange
+from ..dates import daily_topic_path, daterange, parse_iso_date
 from ..llm import DeepSeekClient
 from ..storage import append_jsonl, read_jsonl, write_json, write_jsonl
 
@@ -64,7 +64,15 @@ def run_recall(
 
     for day, rows in by_day.items():
         rows.sort(key=lambda item: item["paper_id"])
-        write_jsonl(topics_root / topic_config.topic_id / "daily" / f"{day}.jsonl", rows)
+        write_jsonl(
+            daily_topic_path(
+                topics_root,
+                topic_config.topic_id,
+                parse_iso_date(day),
+                source_config.week_starts_on,
+            ),
+            rows,
+        )
 
     manifest: dict[str, Any] = {
         "stage": "recall",
