@@ -1,0 +1,65 @@
+{
+  "topic_id": "document_ocr",
+  "topic_name": "Document AI and OCR",
+  "start_date": "2026-03-30",
+  "end_date": "2026-03-30",
+  "created_at": "2026-03-30T08:42:25Z",
+  "paper_count": 1,
+  "papers": [
+    {
+      "paper_id": "2603.25761",
+      "base_paper_id": "2603.25761",
+      "version": null,
+      "title": "A Survey of OCR Evaluation Methods and Metrics and the Invisibility of Historical Documents",
+      "abstract": "Optical character recognition (OCR) and document understanding systems increasingly rely on large vision and vision-language models, yet evaluation remains centered on modern, Western, and institutional documents. This emphasis masks system behavior in historical and marginalized archives, where layout, typography, and material degradation shape interpretation. This study examines how OCR and document understanding systems are evaluated, with particular attention to Black historical newspapers. We review OCR and document understanding papers, as well as benchmark datasets, which are published between 2006 and 2025 using the PRISMA framework. We look into how the studies report training data, benchmark design, and evaluation metrics for vision transformer and multimodal OCR systems. During the review, we found that Black newspapers and other community-produced historical documents rarely appear in reported training data or evaluation benchmarks. Most evaluations emphasize character accuracy and task success on modern layouts. They rarely capture structural failures common in historical newspapers, including column collapse, typographic errors, and hallucinated text. To put these findings into perspective, we use previous empirical studies and archival statistics from significant Black press collections to show how evaluation gaps lead to structural invisibility and representational harm. We propose that these gaps occur due to organizational (meso) and institutional (macro) behaviors and structure, shaped by benchmark incentives and data governance decisions.",
+      "authors": [
+        "Beyene, Fitsum Sileshi",
+        "Dancy, Christopher L."
+      ],
+      "comments": "This manuscript is the author's submitted version to the ACM Conference on Fairness, Accountability, and Transparency (FAccT 2026). Please cite the final published version via ACM Digital Library when available",
+      "categories": [
+        "cs.CV",
+        "cs.DL"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "abs_url": "https://arxiv.org/abs/2603.25761",
+      "announcement_date": "2026-03-30",
+      "submitted_date": "2026-03-26",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-03-30T08:41:53Z",
+      "keyword_score": 9,
+      "keyword_strong_hits": [
+        "ocr",
+        "optical character recognition",
+        "document understanding"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "documents",
+        "historical newspaper",
+        "newspaper",
+        "layout",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "OCR",
+        "document understanding",
+        "evaluation",
+        "historical documents"
+      ],
+      "llm_reason": "Central focus is OCR and document understanding evaluation methods, specifically addressing historical documents and layout analysis.",
+      "included": true
+    }
+  ]
+}

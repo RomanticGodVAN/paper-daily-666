@@ -7,7 +7,7 @@
 - use an LLM to recall topic-relevant papers from title + abstract
 - materialize a weekly bundle of relevant papers
 
-The current repository stops at **weekly relevant paper bundles**.
+The current repository stops at **weekly relevant paper bundles**, and now also supports **daily recommendation exports** for downstream publishing workflows.
 It does not attempt final report writing, GitHub Pages publishing, or WeChat posting.
 
 ## Current Prototype
@@ -23,6 +23,8 @@ The current implementation is built around four stages:
    Uses a high-recall lexical prefilter plus DeepSeek-based abstract screening for the target topic.
 4. `weekly`
    Merges daily matches into a rolling 7-day bundle and exports both JSON and Markdown.
+5. `daily-export`
+   Reads one day of topic matches, removes papers already recommended on previous days, and exports a publish-ready daily folder.
 
 Important:
 
@@ -82,6 +84,28 @@ Or use the wrapper script:
 $env:DEEPSEEK_API_KEY = "your-key"
 .\scripts\run_topic_week.ps1 -StartDate 2026-03-22 -EndDate 2026-03-28
 ```
+
+Export one day's deduplicated recommendation folder:
+
+```bash
+export DEEPSEEK_API_KEY="your-key"
+python -m paper_daily.cli run-window \
+  --start-date 2026-03-30 \
+  --end-date 2026-03-30 \
+  --topic topics/document_ocr.toml
+
+python -m paper_daily.cli daily-export \
+  --date 2026-03-30 \
+  --topic topics/document_ocr.toml \
+  --export-root document_ocr
+```
+
+That produces:
+
+- `document_ocr/2026-03-30/papers.json`
+- `document_ocr/2026-03-30/README.md`
+
+The daily export keeps a dedupe index under `data/state/dedupe/` so a paper already recommended on a previous day will not be emitted again on later days.
 
 Backfill a longer range and emit one weekly bundle per calendar week slice:
 

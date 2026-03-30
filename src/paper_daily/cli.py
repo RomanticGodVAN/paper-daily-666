@@ -7,6 +7,7 @@ from pathlib import Path
 from .config import load_arxiv_source_config, load_topic_config
 from .dates import parse_iso_date
 from .stages.backfill import run_backfill
+from .stages.daily import run_daily_bundle
 from .stages.ingest import run_ingest
 from .stages.normalize import run_normalize
 from .stages.recall import run_recall
@@ -23,7 +24,7 @@ Repository contract:
 - data/topics/<topic-id>/weekly/YYYY/week-YYYY-MM-DD-to-YYYY-MM-DD.json: weekly topic bundle
 - config/arxiv.toml: global source and storage contract
 - topics/*.toml: topic definitions
-- src/paper_daily/stages/: ingest / normalize / recall / weekly
+- src/paper_daily/stages/: ingest / normalize / recall / daily / weekly
 """
 
 
@@ -55,9 +56,13 @@ def build_parser() -> argparse.ArgumentParser:
         ("ingest-window", "Fetch raw arXiv list-page snapshots for a date window."),
         ("normalize-window", "Fetch abstracts and normalize papers for a date window."),
         ("recall-window", "Run OCR/document topic recall for a date window."),
+        ("daily-export", "Export one day of deduplicated topic recommendations."),
         ("weekly-window", "Materialize a weekly bundle for a date window."),
         ("run-window", "Run ingest, normalize, recall, and weekly stages."),
-        ("backfill-range", "Run ingest/normalize/recall once, then materialize weekly bundles across the date range."),
+        (
+            "backfill-range",
+            "Run ingest/normalize/recall once, then materialize weekly bundles across the date range.",
+        ),
     ]:
         command = subparsers.add_parser(name, help=help_text)
         command.add_argument(
@@ -65,9 +70,17 @@ def build_parser() -> argparse.ArgumentParser:
             default="config/arxiv.toml",
             help="Path to the global source config.",
         )
-        command.add_argument("--start-date", required=True, help="Start date in YYYY-MM-DD.")
-        command.add_argument("--end-date", required=True, help="End date in YYYY-MM-DD.")
-        if name in {"recall-window", "weekly-window", "run-window", "backfill-range"}:
+        if name == "daily-export":
+            command.add_argument("--date", required=True, help="Date in YYYY-MM-DD.")
+            command.add_argument(
+                "--export-root",
+                default=None,
+                help="Optional export root for daily output folders.",
+            )
+        else:
+            command.add_argument("--start-date", required=True, help="Start date in YYYY-MM-DD.")
+            command.add_argument("--end-date", required=True, help="End date in YYYY-MM-DD.")
+        if name in {"recall-window", "daily-export", "weekly-window", "run-window", "backfill-range"}:
             command.add_argument(
                 "--topic",
                 default="topics/document_ocr.toml",
@@ -101,11 +114,30 @@ def main(argv: list[str] | None = None) -> int:
         "ingest-window",
         "normalize-window",
         "recall-window",
+        "daily-export",
         "weekly-window",
         "run-window",
         "backfill-range",
     }:
         source_config = load_arxiv_source_config(Path(args.source))
+
+        if args.command == "daily-export":
+            day = parse_iso_date(args.date)
+            topic_config = load_topic_config(Path(args.topic))
+            print(
+                json.dumps(
+                    run_daily_bundle(
+                        source_config,
+                        topic_config,
+                        day,
+                        export_root=args.export_root,
+                    ),
+                    indent=2,
+                    ensure_ascii=False,
+                )
+            )
+            return 0
+
         start_date = parse_iso_date(args.start_date)
         end_date = parse_iso_date(args.end_date)
 

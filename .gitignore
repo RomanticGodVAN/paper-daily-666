@@ -8,3 +8,7 @@ __pycache__/
 site/
 .env
 .env.*
+.DS_Store
+src/*.DS_Store
+src/paper_daily/*.DS_Store
+*.egg-info/

@@ -1,0 +1,71 @@
+name: daily-document-ocr
+
+on:
+  schedule:
+    - cron: '20 1 * * *'
+  workflow_dispatch:
+    inputs:
+      run_date:
+        description: 'Run date in YYYY-MM-DD (UTC). Leave empty for today.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  run-daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -e .
+
+      - name: Resolve run date
+        id: run-date
+        shell: bash
+        run: |
+          if [[ -n "${{ github.event.inputs.run_date }}" ]]; then
+            echo "value=${{ github.event.inputs.run_date }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run daily pipeline
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PYTHONPATH: src
+        run: |
+          python -m paper_daily.cli run-window \
+            --start-date "${{ steps.run-date.outputs.value }}" \
+            --end-date "${{ steps.run-date.outputs.value }}" \
+            --topic topics/document_ocr.toml
+
+          python -m paper_daily.cli daily-export \
+            --date "${{ steps.run-date.outputs.value }}" \
+            --topic topics/document_ocr.toml \
+            --export-root document_ocr
+
+      - name: Commit and push results
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data document_ocr .github/workflows/daily-document-ocr.yml scripts/run_daily_topic.sh src/paper_daily/stages/daily.py src/paper_daily/cli.py .gitignore README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: daily document ocr update for ${{ steps.run-date.outputs.value }}"
+          git push
