@@ -2,9 +2,9 @@
   "topic_id": "document_ocr",
   "topic_name": "Document AI and OCR",
   "date": "2026-03-31",
-  "created_at": "2026-04-02T13:30:42Z",
+  "created_at": "2026-04-02T15:07:19Z",
   "source_daily_path": "data/topics/document_ocr/daily/2026/week-2026-03-30-to-2026-04-05/2026-03-31.jsonl",
-  "paper_count": 14,
+  "paper_count": 13,
   "duplicate_skipped_count": 0,
   "papers": [
     {
@@ -32,7 +32,7 @@
         "cs.CL",
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:22Z",
+      "fetched_at": "2026-04-02T15:05:00Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -86,7 +86,7 @@
         "cs.CL",
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:24Z",
+      "fetched_at": "2026-04-02T15:05:02Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -105,7 +105,7 @@
         "Chinese characters",
         "aesthetic assessment"
       ],
-      "llm_reason": "Central task is assessment of handwritten Chinese characters, a form of handwritten text recognition.",
+      "llm_reason": "Central task is analyzing handwritten Chinese characters, a core OCR/document AI area.",
       "included": true
     },
     {
@@ -135,7 +135,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:25Z",
+      "fetched_at": "2026-04-02T15:05:02Z",
       "keyword_score": 4,
       "keyword_strong_hits": [
         "document understanding"
@@ -159,77 +159,10 @@
       "llm_tags": [
         "table understanding",
         "document understanding",
-        "scientific documents",
-        "benchmark"
+        "markup",
+        "scientific documents"
       ],
       "llm_reason": "Explicitly targets markup-driven table understanding in scientific documents.",
-      "included": true
-    },
-    {
-      "paper_id": "2603.27065",
-      "base_paper_id": "2603.27065",
-      "version": null,
-      "title": "Story2Proposal: A Scaffold for Structured Scientific Paper Writing",
-      "abstract": "Generating scientific manuscripts requires maintaining alignment between narrative reasoning, experimental evidence, and visual artifacts across the document lifecycle. Existing language-model generation pipelines rely on unconstrained text synthesis with validation applied only after generation, often producing structural drift, missing figures or tables, and cross-section inconsistencies. We introduce Story2Proposal, a contract-governed multi-agent framework that converts a research story into a structured manuscript through coordinated agents operating under a persistent shared visual contract. The system organizes architect, writer, refiner, and renderer agents around a contract state that tracks section structure and registered visual elements, while evaluation agents supply feedback in a generate evaluate adapt loop that updates the contract during generation. Experiments on tasks derived from the Jericho research corpus show that Story2Proposal achieved an expert evaluation score of 6.145 versus 3.963 for DirectChat (+2.182) across GPT, Claude, Gemini, and Qwen backbones. Compared with the structured generation baseline Fars, Story2Proposal obtained an average score of 5.705 versus 5.197, indicating improved structural consistency and visual alignment.",
-      "authors": [
-        "Qian, Zhuoyang",
-        "Shi, Wei",
-        "Lin, Xu",
-        "Ling, Li",
-        "Luo, Meng",
-        "Wang, Ziming",
-        "Zhang, Zhiwei",
-        "Xu, Tengyue",
-        "Liu, Gaoge",
-        "Zhang, Zhentao",
-        "Zhang, Shuo",
-        "Wang, Ziqi",
-        "Feng, Zheng",
-        "Luo, Yan",
-        "Xu, Shu",
-        "Chen, Yongjin",
-        "Feng, Zhibo",
-        "Chen, Zhuo",
-        "Yuan, Bruce",
-        "Wu, Biao",
-        "Wang, Harry",
-        "Chen, Kris"
-      ],
-      "comments": "10 pages, 4 figures,",
-      "categories": [
-        "cs.CL"
-      ],
-      "primary_subject": "Computation and Language (cs.CL)",
-      "abs_url": "https://arxiv.org/abs/2603.27065",
-      "announcement_date": "2026-03-31",
-      "submitted_date": "2026-03-28",
-      "source_categories": [
-        "cs.CL"
-      ],
-      "fetched_at": "2026-04-02T13:28:30Z",
-      "keyword_score": 0,
-      "keyword_strong_hits": [],
-      "keyword_medium_hits": [],
-      "keyword_candidate_hits": [
-        "document",
-        "scientific paper",
-        "table"
-      ],
-      "keyword_contextual_hits": [
-        "document+understand",
-        "scientific-paper+parse"
-      ],
-      "keyword_exclude_hits": [],
-      "llm_candidate": true,
-      "topic_id": "document_ocr",
-      "llm_decision": "include",
-      "llm_confidence": 0.8,
-      "llm_tags": [
-        "scientific paper writing",
-        "structured generation",
-        "document generation"
-      ],
-      "llm_reason": "Targets structured scientific manuscript generation, a form of document generation/derendering.",
       "included": true
     },
     {
@@ -257,7 +190,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:32Z",
+      "fetched_at": "2026-04-02T15:05:09Z",
       "keyword_score": 0,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [],
@@ -278,12 +211,12 @@
       "llm_confidence": 0.9,
       "llm_tags": [
         "multimodal benchmark",
+        "layout-aware",
         "document images",
-        "layout",
-        "table",
-        "form"
+        "tables",
+        "forms"
       ],
-      "llm_reason": "Benchmark from real exam documents with visual structures like tables and forms; requires layout-aware reasoning.",
+      "llm_reason": "Benchmark from real exam documents requiring layout-aware reasoning from visual input.",
       "included": true
     },
     {
@@ -314,7 +247,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:35Z",
+      "fetched_at": "2026-04-02T15:05:11Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -334,7 +267,7 @@
         "document understanding",
         "benchmark"
       ],
-      "llm_reason": "Central contribution includes Falcon OCR model and evaluation on OCR/document benchmarks; explicitly targets OCR as core task.",
+      "llm_reason": "Central contribution is Falcon OCR model with explicit OCR evaluation; includes document benchmarks.",
       "included": true
     },
     {
@@ -357,7 +290,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:40Z",
+      "fetched_at": "2026-04-02T15:05:15Z",
       "keyword_score": 6,
       "keyword_strong_hits": [
         "ocr",
@@ -385,7 +318,7 @@
         "document understanding",
         "instruction tuning"
       ],
-      "llm_reason": "Explicitly studies OCR/document understanding as core capability in multimodal models; includes document QA and scene-text tasks.",
+      "llm_reason": "Explicitly studies OCR/document understanding capabilities in multimodal models; central to the analysis.",
       "included": true
     },
     {
@@ -411,7 +344,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:42Z",
+      "fetched_at": "2026-04-02T15:05:17Z",
       "keyword_score": 7,
       "keyword_strong_hits": [
         "ocr",
@@ -436,15 +369,16 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 1.0,
+      "llm_confidence": 0.99,
       "llm_tags": [
         "scene text",
         "benchmark",
-        "Japanese text",
+        "Japanese",
         "receipt KIE",
-        "handwriting OCR"
+        "handwriting OCR",
+        "STVQA"
       ],
-      "llm_reason": "Explicitly targets Japanese scene text understanding with tasks including receipt KIE and handwriting OCR, central to document AI/OCR.",
+      "llm_reason": "Central focus is Japanese scene text understanding benchmark with tasks including receipt key information extraction (layout-aware structured extraction) and handwriting OCR, directly targeting OCR and document AI tasks.",
       "included": true
     },
     {
@@ -470,7 +404,7 @@
         "cs.CV",
         "cs.LG"
       ],
-      "fetched_at": "2026-04-02T13:28:43Z",
+      "fetched_at": "2026-04-02T15:05:18Z",
       "keyword_score": 6,
       "keyword_strong_hits": [
         "ocr",
@@ -487,14 +421,15 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 1.0,
+      "llm_confidence": 0.98,
       "llm_tags": [
         "OCR",
         "text line recognition",
         "domain adaptation",
-        "historical documents"
+        "historical documents",
+        "handwriting"
       ],
-      "llm_reason": "Explicitly addresses optical character recognition for document digitization, with evaluation on historical documents.",
+      "llm_reason": "Central focus is optical character recognition (OCR) for document digitization, specifically efficient domain adaptation for text line recognition across modern/historical documents.",
       "included": true
     },
     {
@@ -522,7 +457,7 @@
       "source_categories": [
         "cs.AI"
       ],
-      "fetched_at": "2026-04-02T13:28:45Z",
+      "fetched_at": "2026-04-02T15:05:19Z",
       "keyword_score": 7,
       "keyword_strong_hits": [
         "ocr",
@@ -544,15 +479,16 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 1.0,
+      "llm_confidence": 0.99,
       "llm_tags": [
         "OCR",
         "parliamentary speeches",
         "transcription",
-        "layout",
-        "entity linking"
+        "layout analysis",
+        "reading order",
+        "semantic segmentation"
       ],
-      "llm_reason": "Central task is OCR and transcription of scanned parliamentary documents with layout preservation and semantic annotation.",
+      "llm_reason": "Central focus is OCR pipeline for transcribing scanned historical parliamentary documents with layout preservation, reading order, and semantic annotation, directly targeting document parsing.",
       "included": true
     },
     {
@@ -582,7 +518,7 @@
       "source_categories": [
         "cs.AI"
       ],
-      "fetched_at": "2026-04-02T13:28:45Z",
+      "fetched_at": "2026-04-02T15:05:19Z",
       "keyword_score": 6,
       "keyword_strong_hits": [
         "ocr",
@@ -602,14 +538,16 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 1.0,
+      "llm_confidence": 0.99,
       "llm_tags": [
         "OCR",
         "layout analysis",
         "historical documents",
-        "digitization pipeline"
+        "digitization",
+        "transcription",
+        "semantic enrichment"
       ],
-      "llm_reason": "Explicitly targets archival document analysis with integrated workflow for transcription, layout analysis, and semantic enrichment.",
+      "llm_reason": "Central focus is modular framework for archival document analysis encompassing OCR transcription, layout analysis, and semantic enrichment of historical documents.",
       "included": true
     },
     {
@@ -643,7 +581,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:45Z",
+      "fetched_at": "2026-04-02T15:05:20Z",
       "keyword_score": 7,
       "keyword_strong_hits": [
         "ocr",
@@ -665,14 +603,15 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 1.0,
+      "llm_confidence": 0.99,
       "llm_tags": [
         "document parsing",
-        "multilingual",
         "benchmark",
-        "OCR"
+        "multilingual",
+        "OCR",
+        "document image"
       ],
-      "llm_reason": "Explicitly introduces benchmark for multilingual document parsing, directly central to document AI evaluation.",
+      "llm_reason": "Central focus is benchmark for multilingual document parsing of digital and photographed documents, directly targeting document AI/OCR evaluation.",
       "included": true
     },
     {
@@ -700,7 +639,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:50Z",
+      "fetched_at": "2026-04-02T15:05:24Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -722,11 +661,11 @@
       "llm_confidence": 0.9,
       "llm_tags": [
         "OCR",
-        "document parsing",
+        "document understanding",
         "chemical structure recognition",
-        "multimodal document understanding"
+        "multimodal document parsing"
       ],
-      "llm_reason": "Central task is multimodal recognition of chemical structures from documents using dedicated OCR model and layout analysis, directly targeting document parsing and structured content extraction.",
+      "llm_reason": "Central task is multimodal recognition of chemical structures from documents using dedicated OCR model and layout analysis, explicitly targeting document parsing and structured content extraction.",
       "included": true
     },
     {
@@ -759,7 +698,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:28:50Z",
+      "fetched_at": "2026-04-02T15:05:24Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -779,9 +718,9 @@
         "OCR",
         "chart understanding",
         "document VQA",
-        "visual document reasoning"
+        "agentic framework"
       ],
-      "llm_reason": "Core contribution is OCR-driven data path for chart question answering with explicit OCR component, targeting document-like chart interpretation and structured content extraction.",
+      "llm_reason": "Core contribution includes OCR-driven data path for chart question answering, targeting document-like chart parsing and structured content extraction from deceptive visual documents.",
       "included": true
     }
   ],

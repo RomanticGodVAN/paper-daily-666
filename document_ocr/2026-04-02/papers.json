@@ -2,9 +2,9 @@
   "topic_id": "document_ocr",
   "topic_name": "Document AI and OCR",
   "date": "2026-04-02",
-  "created_at": "2026-04-02T13:32:49Z",
+  "created_at": "2026-04-02T15:09:36Z",
   "source_daily_path": "data/topics/document_ocr/daily/2026/week-2026-03-30-to-2026-04-05/2026-04-02.jsonl",
-  "paper_count": 4,
+  "paper_count": 5,
   "duplicate_skipped_count": 0,
   "papers": [
     {
@@ -32,7 +32,7 @@
         "cs.AI",
         "cs.CL"
       ],
-      "fetched_at": "2026-04-02T13:31:52Z",
+      "fetched_at": "2026-04-02T15:08:36Z",
       "keyword_score": 1,
       "keyword_strong_hits": [],
       "keyword_medium_hits": [
@@ -54,12 +54,11 @@
       "llm_decision": "include",
       "llm_confidence": 0.9,
       "llm_tags": [
-        "PDF parsing",
         "information extraction",
-        "table understanding",
-        "form understanding"
+        "PDF parsing",
+        "table understanding"
       ],
-      "llm_reason": "Central task is information extraction from academic PDF documents with tables and metadata, directly targeting document parsing and structured content extraction.",
+      "llm_reason": "Central task is information extraction from academic PDF documents (KRS documents) with tables and metadata, directly targeting document parsing and structured content extraction.",
       "included": true
     },
     {
@@ -91,7 +90,7 @@
       "source_categories": [
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:31:54Z",
+      "fetched_at": "2026-04-02T15:08:38Z",
       "keyword_score": 6,
       "keyword_strong_hits": [
         "ocr",
@@ -112,10 +111,73 @@
         "OCR",
         "text anchoring",
         "vision-language models",
-        "benchmark",
-        "text recognition"
+        "benchmark"
       ],
-      "llm_reason": "Explicitly targets OCR as a foundational capability, introduces a new OCR framework (Q-Mask) and benchmark (TABench) for text-region grounding, central to document AI.",
+      "llm_reason": "Explicitly targets OCR as a foundational capability, introduces a new OCR framework (Q-Mask) for text-region grounding, and includes a benchmark for text anchoring. Central contribution is in OCR and document understanding.",
+      "included": true
+    },
+    {
+      "paper_id": "2604.00270",
+      "base_paper_id": "2604.00270",
+      "version": null,
+      "title": "OmniSch: A Multimodal PCB Schematic Benchmark For Structured Diagram Visual Reasoning",
+      "abstract": "Recent large multimodal models (LMMs) have made rapid progress in visual grounding, document understanding, and diagram reasoning tasks. However, their ability to convert Printed Circuit Board (PCB) schematic diagrams into machine-readable spatially weighted netlist graphs, jointly capturing component attributes, connectivity, and geometry, remains largely underexplored, despite such graph representations are the backbone of practical electronic design automation (EDA) workflows. To bridge this gap, we introduce OmniSch, the first comprehensive benchmark designed to assess LMMs on schematic understanding and spatial netlist graph construction. OmniSch contains 1,854 real-world schematic diagrams and includes four tasks: (1) visual grounding for schematic entities, with 109.9K grounded instances aligning 423.4K diagram semantic labels to their visual regions; (2) diagram-to-graph reasoning, understanding topological relationship among diagram elements; (3) geometric reasoning, constructing layout-dependent weights for each connection; and (4) tool-augmented agentic reasoning for visual search, invoking external tools to accomplish (1)-(3). Our results reveal substantial gaps of current LMMs in interpreting schematic engineering artifacts, including unreliable fine-grained grounding, brittle layout-to-graph parsing, inconsistent global connectivity reasoning and inefficient visual exploration.",
+      "authors": [
+        "Lu, Taiting",
+        "Lin, Kaiyuan",
+        "Tian, Yuxin",
+        "Wang, Yubo",
+        "Wang, Muchuan",
+        "Khatri, Sharique",
+        "Kartik, Akshit",
+        "Wang, Yixi",
+        "Rane, Amey Santosh",
+        "Wang, Yida",
+        "Yang, Yifan",
+        "Chen, Yi-Chao",
+        "Jin, Yincheng",
+        "Gowda, Mahanth"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "abs_url": "https://arxiv.org/abs/2604.00270",
+      "announcement_date": "2026-04-02",
+      "submitted_date": "2026-03-31",
+      "source_categories": [
+        "cs.CV"
+      ],
+      "fetched_at": "2026-04-02T15:08:39Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "document understanding"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "diagram",
+        "layout",
+        "parsing"
+      ],
+      "keyword_contextual_hits": [
+        "document+parse",
+        "document+understand",
+        "diagram+parse"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.8,
+      "llm_tags": [
+        "diagram understanding",
+        "PCB schematics",
+        "visual reasoning",
+        "parsing"
+      ],
+      "llm_reason": "Targets structured diagram visual reasoning for PCB schematics, involving parsing into machine-readable graphs. This aligns with diagram parsing and document understanding, though it's engineering-focused; the core contribution is in parsing visual documents.",
       "included": true
     },
     {
@@ -144,7 +206,7 @@
         "cs.CV",
         "cs.LG"
       ],
-      "fetched_at": "2026-04-02T13:32:00Z",
+      "fetched_at": "2026-04-02T15:08:45Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "ocr"
@@ -164,12 +226,11 @@
       "llm_confidence": 1.0,
       "llm_tags": [
         "OCR",
-        "historical documents",
-        "newspaper OCR",
+        "historical newspapers",
         "state-space models",
         "benchmark"
       ],
-      "llm_reason": "Central task is OCR for historical newspapers, comparing architectures for text recognition on degraded documents with complex layouts, directly targeting document AI.",
+      "llm_reason": "Central task is OCR for historical newspapers, comparing models for text recognition. Directly targets OCR with a focus on degraded print and complex layouts, fitting document AI inclusion rules.",
       "included": true
     },
     {
@@ -199,7 +260,7 @@
         "cs.CL",
         "cs.CV"
       ],
-      "fetched_at": "2026-04-02T13:32:02Z",
+      "fetched_at": "2026-04-02T15:08:46Z",
       "keyword_score": 3,
       "keyword_strong_hits": [
         "document understanding"
@@ -216,13 +277,13 @@
       "llm_candidate": true,
       "topic_id": "document_ocr",
       "llm_decision": "include",
-      "llm_confidence": 0.9,
+      "llm_confidence": 0.8,
       "llm_tags": [
         "document understanding",
         "efficiency optimization",
         "visual token reduction"
       ],
-      "llm_reason": "Paper explicitly targets document understanding as a primary application, proposing a method to accelerate document processing by pruning redundant patches before ViT encoding.",
+      "llm_reason": "Paper explicitly targets document understanding applications, proposes method to accelerate document/GUI processing by pruning redundant patches, and benchmarks on document tasks.",
       "included": true
     }
   ],
