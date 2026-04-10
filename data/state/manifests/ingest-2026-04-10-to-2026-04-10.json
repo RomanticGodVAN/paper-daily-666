@@ -1,0 +1,53 @@
+{
+  "stage": "ingest",
+  "start_date": "2026-04-10",
+  "end_date": "2026-04-10",
+  "created_at": "2026-04-10T04:20:07Z",
+  "categories": {
+    "cs.AI": {
+      "fetched_entries": 1172,
+      "kept_entries": 237,
+      "days": {
+        "2026-04-10": 237
+      }
+    },
+    "cs.CL": {
+      "fetched_entries": 581,
+      "kept_entries": 109,
+      "days": {
+        "2026-04-10": 109
+      }
+    },
+    "cs.CV": {
+      "fetched_entries": 759,
+      "kept_entries": 156,
+      "days": {
+        "2026-04-10": 156
+      }
+    },
+    "cs.LG": {
+      "fetched_entries": 873,
+      "kept_entries": 181,
+      "days": {
+        "2026-04-10": 181
+      }
+    },
+    "cs.MA": {
+      "fetched_entries": 96,
+      "kept_entries": 18,
+      "days": {
+        "2026-04-10": 18
+      }
+    }
+  },
+  "dates": {
+    "2026-04-10": {
+      "cs.AI": 237,
+      "cs.CL": 109,
+      "cs.CV": 156,
+      "cs.LG": 181,
+      "cs.MA": 18
+    }
+  },
+  "total_entries": 701
+}
