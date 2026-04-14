@@ -2,10 +2,218 @@
   "topic_id": "document_ocr",
   "topic_name": "Document AI and OCR",
   "date": "2026-04-13",
-  "created_at": "2026-04-13T04:31:46Z",
+  "created_at": "2026-04-14T01:13:31Z",
   "source_daily_path": "data/topics/document_ocr/daily/2026/week-2026-04-13-to-2026-04-19/2026-04-13.jsonl",
-  "paper_count": 0,
+  "paper_count": 3,
   "duplicate_skipped_count": 0,
-  "papers": [],
+  "papers": [
+    {
+      "paper_id": "2604.08644",
+      "base_paper_id": "2604.08644",
+      "version": null,
+      "title": "EXAONE 4.5 Technical Report",
+      "abstract": "This technical report introduces EXAONE 4.5, the first open-weight vision language model released by LG AI Research. EXAONE 4.5 is architected by integrating a dedicated visual encoder into the existing EXAONE 4.0 framework, enabling native multimodal pretraining over both visual and textual modalities. The model is trained on large-scale data with careful curation, particularly emphasizing document-centric corpora that align with LG's strategic application domains. This targeted data design enables substantial performance gains in document understanding and related tasks, while also delivering broad improvements across general language capabilities. EXAONE 4.5 extends context length up to 256K tokens, facilitating long-context reasoning and enterprise-scale use cases. Comparative evaluations demonstrate that EXAONE 4.5 achieves competitive performance in general benchmarks while outperforming state-of-the-art models of similar scale in document understanding and Korean contextual reasoning. As part of LG's ongoing effort toward practical industrial deployment, EXAONE 4.5 is designed to be continuously extended with additional domains and application scenarios to advance AI for a better life.",
+      "authors": [
+        "Choi, Eunbi",
+        "Choi, Kibong",
+        "Chun, Sehyun",
+        "Hong, Seokhee",
+        "Hwang, Junwon",
+        "Jeon, Hyojin",
+        "Jo, Ahra",
+        "Jo, Hyunjik",
+        "Jo, Yeonsik",
+        "Kim, Joonkee",
+        "Kim, Seonghwan",
+        "Kim, Soyeon",
+        "Kim, Sunkyoung",
+        "Kim, Yireun",
+        "Kim, Yongil",
+        "Lee, Changhun",
+        "Lee, Haeju",
+        "Lee, Jinsik",
+        "Lee, Kyungmin",
+        "Park, Sangha",
+        "Ryoo, Kwangrok",
+        "Seo, Minju",
+        "Yang, Sejong",
+        "Yeen, Heuiyeen",
+        "Chang, Hwan",
+        "Choi, Stanley Jungkyu",
+        "Choi, Yejin",
+        "Han, Kyubeen",
+        "Jang, Joonwon",
+        "Jeon, Kijeong",
+        "Jeong, Geunyeong",
+        "Jo, Gerrard Jeongwon",
+        "Jung, Jiyeon",
+        "Kim, Daeseong",
+        "Kim, Dohoon",
+        "Kim, Dohyun",
+        "Kim, Hyunseo",
+        "Kim, Minu",
+        "Kim, Myoungshin",
+        "Kim, Youchul",
+        "Ko, Byungoh",
+        "Lee, Christopher",
+        "Lee, Edward Hwayoung",
+        "Lee, Honglak",
+        "Lee, Jiyoung",
+        "Lee, Sangeun",
+        "Lim, Seungwon",
+        "Lim, Woohyung",
+        "Mun, Jueun",
+        "Park, Jaewoo",
+        "Park, Jimin",
+        "Park, Jinho",
+        "Park, Yongmin",
+        "Seo, Wooseok",
+        "Song, Yongwoo",
+        "Yi, Sihyuk",
+        "Yoo, Kyungjae",
+        "Yoon, Sangyeon"
+      ],
+      "comments": "",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "abs_url": "https://arxiv.org/abs/2604.08644",
+      "announcement_date": "2026-04-13",
+      "submitted_date": "2026-04-09",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-04-14T01:12:49Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "document understanding"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.9,
+      "llm_tags": [
+        "vision-language model",
+        "document understanding"
+      ],
+      "llm_reason": "Technical report for EXAONE 4.5 VLM with explicit focus on document understanding as a core capability, trained on document-centric corpora. Central to document AI.",
+      "included": true
+    },
+    {
+      "paper_id": "2604.08952",
+      "base_paper_id": "2604.08952",
+      "version": null,
+      "title": "MAB-DQA: Addressing Query Aspect Importance in Document Question Answering with Multi-Armed Bandits",
+      "abstract": "Document Question Answering (DQA) involves generating answers from a document based on a user's query, representing a key task in document understanding. This task requires interpreting visual layouts, which has prompted recent studies to adopt multimodal Retrieval-Augmented Generation (RAG) that processes page images for answer generation. However, in multimodal RAG, visual DQA struggles to utilize a large number of images effectively, as the retrieval stage often retains only a few candidate pages (e.g., Top-4), causing informative but less visually salient content to be overlooked in favor of common yet low-information pages. To address this issue, we propose a Multi-Armed Bandit-based DQA framework (MAB-DQA) to explicitly model the varying importance of multiple implicit aspects in a query. Specifically, MAB-DQA decomposes a query into aspect-aware subqueries and retrieves an aspect-specific candidate set for each. It treats each subquery as an arm and uses preliminary reasoning results from a small number of representative pages as reward signals to estimate aspect utility. Guided by an exploration-exploitation policy, MAB-DQA dynamically reallocates retrieval budgets toward high-value aspects. With the most informative pages and their correlations, MAB-DQA generates the expected results. On four benchmarks, MAB-DQA shows an average improvement of 5%-18% over the state-of-the-art method, consistently enhancing document understanding. Code at https://github.com/ElephantOH/MAB-DQA.",
+      "authors": [
+        "Xiang, Yixin",
+        "Ma, Yunshan",
+        "Du, Xiaoyu",
+        "Chen, Yibing",
+        "Zhang, Yanxin",
+        "Tang, Jinhui"
+      ],
+      "comments": "Accepted by ACL 2026. 19 pages, 9 figures, 6 tables",
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "abs_url": "https://arxiv.org/abs/2604.08952",
+      "announcement_date": "2026-04-13",
+      "submitted_date": "2026-04-10",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-04-14T01:12:51Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "document understanding"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "layout",
+        "form"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.95,
+      "llm_tags": [
+        "document question answering",
+        "multimodal RAG",
+        "layout understanding"
+      ],
+      "llm_reason": "Paper directly addresses Document Question Answering (DQA) with multimodal RAG that processes page images and interprets visual layouts. Core contribution is to document understanding and DQA.",
+      "included": true
+    },
+    {
+      "paper_id": "2604.09442",
+      "base_paper_id": "2604.09442",
+      "version": null,
+      "title": "UIPress: Bringing Optical Token Compression to UI-to-Code Generation",
+      "abstract": "UI-to-Code generation requires vision-language models (VLMs) to produce thousands of tokens of structured HTML/CSS from a single screenshot, making visual token efficiency critical. Existing compression methods either select tokens at inference time using task-agnostic heuristics, or zero out low-attention features without actually shortening the sequence -- neither truly reduces prefill latency or adapts to the non-uniform information density of UI screenshots. Meanwhile, optical (encoder-side learned) compression has shown strong results for document OCR, yet no prior work has adapted this paradigm to UI-to-Code generation. We propose UIPress, a lightweight learned compression module inserted between the frozen ViT encoder and the LLM decoder of Qwen3-VL-8B. UIPress combines depthwise-separable convolutions, element-guided spatial reweighting, and Transformer refinement to compress ${\\sim}$6{,}700 visual tokens to a fixed budget of 256. Together with Low-Rank Adaptation (LoRA) on the decoder to bridge the representation gap, the entire system adds only ${\\sim}$21.7M trainable parameters (0.26\\% of the 8B base model). Under a fair comparison on the same base model against four baselines on Design2Code, UIPress at 256 tokens achieves a CLIP score of 0.8127, outperforming the uncompressed baseline by +7.5\\% and the strongest inference-time method by +4.6\\%, while delivering 9.1$\\times$ time-to-first-token speedup. To the best of our knowledge, UIPress is the first encoder-side learned compression method for the UI-to-Code task.",
+      "authors": [
+        "Dai, Dasen",
+        "Li, Shuoqi",
+        "Chen, Ronghao",
+        "Wang, Huacan",
+        "Wu, Biao",
+        "Lan, Qizhen"
+      ],
+      "comments": "10 pages, 3 figures",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "abs_url": "https://arxiv.org/abs/2604.09442",
+      "announcement_date": "2026-04-13",
+      "submitted_date": "2026-04-10",
+      "source_categories": [
+        "cs.CL"
+      ],
+      "fetched_at": "2026-04-14T01:12:56Z",
+      "keyword_score": 3,
+      "keyword_strong_hits": [
+        "ocr"
+      ],
+      "keyword_medium_hits": [],
+      "keyword_candidate_hits": [
+        "document",
+        "form",
+        "html/css"
+      ],
+      "keyword_contextual_hits": [
+        "document+understand"
+      ],
+      "keyword_exclude_hits": [],
+      "llm_candidate": true,
+      "topic_id": "document_ocr",
+      "llm_decision": "include",
+      "llm_confidence": 0.85,
+      "llm_tags": [
+        "UI-to-code",
+        "optical compression",
+        "OCR"
+      ],
+      "llm_reason": "Paper adapts optical token compression from document OCR to UI-to-code generation. Explicitly builds on OCR techniques and addresses visual token efficiency for structured output from screenshots, relevant to document AI.",
+      "included": true
+    }
+  ],
   "skipped_duplicates": []
 }
