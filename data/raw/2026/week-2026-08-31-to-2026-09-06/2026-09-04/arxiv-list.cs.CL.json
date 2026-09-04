@@ -1,0 +1,2243 @@
+{
+  "source": "arxiv_list_pastweek_html",
+  "category": "cs.CL",
+  "announcement_date": "2026-09-04",
+  "fetched_at": "2026-09-04T05:57:24Z",
+  "count": 115,
+  "entries": [
+    {
+      "paper_id": "2609.04199",
+      "abs_url": "https://arxiv.org/abs/2609.04199",
+      "source_category": "cs.CL",
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "authors": [
+        "Yuntian Deng",
+        "Pengyu Nie",
+        "Stuart Shieber"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04197",
+      "abs_url": "https://arxiv.org/abs/2609.04197",
+      "source_category": "cs.CL",
+      "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
+      "authors": [
+        "Lihao Liu",
+        "Peng Tang",
+        "Kunwar Yashraj Singh",
+        "Shabnam Ghadar"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04194",
+      "abs_url": "https://arxiv.org/abs/2609.04194",
+      "source_category": "cs.CL",
+      "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+      "authors": [
+        "Kevin Du",
+        "Alexander Hoyle",
+        "Laura Ruis",
+        "Acyr Locatelli"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04180",
+      "abs_url": "https://arxiv.org/abs/2609.04180",
+      "source_category": "cs.CL",
+      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+      "authors": [
+        "Joseph Lee",
+        "Yidi Huang",
+        "Dokyoon Kim",
+        "Shu Yang",
+        "Li Shen"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04173",
+      "abs_url": "https://arxiv.org/abs/2609.04173",
+      "source_category": "cs.CL",
+      "title": "Last Translation Benchmark",
+      "authors": [
+        "Vilém Zouhar",
+        "Niyati Bafna",
+        "Mukund Choudhary",
+        "Maike Züfle",
+        "Sara Rajaee",
+        "Pinzhen Chen",
+        "Jannis Vamvas",
+        "Sara Papi",
+        "Ona de Gibert",
+        "Bhavitvya Malik",
+        "Eliya Habba",
+        "Orfeas Menis Mastromichalakis",
+        "Patrícia Schmidtová",
+        "Michelle Wastl",
+        "Sheriff Issaka",
+        "Leshem Choshen",
+        "Stella Biderman",
+        "Antonis Anastasopoulos",
+        "Jan Niehues",
+        "Rico Sennrich",
+        "Mrinmaya Sachan",
+        "Ondřej Bojar",
+        "Kenton Murray",
+        "Jörg Tiedemann",
+        "Alham Fikri Aji",
+        "Philipp Koehn",
+        "Christof Monz",
+        "Alexandra Birch",
+        "Sowmya Vajjala",
+        "Chalamalasetti Kranti",
+        "Cristina España-Bonet",
+        "Nobin Sarwar",
+        "David Kaczér",
+        "Shunta Asano",
+        "Malik Marmonier",
+        "Daban Q. Jaff",
+        "Vaisakhi Mishra",
+        "Hend Al- Khalifa",
+        "Gabriele Sarti",
+        "Sourajit Saha",
+        "Nils Rehlinger",
+        "Juan Daniel Cuervo Villa",
+        "Jonathan Tonglet",
+        "Saugata Purkayastha",
+        "Dominik Macháček",
+        "Jagannathan Ramanujam",
+        "Heejin Do",
+        "Zuzana Nadova",
+        "Fred Philippy",
+        "Fabian Retkowski",
+        "Maria Lymperaiou",
+        "Silvia Casola",
+        "Hanna Yukhymenko",
+        "Shubhashis Roy Dipta",
+        "Sangwon Ryu",
+        "Andrés Jerez",
+        "Ron Keinan",
+        "Shuaib Shuaib Yusuf",
+        "Avantica Vempati",
+        "Maria Carmen Staiano",
+        "Sukannya Purkayastha",
+        "Adrian Cosma",
+        "Vitalii Babenko",
+        "Erivan Inan",
+        "Aviral Nigam",
+        "Wafa Aissa",
+        "Fatima Haouari",
+        "Venkata Prasanth Kumar Gummadi",
+        "Mehdi Jafarzadeh",
+        "Valentin Scourneau",
+        "Lukas Edman",
+        "Kaiser Sun",
+        "Shaomu Tan",
+        "Mohammad Sadegh Gholizadeh",
+        "Johannes-Rudolf David",
+        "Dipankar Srirag",
+        "Javier García Gilabert",
+        "Ruta Binkyte",
+        "Manar Ali",
+        "Ana-Maria Bucur",
+        "Sabry E. Farrag",
+        "Youssef Saber",
+        "Yihong Liu",
+        "Jean Maillard",
+        "Cojocaru Nicoleta",
+        "Xiaochuang Yuan",
+        "Sina Ahmadi",
+        "Philipp Mondorf",
+        "Kaustubh Dhole",
+        "Roman Wixinger",
+        "Shenbin Qian",
+        "Manuel Tuor",
+        "Sergey Troshin",
+        "Jonathan Yahav",
+        "Fida Mohammad Thoker",
+        "Amir Arsalan Rezapour",
+        "Lance Calvin Lim Gamboa",
+        "Manon Reusens",
+        "Kätriin Kukk",
+        "Koel Dutta Chowdhury"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04108",
+      "abs_url": "https://arxiv.org/abs/2609.04108",
+      "source_category": "cs.CL",
+      "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
+      "authors": [
+        "Boyan Li",
+        "Bingsen Chen",
+        "Chenghao Yang",
+        "Ping Nie",
+        "Chen Zhao",
+        "Xi Ye"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04048",
+      "abs_url": "https://arxiv.org/abs/2609.04048",
+      "source_category": "cs.CL",
+      "title": "Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation",
+      "authors": [
+        "Hasan Alkhder",
+        "Mohammad Abboush",
+        "Igor Tchappi",
+        "Ahmet Zengin",
+        "Amro Najjar"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04022",
+      "abs_url": "https://arxiv.org/abs/2609.04022",
+      "source_category": "cs.CL",
+      "title": "Representational alignment yields generalizable safety in language models",
+      "authors": [
+        "Lingyu Li",
+        "Yan Teng",
+        "Yingchun Wang",
+        "Xia Hu"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03992",
+      "abs_url": "https://arxiv.org/abs/2609.03992",
+      "source_category": "cs.CL",
+      "title": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis",
+      "authors": [
+        "Sanyuan Chen",
+        "Min-Jae Hwang",
+        "Sho Inoue",
+        "Anna Sun",
+        "Bokai Yu",
+        "David Kant",
+        "Dongmin Hyun",
+        "Dorian Desblancs",
+        "Gregory Antonovsky",
+        "Oleg Repin",
+        "Peng-Jen Chen",
+        "Xutai Ma",
+        "Zehai Tu",
+        "Juan Pino",
+        "Wei-Ning Hsu"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "eess.AS"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03967",
+      "abs_url": "https://arxiv.org/abs/2609.03967",
+      "source_category": "cs.CL",
+      "title": "Investigating the Ability of Large Language Models to Analyze Recipes for Diabetes",
+      "authors": [
+        "Revathy Venkataramanan",
+        "Aditya Luthra",
+        "Venkatesan Nadimuthu",
+        "Amit Sheth"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03955",
+      "abs_url": "https://arxiv.org/abs/2609.03955",
+      "source_category": "cs.CL",
+      "title": "Two-Stage Reinforcement Learning for Sound and Adversarial Test Generation in Code LLMs",
+      "authors": [
+        "Jiacheng Xu",
+        "Wentao Zhang",
+        "Zhiyi Lyu",
+        "Fuxiang Zhang",
+        "Chaojie Wang",
+        "Yang Liu",
+        "Bo An"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03953",
+      "abs_url": "https://arxiv.org/abs/2609.03953",
+      "source_category": "cs.CL",
+      "title": "Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection",
+      "authors": [
+        "Joe Cecil",
+        "Marjorie Freedman"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03930",
+      "abs_url": "https://arxiv.org/abs/2609.03930",
+      "source_category": "cs.CL",
+      "title": "Fixed Suffix Dependency Ratio: Quantifying the Dual-Track Mechanism of Gender Assignment in Latvian Loanwords",
+      "authors": [
+        "Yelingyun Zhang",
+        "Atis Kapenieks",
+        "Marina Platonova"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03915",
+      "abs_url": "https://arxiv.org/abs/2609.03915",
+      "source_category": "cs.CL",
+      "title": "RuleMem: Active Rule Memory for Long-Term Conversational Agents",
+      "authors": [
+        "Xingyuan Zeng",
+        "Zuohan Wu",
+        "Quanming Yao",
+        "Yue Wang",
+        "Wei Liu",
+        "Libin Zheng",
+        "Jiuke Wang",
+        "Jian Yin"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03894",
+      "abs_url": "https://arxiv.org/abs/2609.03894",
+      "source_category": "cs.CL",
+      "title": "CROCODIL: Cross-Model Code Editing with LLMs",
+      "authors": [
+        "Linghan Zhong",
+        "Aditya Thimmaiah",
+        "Jayanth Srinivasa",
+        "Milos Gligoric",
+        "Junyi Jessy Li"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03887",
+      "abs_url": "https://arxiv.org/abs/2609.03887",
+      "source_category": "cs.CL",
+      "title": "Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness",
+      "authors": [
+        "Hoang Cuong Nguyen",
+        "Mark Dras",
+        "Usman Naseem"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03814",
+      "abs_url": "https://arxiv.org/abs/2609.03814",
+      "source_category": "cs.CL",
+      "title": "Evaluating Criterion-Conditioned Behaviour of Large Language Models in Content Moderation",
+      "authors": [
+        "Danting Zhang",
+        "Bei Peng",
+        "Robert Loftin"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03781",
+      "abs_url": "https://arxiv.org/abs/2609.03781",
+      "source_category": "cs.CL",
+      "title": "IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks",
+      "authors": [
+        "Saikat Mondal",
+        "Mamta",
+        "Deeksha Varshney",
+        "Oana Cocarascu",
+        "Asif Ekbal"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03775",
+      "abs_url": "https://arxiv.org/abs/2609.03775",
+      "source_category": "cs.CL",
+      "title": "Typological Feature Prediction with Large Language Models: An In-Context Learning Approach",
+      "authors": [
+        "Qianwen Wang",
+        "York Hay Ng",
+        "Aditya Khan",
+        "En-Shiun Annie Lee"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03734",
+      "abs_url": "https://arxiv.org/abs/2609.03734",
+      "source_category": "cs.CL",
+      "title": "Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks",
+      "authors": [
+        "Oline Ranum",
+        "Edward Fish",
+        "Simon Hadfield",
+        "Richard Bowden"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03719",
+      "abs_url": "https://arxiv.org/abs/2609.03719",
+      "source_category": "cs.CL",
+      "title": "Opening mind by opening architecture: analysis strategies",
+      "authors": [
+        "Francesco Vitucci",
+        "Giuseppe Silvi",
+        "Daniele Giuseppe Annese",
+        "Francesco Scagliola",
+        "Anthony Di Furia"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03687",
+      "abs_url": "https://arxiv.org/abs/2609.03687",
+      "source_category": "cs.CL",
+      "title": "A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities",
+      "authors": [
+        "Anh Danh",
+        "Rick Nouwen",
+        "Massimo Poesio"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03654",
+      "abs_url": "https://arxiv.org/abs/2609.03654",
+      "source_category": "cs.CL",
+      "title": "Enhancing Financial Question Answering: A Novel Benchmark Dataset of Banks' financial statements",
+      "authors": [
+        "Arianna Miola",
+        "Bruno Spaccavento",
+        "Lorenzo Silotto",
+        "Marco Bianchetti",
+        "Luca Cagliero"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CE",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03652",
+      "abs_url": "https://arxiv.org/abs/2609.03652",
+      "source_category": "cs.CL",
+      "title": "The Impact of Synthetic Data Augmentation on Discourse-Pragmatic Function Classification",
+      "authors": [
+        "Sara Sorahi",
+        "Kevin Tang",
+        "Reza Kazemian"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03633",
+      "abs_url": "https://arxiv.org/abs/2609.03633",
+      "source_category": "cs.CL",
+      "title": "</think> Doesn't Stop Reasoning: Analysis of Spurious CoT Termination",
+      "authors": [
+        "Seunghee Koh",
+        "Sungjae Choi",
+        "Minchan Kwon",
+        "Sunghyun Baek",
+        "Junmo Kim"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03619",
+      "abs_url": "https://arxiv.org/abs/2609.03619",
+      "source_category": "cs.CL",
+      "title": "Remember and Reweight: Enhancing Multi-Agent Debate with Experience Memory and Confidence Estimation",
+      "authors": [
+        "Xuanfa Jin",
+        "Zhijian Ma",
+        "Yongcheng Zeng",
+        "Xinyu Cui",
+        "Haifeng Zhang",
+        "Jun Wang"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03597",
+      "abs_url": "https://arxiv.org/abs/2609.03597",
+      "source_category": "cs.CL",
+      "title": "KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records",
+      "authors": [
+        "Tasmiad Hasan",
+        "Arafat Zaman Ratul",
+        "Sarker Sadman Saalim",
+        "S.M. Shah Nawaz Hossain",
+        "Khan Raiyan Ibne Reza",
+        "Sumaiya Tabassum Nimi"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03595",
+      "abs_url": "https://arxiv.org/abs/2609.03595",
+      "source_category": "cs.CL",
+      "title": "How Far Can Synthetic Data Take Thai OCR?",
+      "authors": [
+        "Kunat Pipatanakul"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03577",
+      "abs_url": "https://arxiv.org/abs/2609.03577",
+      "source_category": "cs.CL",
+      "title": "Language, Language Models, and What We're Talking About",
+      "authors": [
+        "Malvina Nissim"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03511",
+      "abs_url": "https://arxiv.org/abs/2609.03511",
+      "source_category": "cs.CL",
+      "title": "Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations",
+      "authors": [
+        "Karthika Nhayakkat",
+        "Rajat Verma",
+        "Maharaj Brahma",
+        "Vetcha Gnana Mahesh",
+        "Maunendra Sankar Desarkar",
+        "Ganesh Ramakrishnan",
+        "Rohit Saluja"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03502",
+      "abs_url": "https://arxiv.org/abs/2609.03502",
+      "source_category": "cs.CL",
+      "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
+      "authors": [
+        "Kunat Pipatanakul",
+        "Potsawee Manakul",
+        "Warit Sirichotedumrong",
+        "Sittipong Sripaisarnmongkol",
+        "Pakorn Nathong",
+        "Phatrasek Jirabovonvisut"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03487",
+      "abs_url": "https://arxiv.org/abs/2609.03487",
+      "source_category": "cs.CL",
+      "title": "Pattern Over-Generalization of Knowledge Graph Embedding",
+      "authors": [
+        "Junsik Kim",
+        "Kangil Kim"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03467",
+      "abs_url": "https://arxiv.org/abs/2609.03467",
+      "source_category": "cs.CL",
+      "title": "When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents",
+      "authors": [
+        "Wen-Yu Chang",
+        "Yun-Nung Chen"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03454",
+      "abs_url": "https://arxiv.org/abs/2609.03454",
+      "source_category": "cs.CL",
+      "title": "When Retrieval Helps: Selective Retrieval for Single-Turn Mental-Health QA",
+      "authors": [
+        "Hyunseo Oh",
+        "Chong-Kwon Kim",
+        "Yoonhyuk Choi"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03432",
+      "abs_url": "https://arxiv.org/abs/2609.03432",
+      "source_category": "cs.CL",
+      "title": "Decoupled Analysis-Judging: An Automated Creativity Evaluator Using LLMs in Complex Multi-step Creativity Tasks",
+      "authors": [
+        "Xiangyu Wang",
+        "Jin Wu",
+        "Xiaoyu Li",
+        "Chanjin Zheng",
+        "Yifeng Zhou"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03430",
+      "abs_url": "https://arxiv.org/abs/2609.03430",
+      "source_category": "cs.CL",
+      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+      "authors": [
+        "Heng Wang",
+        "Jielin Qiu",
+        "Wenting Zhao",
+        "Cheng Qian",
+        "Liangwei Yang",
+        "Jiawei Han",
+        "Heng Ji",
+        "Silvio Savarese",
+        "Shelby Heinecke",
+        "Huan Wang"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03426",
+      "abs_url": "https://arxiv.org/abs/2609.03426",
+      "source_category": "cs.CL",
+      "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
+      "authors": [
+        "Yunao Zheng",
+        "Bin Wen",
+        "Xiaojie Wang"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03410",
+      "abs_url": "https://arxiv.org/abs/2609.03410",
+      "source_category": "cs.CL",
+      "title": "To What Extent Do Large Language Models Understand Bangla Idioms?",
+      "authors": [
+        "Mousumi Akter",
+        "Md. Faiyaz Abdullah Sayeedi",
+        "Nurul Labib Sayeedi",
+        "Swakkhar Shatabda"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03395",
+      "abs_url": "https://arxiv.org/abs/2609.03395",
+      "source_category": "cs.CL",
+      "title": "TabScope: Question-Adaptive Scope Selection for Table Question Answering",
+      "authors": [
+        "Yuxiang Wang",
+        "Junhao Gan",
+        "Jianzhong Qi"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03394",
+      "abs_url": "https://arxiv.org/abs/2609.03394",
+      "source_category": "cs.CL",
+      "title": "Chiaroscuro for Emotions: A Contrastive Emotion Benchmark Grounded in Appraisal Theory",
+      "authors": [
+        "Divyesh Bommana",
+        "Mohammad Saim",
+        "Tianyu Jiang"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03370",
+      "abs_url": "https://arxiv.org/abs/2609.03370",
+      "source_category": "cs.CL",
+      "title": "FrameBench:A Language Understanding Benchmark Based on Frame Semantics",
+      "authors": [
+        "Chihiro Yano",
+        "Ryohei Sasano"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03366",
+      "abs_url": "https://arxiv.org/abs/2609.03366",
+      "source_category": "cs.CL",
+      "title": "Accountable AI with Grounded, Faithful, Consistent, Actionable Rationales: A Case Study in Clinical Trial Matching with VERDICT",
+      "authors": [
+        "Zikai Zhou",
+        "Yufei Jin",
+        "Yilin Xu",
+        "Yu-Chiang Wang",
+        "Chieh-Ju Chao",
+        "Monica S. Lam"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.LO"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03331",
+      "abs_url": "https://arxiv.org/abs/2609.03331",
+      "source_category": "cs.CL",
+      "title": "FPCO-Dialog: A Multi-Turn False-Premise Benchmark for Correction and Cooperation in Vision-Language Models",
+      "authors": [
+        "Jiayuan Ma",
+        "Yuqi Lu",
+        "Weiyang Guo",
+        "Chenrui Wang",
+        "Junyi Shu",
+        "Xuebo Liu",
+        "Min Zhang",
+        "Jing Li"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03330",
+      "abs_url": "https://arxiv.org/abs/2609.03330",
+      "source_category": "cs.CL",
+      "title": "Less Is Moral: A CHARMing Framework for Moral Foundations Detection in Endorsement Behaviour",
+      "authors": [
+        "Huixiang Fu",
+        "Marian-Andrei Rizoiu"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.SI"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03322",
+      "abs_url": "https://arxiv.org/abs/2609.03322",
+      "source_category": "cs.CL",
+      "title": "How Perturbations Propagate: A Multi-Level Analysis of Robustness in Large Language Models",
+      "authors": [
+        "Dun Li Chan",
+        "Emily Liu",
+        "Niyathi Allu",
+        "Christian Hoang"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "stat.ML"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03321",
+      "abs_url": "https://arxiv.org/abs/2609.03321",
+      "source_category": "cs.CL",
+      "title": "Decoupling Turn-Taking from Semantics: A Decoupled Data Approach for Finite-State-Machine-Based Full-Duplex Dialogue",
+      "authors": [
+        "Yihang Li",
+        "Chenhui Chu"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03293",
+      "abs_url": "https://arxiv.org/abs/2609.03293",
+      "source_category": "cs.CL",
+      "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
+      "authors": [
+        "Yoojin Kim",
+        "Jihyoung Jang",
+        "Hyounghun Kim"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03273",
+      "abs_url": "https://arxiv.org/abs/2609.03273",
+      "source_category": "cs.CL",
+      "title": "Contextual Tamil Spelling and Grammar Correction Using Progressively Fine-Tuned Sequence-to-Sequence Transformers",
+      "authors": [
+        "Karthikeyan A",
+        "Jaya Nirmala S",
+        "Sangeetha Sivanesan",
+        "Indhu R",
+        "Pranav Kumar",
+        "Bharat Jude Johnson",
+        "Vishnu Ram"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03254",
+      "abs_url": "https://arxiv.org/abs/2609.03254",
+      "source_category": "cs.CL",
+      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
+      "authors": [
+        "Daisuke Kikuta"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03235",
+      "abs_url": "https://arxiv.org/abs/2609.03235",
+      "source_category": "cs.CL",
+      "title": "SGD-KV: Summarization Guided KV Cache Compression",
+      "authors": [
+        "Zeyu Liu",
+        "Woomin Song",
+        "Xuandi Fu",
+        "Sai Muralidhar Jayanthi",
+        "Vivek Govindan",
+        "Aram Galstyan",
+        "Sravan Babu Bodapati",
+        "Srikanth Ronanki"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03221",
+      "abs_url": "https://arxiv.org/abs/2609.03221",
+      "source_category": "cs.CL",
+      "title": "Counterfactual Fairness Audits of Multi-Step Clinical LLM Agents Require a Measured Per-Action Instability Floor",
+      "authors": [
+        "Rohith Reddy Bellibaltu",
+        "Manpreet Singh",
+        "Deepak Parashar",
+        "Rahul Joshi"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03218",
+      "abs_url": "https://arxiv.org/abs/2609.03218",
+      "source_category": "cs.CL",
+      "title": "The Analyst in the Prompt: Role, Retrieval, and Memory Biases in LLM Financial Analysis",
+      "authors": [
+        "Ahmed Asaad",
+        "Amr Mohamed",
+        "Yang Zhang",
+        "Omneya Abdelsalam"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CE",
+        "cs.CL",
+        "q-fin.PM"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03215",
+      "abs_url": "https://arxiv.org/abs/2609.03215",
+      "source_category": "cs.CL",
+      "title": "SWIM: Student Writing Simulation via Proficiency-Conditioned Generation",
+      "authors": [
+        "Heejin Do",
+        "Jakub Kontak",
+        "Mrinmaya Sachan"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03213",
+      "abs_url": "https://arxiv.org/abs/2609.03213",
+      "source_category": "cs.CL",
+      "title": "LLMs Learn Better In-Context from Rules than from Examples",
+      "authors": [
+        "Xiang Fu",
+        "Seungmin Cho",
+        "Yukyung Lee",
+        "Najoung Kim"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03201",
+      "abs_url": "https://arxiv.org/abs/2609.03201",
+      "source_category": "cs.CL",
+      "title": "MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval",
+      "authors": [
+        "Meriem Yacoubi",
+        "Pia Schmidt",
+        "Nenad Petrovic",
+        "Ahmed Frikha",
+        "Martin Kirchhoff",
+        "Alois Knoll"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03181",
+      "abs_url": "https://arxiv.org/abs/2609.03181",
+      "source_category": "cs.CL",
+      "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+      "authors": [
+        "Alejandro Barón García",
+        "Feng Wang",
+        "Emilia Garcia Casademont",
+        "Han Xiao"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03160",
+      "abs_url": "https://arxiv.org/abs/2609.03160",
+      "source_category": "cs.CL",
+      "title": "No country for old linguists: LLM-brain alignment underdetermines neural computation",
+      "authors": [
+        "Elliot Murphy"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03148",
+      "abs_url": "https://arxiv.org/abs/2609.03148",
+      "source_category": "cs.CL",
+      "title": "Large Language Models in Resolving Contextual Knowledge Conflicts",
+      "authors": [
+        "Xinye Yang",
+        "Zhenyang Liu",
+        "Ruisi Li",
+        "Yuanyuan Lei"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03047",
+      "abs_url": "https://arxiv.org/abs/2609.03047",
+      "source_category": "cs.CL",
+      "title": "SHELF: A Synthetic Harness for Multi-Task Bibliographic Benchmarking",
+      "authors": [
+        "Michael J. Bommarito II"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03005",
+      "abs_url": "https://arxiv.org/abs/2609.03005",
+      "source_category": "cs.CL",
+      "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
+      "authors": [
+        "Xiao Shi Huang",
+        "Chen-Yuan Lin",
+        "Bruce Kuwahara",
+        "Kin Kwan Leung",
+        "Jesse C. Cresswell"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02954",
+      "abs_url": "https://arxiv.org/abs/2609.02954",
+      "source_category": "cs.CL",
+      "title": "LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation",
+      "authors": [
+        "Huiyuan Xie",
+        "Yuqin Huang",
+        "Zhicheng Hao",
+        "Yida Cai",
+        "Shaochun Wang",
+        "Zhenghao Liu",
+        "Yuxiao Ye"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02942",
+      "abs_url": "https://arxiv.org/abs/2609.02942",
+      "source_category": "cs.CL",
+      "title": "Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation",
+      "authors": [
+        "Anshul Bagaria",
+        "Sowmya S Sundaram",
+        "Gokul S Krishnan",
+        "Balaraman Ravindran"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02940",
+      "abs_url": "https://arxiv.org/abs/2609.02940",
+      "source_category": "cs.CL",
+      "title": "Listen to the Latents: Self-Correcting Speech Recognition in Large Audio Language Models Through Hidden-State Interactions",
+      "authors": [
+        "Chan-Jan Hsu",
+        "Jaeyeon Kim",
+        "Chao-Han Huck Yang",
+        "Shinji Watanabe",
+        "Hung-yi Lee",
+        "Carlos Busso"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02902",
+      "abs_url": "https://arxiv.org/abs/2609.02902",
+      "source_category": "cs.CL",
+      "title": "RL-ADA: A World-Feedback Framework for Adversarially Robust Enterprise Dialogue Agents",
+      "authors": [
+        "Ram Narayanan",
+        "Harshit Rajgarhia",
+        "Abhishek Mukherji"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02901",
+      "abs_url": "https://arxiv.org/abs/2609.02901",
+      "source_category": "cs.CL",
+      "title": "Dual-Form ASR: Semantics-Aware Inverse Text Normalization for Chinese Speech Recognition",
+      "authors": [
+        "Fengrun Zhang",
+        "Li Fu",
+        "Wangjin Zhou",
+        "Lu Fan",
+        "Youzheng Wu",
+        "Xiaodong He"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02899",
+      "abs_url": "https://arxiv.org/abs/2609.02899",
+      "source_category": "cs.CL",
+      "title": "Contamination Inflates Scores but Rarely Reorders Large Language Model Leaderboards",
+      "authors": [
+        "Xingyao Xiao",
+        "Yihong Cheng"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "stat.AP",
+        "stat.ME"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02898",
+      "abs_url": "https://arxiv.org/abs/2609.02898",
+      "source_category": "cs.CL",
+      "title": "Distilled Rapid Embedding Transfer (DRET): Parameter-Efficient Biomedical Domain Adaptation via Priority-Based Embedding Transfer",
+      "authors": [
+        "Girish Sundaram",
+        "Daniel Berleant"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02897",
+      "abs_url": "https://arxiv.org/abs/2609.02897",
+      "source_category": "cs.CL",
+      "title": "Margins, Not Windows: Training-Free Per-Step Lossy Speculative Decoding",
+      "authors": [
+        "Oszkár Urbán",
+        "Young D. Kwon",
+        "Stylianos I. Venieris",
+        "Cecilia Mascolo"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02896",
+      "abs_url": "https://arxiv.org/abs/2609.02896",
+      "source_category": "cs.CL",
+      "title": "PiPMRE: A Pipeline Based on Language Model for Medical Relation Extraction",
+      "authors": [
+        "Jiaxin Duan",
+        "Fengyu Lu",
+        "Junfei Liu"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02895",
+      "abs_url": "https://arxiv.org/abs/2609.02895",
+      "source_category": "cs.CL",
+      "title": "BharatGather: A Culturally-Informed Benchmark Dataset for Misinformation and Fake News Detection in Indian Public Events",
+      "authors": [
+        "Parth Bramhecha",
+        "Smit Deshmukh",
+        "Sairaj Bodhale",
+        "Adwait Borate",
+        "Raviraj Joshi"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02894",
+      "abs_url": "https://arxiv.org/abs/2609.02894",
+      "source_category": "cs.CL",
+      "title": "R$^{2}$Adapter: A Routing and Rewriting Adapter for Efficient Hybrid RAG",
+      "authors": [
+        "Yucan Guo",
+        "Miao Su",
+        "Saiping Guan",
+        "Long Bai",
+        "Zhongni Hou",
+        "Zixuan Li",
+        "Xiaolong Jin",
+        "Jiafeng Guo",
+        "Xueqi Cheng"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02893",
+      "abs_url": "https://arxiv.org/abs/2609.02893",
+      "source_category": "cs.CL",
+      "title": "Probe Generalization as Subspace Selection for OOD Deception Detection",
+      "authors": [
+        "Daniel Yoo",
+        "Adrians Skapars"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02892",
+      "abs_url": "https://arxiv.org/abs/2609.02892",
+      "source_category": "cs.CL",
+      "title": "Counterexamples as Feedback for Agent Self-Correction",
+      "authors": [
+        "Sidhesh Badrinarayan",
+        "Adithya Parthasarathy"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02890",
+      "abs_url": "https://arxiv.org/abs/2609.02890",
+      "source_category": "cs.CL",
+      "title": "Bounded Personas Match Retrieval on Classification but Not Regression for a Frozen Agent",
+      "authors": [
+        "JaeHa Yoon",
+        "Minjun Park",
+        "Seoyeon Kim",
+        "Jiwoo Lee",
+        "Hyunwoo Choi",
+        "Dohyun Kang"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02889",
+      "abs_url": "https://arxiv.org/abs/2609.02889",
+      "source_category": "cs.CL",
+      "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
+      "authors": [
+        "Michael Nguyen",
+        "Wei Chen Tan",
+        "Nurul Aisyah Hassan",
+        "Arvind Raman",
+        "Li Hua Lim",
+        "Ahmad Faiz Razak"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04172",
+      "abs_url": "https://arxiv.org/abs/2609.04172",
+      "source_category": "cs.CL",
+      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+      "authors": [
+        "Zixuan Fu",
+        "Bingxiang He",
+        "Yuxin Zuo",
+        "Haohuan Huang",
+        "Jinqian Zhang",
+        "Ruhang Xiao",
+        "Cheng Qian",
+        "Qinyu Luo",
+        "Huan-ang Gao",
+        "Yudong Wang",
+        "Zhiyuan Liu",
+        "Ning Ding",
+        "Chaojun Xiao"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04148",
+      "abs_url": "https://arxiv.org/abs/2609.04148",
+      "source_category": "cs.CL",
+      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+      "authors": [
+        "Jie Wu",
+        "Zhenru Zhang",
+        "Beichen Zhang",
+        "Xuwu Wang",
+        "Yuhui Su",
+        "Mouxiang Chen",
+        "Peng Wang",
+        "Zhihai Wang",
+        "Que Shen",
+        "Hao Zhou",
+        "An Yang",
+        "Fei Huang",
+        "Yujiu Yang",
+        "Dayiheng Liu"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04083",
+      "abs_url": "https://arxiv.org/abs/2609.04083",
+      "source_category": "cs.CL",
+      "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
+      "authors": [
+        "Tingyu Song",
+        "Mingxin Li",
+        "Yanzhao Zhang",
+        "Dingkun Long",
+        "Chu Liu",
+        "Pengjun Xie",
+        "Yilun Zhao",
+        "Shu Wu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04061",
+      "abs_url": "https://arxiv.org/abs/2609.04061",
+      "source_category": "cs.CL",
+      "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+      "authors": [
+        "Tongyao Zhu",
+        "Wei Hern Lim",
+        "Min-Yen Kan"
+      ],
+      "primary_subject": "Software Engineering (cs.SE)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04047",
+      "abs_url": "https://arxiv.org/abs/2609.04047",
+      "source_category": "cs.CL",
+      "title": "The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations",
+      "authors": [
+        "Dmitrij Żatuchin"
+      ],
+      "primary_subject": "Information Retrieval (cs.IR)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04034",
+      "abs_url": "https://arxiv.org/abs/2609.04034",
+      "source_category": "cs.CL",
+      "title": "Editable Visual Design",
+      "authors": [
+        "Junyan Ye",
+        "Wei Liu",
+        "Dongzhi Jiang",
+        "Zichen Wen",
+        "HaoDong Li",
+        "Zhutao Lv",
+        "Jiaxin Lin",
+        "Jinhua Yu",
+        "Jun He",
+        "Zilong Huang",
+        "Rui Chen",
+        "Weijia Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.04024",
+      "abs_url": "https://arxiv.org/abs/2609.04024",
+      "source_category": "cs.CL",
+      "title": "Instruction Duplication as an Inference-Time Control Primitive",
+      "authors": [
+        "Victor Lavrenko"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03985",
+      "abs_url": "https://arxiv.org/abs/2609.03985",
+      "source_category": "cs.CL",
+      "title": "IchthyoNoma: Nomenclature and Context Sensitivity of Zero-Shot Biological Vision--Language Models for Bangladeshi Freshwater Fish Recognition",
+      "authors": [
+        "Nazim-E-Alam",
+        "Tarek Rahman",
+        "Md Kishor Morol"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03960",
+      "abs_url": "https://arxiv.org/abs/2609.03960",
+      "source_category": "cs.CL",
+      "title": "FiMI Banking: A Sovereign Model for Indian Retail Banking",
+      "authors": [
+        "NPCI AI Research Team",
+        "Aman Kumar",
+        "Asit Desai",
+        "Chandra Bhushan",
+        "Harsh Sharma",
+        "Harshit Bhushan",
+        "Hrithik Kadam",
+        "Keyur Doshi",
+        "Kolisetty Sai Kapardheeswar",
+        "Krishanu Adhikary",
+        "Nadeem Shaik",
+        "Navya Prakash",
+        "Nitin Kukreja",
+        "Prashant Devadiga",
+        "Shamanth MH",
+        "Shantanu Pandey",
+        "Suvradip Paul",
+        "Yatharth Dedhia"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03949",
+      "abs_url": "https://arxiv.org/abs/2609.03949",
+      "source_category": "cs.CL",
+      "title": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch",
+      "authors": [
+        "WenJie Fan"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03943",
+      "abs_url": "https://arxiv.org/abs/2609.03943",
+      "source_category": "cs.CL",
+      "title": "More Criticism Does Not Make a Better Review: EquiReview-R",
+      "authors": [
+        "Zexing Zhang",
+        "Jichao Li",
+        "Tianyang Lei",
+        "Yude Fu",
+        "Yang Kewei"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03941",
+      "abs_url": "https://arxiv.org/abs/2609.03941",
+      "source_category": "cs.CL",
+      "title": "Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO",
+      "authors": [
+        "Hyun Bin Park",
+        "Du-Seong Chang"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03923",
+      "abs_url": "https://arxiv.org/abs/2609.03923",
+      "source_category": "cs.CL",
+      "title": "Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting",
+      "authors": [
+        "Muneeb Khan",
+        "Frederic Kirstein",
+        "Terry Ruas",
+        "Bela Gipp"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03844",
+      "abs_url": "https://arxiv.org/abs/2609.03844",
+      "source_category": "cs.CL",
+      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+      "authors": [
+        "Simone Ceppi",
+        "Ignacio Sanchez"
+      ],
+      "primary_subject": "Cryptography and Security (cs.CR)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03820",
+      "abs_url": "https://arxiv.org/abs/2609.03820",
+      "source_category": "cs.CL",
+      "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
+      "authors": [
+        "Prakhar Khatri"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03811",
+      "abs_url": "https://arxiv.org/abs/2609.03811",
+      "source_category": "cs.CL",
+      "title": "VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence",
+      "authors": [
+        "JoyIndustrial VisCAD Team",
+        "Linxin Cai",
+        "Qiuhe Hong",
+        "Zhichao Huang",
+        "Guanlin Li",
+        "Hongsen Liu",
+        "Ziqi Liu",
+        "Yichen Long",
+        "Luya Wang",
+        "Yuchen Wang",
+        "Wenxiang Wu",
+        "Huimu Yu",
+        "Ning Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03797",
+      "abs_url": "https://arxiv.org/abs/2609.03797",
+      "source_category": "cs.CL",
+      "title": "Transfiver: Human-AI Co-Inference through a Shared Editable State",
+      "authors": [
+        "Minji Park",
+        "Seunghyun Yoon",
+        "Hyuk Lim"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03788",
+      "abs_url": "https://arxiv.org/abs/2609.03788",
+      "source_category": "cs.CL",
+      "title": "A Reverse Sign Language Dictionary: Open-Vocabulary Sign Recognition from Continuous Signing via Video Captioning and Description Retrieval",
+      "authors": [
+        "Santiago Poveda-Gutiérrez",
+        "Hideki Nakayama",
+        "Mayumi Bono"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03773",
+      "abs_url": "https://arxiv.org/abs/2609.03773",
+      "source_category": "cs.CL",
+      "title": "RealCADBench: Benchmarking Parametric CAD Modeling from Industrial Design Intents",
+      "authors": [
+        "JoyIndustrial VisCAD Team",
+        "Linxin Cai",
+        "Qiuhe Hong",
+        "Zhichao Huang",
+        "Guanlin Li",
+        "Zongzhen Li",
+        "Hongsen Liu",
+        "Yichen Long",
+        "Wei Wang",
+        "Yuchen Wang",
+        "Dongyue Yang",
+        "Huimu Yu",
+        "Xianwen Zhong"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03770",
+      "abs_url": "https://arxiv.org/abs/2609.03770",
+      "source_category": "cs.CL",
+      "title": "OBER+: Continuity-Aware Reporting and Traceable Continuous Improvement in Outcome-Based Education",
+      "authors": [
+        "Elakkiya Rajasekar"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03749",
+      "abs_url": "https://arxiv.org/abs/2609.03749",
+      "source_category": "cs.CL",
+      "title": "Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG",
+      "authors": [
+        "Alexandr Goultiaev Tolstokorov",
+        "Kyriakos Mouratidis",
+        "Javad Dogani",
+        "Nikolaos Laoutaris"
+      ],
+      "primary_subject": "Cryptography and Security (cs.CR)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03742",
+      "abs_url": "https://arxiv.org/abs/2609.03742",
+      "source_category": "cs.CL",
+      "title": "KnowVis: Knowledge-Centric Visual Summarization for Video Lectures",
+      "authors": [
+        "Yi Xu",
+        "Yifan Hou",
+        "Xiaoyu Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03718",
+      "abs_url": "https://arxiv.org/abs/2609.03718",
+      "source_category": "cs.CL",
+      "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
+      "authors": [
+        "Jiasheng Shi",
+        "Tianhan Zhang"
+      ],
+      "primary_subject": "Computational Engineering, Finance, and Science (cs.CE)",
+      "subject_categories": [
+        "cs.CE",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03677",
+      "abs_url": "https://arxiv.org/abs/2609.03677",
+      "source_category": "cs.CL",
+      "title": "Understanding Autonomous Driving Datasets by Describing Differences between Image Subsets in Natural Language",
+      "authors": [
+        "Julian Truetsch",
+        "Felix Hauser",
+        "Christoph Stiller",
+        "Frank Bieder"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.LG",
+        "cs.NE",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03580",
+      "abs_url": "https://arxiv.org/abs/2609.03580",
+      "source_category": "cs.CL",
+      "title": "HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews",
+      "authors": [
+        "Tzu-Ling Lin",
+        "Dong-Ting Yao",
+        "Teng-Fang Hsiao",
+        "Wei-Chih Chen",
+        "Hong-Han Shuai"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03450",
+      "abs_url": "https://arxiv.org/abs/2609.03450",
+      "source_category": "cs.CL",
+      "title": "Plan Pointers and Record-Directive Form in Budgeted Verification of Inherited Agent Memory",
+      "authors": [
+        "Kazuki Nakayashiki"
+      ],
+      "primary_subject": "Information Retrieval (cs.IR)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03436",
+      "abs_url": "https://arxiv.org/abs/2609.03436",
+      "source_category": "cs.CL",
+      "title": "It's the Problem, Not the Path: Budget and Difficulty Confounds in LLM Reasoning Trajectories",
+      "authors": [
+        "Yigit Utku Bulut"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03355",
+      "abs_url": "https://arxiv.org/abs/2609.03355",
+      "source_category": "cs.CL",
+      "title": "ALRA: Adaptive Local Relational Alignment for Logit-Based Pre-training Distillation of Autoregressive Language Models",
+      "authors": [
+        "Quang Hoang Trung",
+        "Quang Huu Hieu",
+        "Nguyen Van Hoang Phuc",
+        "Vo Nguyen Le Duy"
+      ],
+      "primary_subject": "Machine Learning (stat.ML)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03350",
+      "abs_url": "https://arxiv.org/abs/2609.03350",
+      "source_category": "cs.CL",
+      "title": "From Zero to Hero: An Open LLM Ecosystem for Armenian",
+      "authors": [
+        "Erik Arakelyan",
+        "Khatun Avetisyan",
+        "Meri Davtyan",
+        "Heghine Grigoryan",
+        "Nane Khachatryan",
+        "Hayk Shahsuvaryan",
+        "Henrik Sergoyan",
+        "Vahan Martirosyan"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03261",
+      "abs_url": "https://arxiv.org/abs/2609.03261",
+      "source_category": "cs.CL",
+      "title": "MedQA-MM: Shortcuts Behind Medical Visual Reasoning",
+      "authors": [
+        "Benlu Wang",
+        "Yifan Zhang",
+        "Jiaqing Yu",
+        "Chin Siang Ong",
+        "Juncheng Huang",
+        "Zhuohao Li",
+        "Zhenyu Zhang",
+        "Arman Cohan",
+        "Hong Yu",
+        "Zonghai Yao"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03206",
+      "abs_url": "https://arxiv.org/abs/2609.03206",
+      "source_category": "cs.CL",
+      "title": "Learning to Zoom Efficiently with a Contrastive Curriculum",
+      "authors": [
+        "Falko Helm",
+        "Iryna Gurevych"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03203",
+      "abs_url": "https://arxiv.org/abs/2609.03203",
+      "source_category": "cs.CL",
+      "title": "VoxReason: Listener-Free Evaluation of Source-Grounded Speech Planning Before Synthesis",
+      "authors": [
+        "Mengzhe Geng"
+      ],
+      "primary_subject": "Sound (cs.SD)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03158",
+      "abs_url": "https://arxiv.org/abs/2609.03158",
+      "source_category": "cs.CL",
+      "title": "Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization",
+      "authors": [
+        "Qingchan Zhu",
+        "Weihang You",
+        "Hanqi Jiang",
+        "Changdi Yang",
+        "Tianming Liu",
+        "Geng Yuan"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.03150",
+      "abs_url": "https://arxiv.org/abs/2609.03150",
+      "source_category": "cs.CL",
+      "title": "Routing Is Not Enough: Diagnosing Intra-Adapter Subspace Contention in MoE+LoRA Fine-Tuning",
+      "authors": [
+        "Mehreen Hossain Chowdhury",
+        "Nowshin Mahjabin",
+        "Ahmed Shafin Ruhan",
+        "Md Azam Hossain",
+        "Abu Raihan Mostofa Kamal",
+        "Md Tahmid Rahman Laskar"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02998",
+      "abs_url": "https://arxiv.org/abs/2609.02998",
+      "source_category": "cs.CL",
+      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+      "authors": [
+        "Zhiwei Zhang",
+        "Zechen Sun",
+        "Fei Zhao",
+        "Kang Peng",
+        "Bin Liang",
+        "Huayu Deng",
+        "Yao Hu",
+        "Kam-Fai Wong",
+        "Mu Chuan"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02959",
+      "abs_url": "https://arxiv.org/abs/2609.02959",
+      "source_category": "cs.CL",
+      "title": "The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors",
+      "authors": [
+        "Toni J.B. Liu",
+        "Jiajun Bao",
+        "Yizhou Liu",
+        "Gurbir Arora",
+        "Nicolas Boullé",
+        "Raphaël Sarfati",
+        "Christopher J. Earls"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02947",
+      "abs_url": "https://arxiv.org/abs/2609.02947",
+      "source_category": "cs.CL",
+      "title": "Privacy-Preserving Heterogeneous Multi-LLM Federated Inference for Cognitive Diagnosis",
+      "authors": [
+        "Yagna Manasa Boyapati",
+        "Chong Yu",
+        "Tianyu Jiang",
+        "Justin Zhan"
+      ],
+      "primary_subject": "Cryptography and Security (cs.CR)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02941",
+      "abs_url": "https://arxiv.org/abs/2609.02941",
+      "source_category": "cs.CL",
+      "title": "SISER: Speaker-Invariant Speech Emotion Recognition with Entropy-Based Adversarial Training",
+      "authors": [
+        "Eunseo Choi",
+        "Hyunku Kang",
+        "Chanwoo Kim"
+      ],
+      "primary_subject": "Sound (cs.SD)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02911",
+      "abs_url": "https://arxiv.org/abs/2609.02911",
+      "source_category": "cs.CL",
+      "title": "A Spectral Phase Admissibility Certificate for Complex Linear Maps",
+      "authors": [
+        "Snigdha Chandan Khilar"
+      ],
+      "primary_subject": "General Physics (physics.gen-ph)",
+      "subject_categories": [
+        "cs.CL"
+      ],
+      "announcement_date": "2026-09-04"
+    },
+    {
+      "paper_id": "2609.02900",
+      "abs_url": "https://arxiv.org/abs/2609.02900",
+      "source_category": "cs.CL",
+      "title": "DisclosureBeta: A Measurement-Channel Theory for Regime-Conditioned Betas from LLM-Read Risk Disclosures",
+      "authors": [
+        "Ping Kuen Wong"
+      ],
+      "primary_subject": "Risk Management (q-fin.RM)",
+      "subject_categories": [
+        "cs.CL",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "announcement_date": "2026-09-04"
+    }
+  ]
+}
