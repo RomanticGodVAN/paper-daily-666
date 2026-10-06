@@ -1,0 +1,5493 @@
+{
+  "source": "arxiv_list_pastweek_html",
+  "category": "cs.CV",
+  "announcement_date": "2026-10-06",
+  "fetched_at": "2026-10-06T07:36:30Z",
+  "count": 285,
+  "entries": [
+    {
+      "paper_id": "2610.06852",
+      "abs_url": "https://arxiv.org/abs/2610.06852",
+      "source_category": "cs.CV",
+      "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+      "authors": [
+        "Shih-Chen Tseng",
+        "Chih-Hsuan Chen",
+        "Ryan Yang",
+        "Hsi-An Chen",
+        "Chun-Wei Tuan Mu",
+        "Yu-Lun Liu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06847",
+      "abs_url": "https://arxiv.org/abs/2610.06847",
+      "source_category": "cs.CV",
+      "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+      "authors": [
+        "Jeffrey Hu",
+        "Daniel Olmeda Reino",
+        "Ayush Tewari"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06844",
+      "abs_url": "https://arxiv.org/abs/2610.06844",
+      "source_category": "cs.CV",
+      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+      "authors": [
+        "Omer Dahary",
+        "Etai Sella",
+        "Hadar Averbuch-Elor",
+        "Daniel Cohen-Or",
+        "Or Patashnik"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06837",
+      "abs_url": "https://arxiv.org/abs/2610.06837",
+      "source_category": "cs.CV",
+      "title": "Anatomy-aware Fine-grained Multimodal Fusion for Laryngopharyngeal Cancer T-Staging Prediction Using CT and Radiology Report",
+      "authors": [
+        "Xingyue Zhao",
+        "Yanzhou Su",
+        "Fang Zhang",
+        "Zhanghexuan Ji",
+        "Yirui Wang",
+        "Dazhou Guo",
+        "Sibo Ju",
+        "Yuehua Cheng",
+        "Yuzhen Chen",
+        "Ming Feng",
+        "Le Lu",
+        "Tsung-Ying Ho",
+        "Jian Wang",
+        "Dakai Jin",
+        "Na Shen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06831",
+      "abs_url": "https://arxiv.org/abs/2610.06831",
+      "source_category": "cs.CV",
+      "title": "UniSlider: Perceptually Uniform Sliders for Continuous Image Editing",
+      "authors": [
+        "David Serrano-Lozano",
+        "Duygu Ceylan",
+        "Yannick Hold-Geoffroy",
+        "Iliyan Georgiev",
+        "Javier Vazquez-Corral",
+        "Anna Frühstück"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06814",
+      "abs_url": "https://arxiv.org/abs/2610.06814",
+      "source_category": "cs.CV",
+      "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+      "authors": [
+        "Xuanyu Lu",
+        "Fengqing Jiang",
+        "Kaiyuan Zheng",
+        "Yichen Feng",
+        "Yaorui Ding",
+        "Yuetai Li",
+        "Zhen Xiang",
+        "Bhaskar Ramasubramanian",
+        "Basel Alomair",
+        "Luyao Niu",
+        "Radha Poovendran"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06813",
+      "abs_url": "https://arxiv.org/abs/2610.06813",
+      "source_category": "cs.CV",
+      "title": "Less Context, Better Geometry: Masked Geometric Encoder for Robust 3D Foundation Models",
+      "authors": [
+        "Zhimin Shao",
+        "Xijun Liu",
+        "Zhaoliang Zhang",
+        "Yutao Tang",
+        "Abhay Yadav",
+        "Rama Chellappa",
+        "Cheng Peng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06801",
+      "abs_url": "https://arxiv.org/abs/2610.06801",
+      "source_category": "cs.CV",
+      "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+      "authors": [
+        "Jiarui Chen",
+        "Zeqiang Lai",
+        "Jiangshan Wang",
+        "Ziheng Ouyang",
+        "Ye Huang",
+        "Xiangyu Yue",
+        "Cewu Lu",
+        "Chunchao Guo"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06704",
+      "abs_url": "https://arxiv.org/abs/2610.06704",
+      "source_category": "cs.CV",
+      "title": "Extending Dynamic World Surface Water Mapping to Sentinel-1 with AlphaEarth Embeddings",
+      "authors": [
+        "Rohit Mukherjee",
+        "Frederick Policelli",
+        "Beth Tellman",
+        "TC Chakraborty",
+        "Jonathan Giezendanner",
+        "Jonathan A. Sullivan",
+        "Ning Sun"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06688",
+      "abs_url": "https://arxiv.org/abs/2610.06688",
+      "source_category": "cs.CV",
+      "title": "GS-Pool: Object-Level Change Detection in 3D Gaussian Splatting",
+      "authors": [
+        "Boaz Keren-Gil",
+        "James Gain",
+        "Patrick Marais"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06687",
+      "abs_url": "https://arxiv.org/abs/2610.06687",
+      "source_category": "cs.CV",
+      "title": "ChronoWorld: Camera-Controlled Consistent 4D World Generation via Spatiotemporal Cues and Geometric Reflections",
+      "authors": [
+        "Xiaoyu Zhou",
+        "Dingwei Xian",
+        "Zhenyu Wang",
+        "Yajiao Xiong",
+        "Yongtao Wang",
+        "Ming-Hsuan Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06672",
+      "abs_url": "https://arxiv.org/abs/2610.06672",
+      "source_category": "cs.CV",
+      "title": "VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding",
+      "authors": [
+        "Yucheng Liu",
+        "Yufei Yin",
+        "Mingxiao Feng",
+        "Jiajun Deng",
+        "Wengang Zhou",
+        "Houqiang Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06663",
+      "abs_url": "https://arxiv.org/abs/2610.06663",
+      "source_category": "cs.CV",
+      "title": "Cross-dataset harmonization for robust endoscopic image analysis",
+      "authors": [
+        "Romil Imtiaz",
+        "Dimitris K. Iakovidis"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06658",
+      "abs_url": "https://arxiv.org/abs/2610.06658",
+      "source_category": "cs.CV",
+      "title": "Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation",
+      "authors": [
+        "Baiqin Wang",
+        "Zhixing Ding",
+        "Jijie Li",
+        "Jiankuo Zhao",
+        "Zhen Lei",
+        "Xiangyu Zhu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06617",
+      "abs_url": "https://arxiv.org/abs/2610.06617",
+      "source_category": "cs.CV",
+      "title": "RealtimeWAM: One-Step Asynchronous World Action Models",
+      "authors": [
+        "Chengtao Lv",
+        "Jinyang Du",
+        "Shuyi Feng",
+        "Yang Yong",
+        "Shiqiao Gu",
+        "Shunzi Yang",
+        "Ruihao Gong",
+        "Shen Ren",
+        "Tianwei Zhang",
+        "Wenya Wang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06616",
+      "abs_url": "https://arxiv.org/abs/2610.06616",
+      "source_category": "cs.CV",
+      "title": "Video Encoders Built on Image Representations",
+      "authors": [
+        "Jusheng Zhang",
+        "Wenhao Wang",
+        "Longqi Cai",
+        "Liangzhe Yuan",
+        "Yuxiao Wang",
+        "Ming-Hsuan Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06611",
+      "abs_url": "https://arxiv.org/abs/2610.06611",
+      "source_category": "cs.CV",
+      "title": "Lens3D: Target-Conditioned Visual Foveation for Fine-Grained 3D Understanding",
+      "authors": [
+        "Junming Huang",
+        "Zini Chen",
+        "Shuaiying Hou",
+        "Chi Wang",
+        "Qiang Dai",
+        "Weiwei Xu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06602",
+      "abs_url": "https://arxiv.org/abs/2610.06602",
+      "source_category": "cs.CV",
+      "title": "Multitask Conditional Generative Adversarial Network Enables Automatic Whole Knee Cartilage and Menisci Segmentation and Reliable T1\\r{ho} and T2 Quantification Without High-Resolution Morphological Images",
+      "authors": [
+        "Ahmed Tahseen Minhaz",
+        "Richard Lartey",
+        "Zhiyuan Zhang",
+        "Jeehun Kim",
+        "Kunio Nakamura",
+        "Mingrui Yang",
+        "Jiasen Zhang",
+        "Weihong Guo",
+        "Naveen Subhas",
+        "Carl S. Winalski",
+        "Xiaojuan Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06596",
+      "abs_url": "https://arxiv.org/abs/2610.06596",
+      "source_category": "cs.CV",
+      "title": "Analysis of SWIR Imaging Detection Performance Under Adverse Environmental Conditions for Autonomous Driving Systems",
+      "authors": [
+        "Rohan Mehra",
+        "Alexandre Riffard",
+        "Yannis Loumouamou",
+        "Mathieu Labussière"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06594",
+      "abs_url": "https://arxiv.org/abs/2610.06594",
+      "source_category": "cs.CV",
+      "title": "VGGT-Bridge: Beyond Sequential Pose Graphs via Coarse-Stride Skip Edges",
+      "authors": [
+        "Sungjae Choi",
+        "Hanna Bae",
+        "Sunghyun Baek",
+        "Junmo Kim"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06588",
+      "abs_url": "https://arxiv.org/abs/2610.06588",
+      "source_category": "cs.CV",
+      "title": "Keepsake: Selective Spatial Memory for Long-Horizon Video Generation",
+      "authors": [
+        "Abdul Mohaimen Al Radi",
+        "Kunyang Li",
+        "Yuzhang Shang",
+        "Mubarak Shah",
+        "Yu Tian"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06575",
+      "abs_url": "https://arxiv.org/abs/2610.06575",
+      "source_category": "cs.CV",
+      "title": "FrontVeg V2: A Training-Free Software Framework for Foreground-Aware Zero-Shot Plant Trait Segmentation in High-Resolution Images of Trellised Crops",
+      "authors": [
+        "Abdoul Djalil Ousseini Hamza",
+        "Herearii Metuarea",
+        "Corentin Lothod{é}",
+        "Morgane Roth",
+        "Jacem Ben Hamden",
+        "Eric Duch{ê}ne",
+        "Lionel Ley",
+        "David Alletru",
+        "David Rousseau"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06571",
+      "abs_url": "https://arxiv.org/abs/2610.06571",
+      "source_category": "cs.CV",
+      "title": "BrainTRACE: Tracing Longitudinal, Multimodal, and Volumetric Evidence in Brain MRI Clinical Reasoning",
+      "authors": [
+        "Qizhen Lan",
+        "Mengchen Fan",
+        "Hang Zhang",
+        "Jingwei Duan",
+        "Moule Lin",
+        "Jialin Chen",
+        "Baocheng Geng",
+        "Xiaoqian Jiang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06508",
+      "abs_url": "https://arxiv.org/abs/2610.06508",
+      "source_category": "cs.CV",
+      "title": "A General Pipeline for Dense Illuminant Estimation via Physically Based Synthetic Data",
+      "authors": [
+        "Luca Cogo",
+        "Gianmarco Corti",
+        "Simone Bianco",
+        "Raimondo Schettini"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06503",
+      "abs_url": "https://arxiv.org/abs/2610.06503",
+      "source_category": "cs.CV",
+      "title": "Harmful Content Generation in Text-to-Image Models: Capabilities and Moderation Limitations",
+      "authors": [
+        "Paschalis Giakoumoglou",
+        "Manos Schinas",
+        "Symeon Papadopoulos"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06502",
+      "abs_url": "https://arxiv.org/abs/2610.06502",
+      "source_category": "cs.CV",
+      "title": "NeuroCBIR: A Fast and Accurate Image Retrieval System for Whole-Brain and Region-Specific MRI",
+      "authors": [
+        "Felix Nieto-del-Amor",
+        "Jingru Fu",
+        "J.-Sebastian Muehlboeck",
+        "Eric Westman",
+        "Daniel Ferreira",
+        "Rodrigo Moreno"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06494",
+      "abs_url": "https://arxiv.org/abs/2610.06494",
+      "source_category": "cs.CV",
+      "title": "Topology-Informed Prompt-Conditioned Universal Segmentation of Uterine Structures from Ultrasound and MRI",
+      "authors": [
+        "Yongheng Sun",
+        "Yuexi Gu",
+        "Jingwen Sun",
+        "Maureen Kohi",
+        "Mingxia Liu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06472",
+      "abs_url": "https://arxiv.org/abs/2610.06472",
+      "source_category": "cs.CV",
+      "title": "MaRO-GS: Mask-Robust Object-Centric Gaussian Splatting from Inconsistent Multi-view Masks",
+      "authors": [
+        "Eunji Kim",
+        "Gahyeon Kim",
+        "Gianella Cravioto",
+        "Dong-hun Lee",
+        "Chaewon Moon",
+        "Chae-yeong Song",
+        "Sang-hyo Park"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06423",
+      "abs_url": "https://arxiv.org/abs/2610.06423",
+      "source_category": "cs.CV",
+      "title": "Toward Reliable Infant Pose Estimation: A Training-Dynamics Approach to Noisy Annotation Detection",
+      "authors": [
+        "Emanuele Cardinale",
+        "Sara Moccia",
+        "Alessandro Cacciatore",
+        "Lucia Migliorelli"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06413",
+      "abs_url": "https://arxiv.org/abs/2610.06413",
+      "source_category": "cs.CV",
+      "title": "SpatialChain: A Benchmark for Auditing Spatial Reasoning Faithfulness in VLMs",
+      "authors": [
+        "Rafael Teixeira Sousa",
+        "Vinícius Paulo Lopes de Oliveira",
+        "Elisa Ayumi Masasi de Oliveira",
+        "Luiza Martins de Freitas Cintra",
+        "Fernanda Bufon Färber",
+        "Igor Dias Aguiar",
+        "Julia Yasmim de Almeida Nobre",
+        "Arlindo Rodrigues Galvão Filho"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06394",
+      "abs_url": "https://arxiv.org/abs/2610.06394",
+      "source_category": "cs.CV",
+      "title": "Harnessing Multimodal Large Language Models for Training-Free Human-Object Interaction Detection",
+      "authors": [
+        "Zhaolin Cai",
+        "Huiyu Duan",
+        "Liu Yang",
+        "Yanjun Qin",
+        "Bo Ai",
+        "Wei Chen",
+        "Xiongkuo Min",
+        "Guangtao Zhai"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06389",
+      "abs_url": "https://arxiv.org/abs/2610.06389",
+      "source_category": "cs.CV",
+      "title": "Multi-Task Partially Supervised Learning for Super-Resolution and Semantic Segmentation on Earth Observation data",
+      "authors": [
+        "Hoàng-Ân Lê",
+        "Minh-Tan Pham",
+        "Solange Lemai-Chenevier",
+        "Daniel Greslou"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06378",
+      "abs_url": "https://arxiv.org/abs/2610.06378",
+      "source_category": "cs.CV",
+      "title": "MTOR: Generalizable AI-Generated Video Detection with Multimodal Semantics and Temporal Over-Regularity",
+      "authors": [
+        "Hang Wang",
+        "Chao Shen",
+        "Lei Zhang",
+        "Zhi-Qi Cheng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06369",
+      "abs_url": "https://arxiv.org/abs/2610.06369",
+      "source_category": "cs.CV",
+      "title": "Environmental sensor readings in two crop disease image datasets identify the session in which each image was taken",
+      "authors": [
+        "Sungwoo Kang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06349",
+      "abs_url": "https://arxiv.org/abs/2610.06349",
+      "source_category": "cs.CV",
+      "title": "KineWorld: Action-Induced Transport Fields for Embodied World Modeling",
+      "authors": [
+        "Ziying Song",
+        "Yuchen Liu",
+        "Zhuoran Xu",
+        "Ziyang Liu",
+        "Jian Jin",
+        "Jiangtao Su",
+        "Haibao Yu",
+        "Lei Yang",
+        "Yuanpei Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06342",
+      "abs_url": "https://arxiv.org/abs/2610.06342",
+      "source_category": "cs.CV",
+      "title": "MeSD: Multi-Evidence Self-Distillation for VideoLLM",
+      "authors": [
+        "Weijie Zhu",
+        "Han Fang",
+        "Hanyu Fu",
+        "Yuzhe Zhang",
+        "Xin Wei",
+        "Zhaoyan Pan",
+        "Feiran Liu",
+        "Xunjie Jin",
+        "Hongbo Sun",
+        "Zhiyu Lin",
+        "Tianyi Gao",
+        "Tianyi Ding",
+        "Ye Yuan",
+        "Zhongjiang He",
+        "Hao Sun",
+        "Zhiheng Wu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06339",
+      "abs_url": "https://arxiv.org/abs/2610.06339",
+      "source_category": "cs.CV",
+      "title": "BabelFake: A Multilingual Audio-Visual DeepFake Benchmark",
+      "authors": [
+        "Carlotta Segna",
+        "Joel Tschesche",
+        "Anna Rohrbach"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06334",
+      "abs_url": "https://arxiv.org/abs/2610.06334",
+      "source_category": "cs.CV",
+      "title": "SPIN: Image Immunization Against Diffusion Editing via Single-Step Projection in Stochastic Neighborhoods",
+      "authors": [
+        "Fengming Gu",
+        "Jie Zhang",
+        "Zhongqi Wang",
+        "Qiankun Li",
+        "Shiguang Shan",
+        "Xilin Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06324",
+      "abs_url": "https://arxiv.org/abs/2610.06324",
+      "source_category": "cs.CV",
+      "title": "Readout Blindness: VLM Scores Miss the Spatial Direction Their Frozen Encoders Retain",
+      "authors": [
+        "Guangyuan Li",
+        "Tianming Du",
+        "Yan Jiang",
+        "Bihan Wen",
+        "Jiancheng Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06318",
+      "abs_url": "https://arxiv.org/abs/2610.06318",
+      "source_category": "cs.CV",
+      "title": "Wiring Matters: Injection Topology and Initialization of Affordance Heads in Vision-Language-Action Policies",
+      "authors": [
+        "Zijian An",
+        "Linhan Wang",
+        "Jiayan Wang",
+        "Shijie Geng",
+        "Ran Yang",
+        "Yiming Feng",
+        "Lifeng Zhou"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06293",
+      "abs_url": "https://arxiv.org/abs/2610.06293",
+      "source_category": "cs.CV",
+      "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
+      "authors": [
+        "Qiutong Chen",
+        "Yuchan Guo",
+        "Zhenlong Yuan",
+        "Haobo Yang",
+        "Fangfang Lin",
+        "Xinyi Long",
+        "Yin Wang",
+        "Zijian Song",
+        "Rui Lan",
+        "Shi Qiu",
+        "Boyuan Pan",
+        "Yang Luo",
+        "Yuyin Zhou"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06260",
+      "abs_url": "https://arxiv.org/abs/2610.06260",
+      "source_category": "cs.CV",
+      "title": "CentriQ: Calibration-Free Quantization of Diffusion Transformers via Exact Mean Centering",
+      "authors": [
+        "Nataša Jovanović",
+        "Mathieu Salzmann",
+        "Saqib Javed"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06234",
+      "abs_url": "https://arxiv.org/abs/2610.06234",
+      "source_category": "cs.CV",
+      "title": "Joint Class-Time Learning for Video Classification with Multi-Instance Partial-Label Learning",
+      "authors": [
+        "Lingyu Shen",
+        "Wei Tang",
+        "Fakhri Karray",
+        "Min-Ling Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06221",
+      "abs_url": "https://arxiv.org/abs/2610.06221",
+      "source_category": "cs.CV",
+      "title": "Frequency-Decoupled Diffusion Guidance for Non-Blind Image Deblurring",
+      "authors": [
+        "Sihan Wang",
+        "Jinshu Huang",
+        "Haibin Su",
+        "Yunhua Xue"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06210",
+      "abs_url": "https://arxiv.org/abs/2610.06210",
+      "source_category": "cs.CV",
+      "title": "MoCAR: Motion-code Coordinate-aware AutoRegression for Continuous Trajectory Forecasting",
+      "authors": [
+        "Yiming Xu",
+        "Hao Cheng",
+        "Monika Sester"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06196",
+      "abs_url": "https://arxiv.org/abs/2610.06196",
+      "source_category": "cs.CV",
+      "title": "EORestore-Agent: Fidelity-Guided Agentic Restoration of Remote Sensing Images with Composite Degradations",
+      "authors": [
+        "Heli Qi",
+        "Zeqi Zhou",
+        "Jingjun Yi",
+        "Kunyi Liu",
+        "Ziyang Lihe",
+        "Junjue Wang",
+        "Osamu Yoshie",
+        "Naoto Yokoya"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06167",
+      "abs_url": "https://arxiv.org/abs/2610.06167",
+      "source_category": "cs.CV",
+      "title": "Bayesian Optimization in Sequence-to-Architecture Latent Space for Zero-Shot NAS",
+      "authors": [
+        "Ondrej Tybl",
+        "Lukas Neumann"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06147",
+      "abs_url": "https://arxiv.org/abs/2610.06147",
+      "source_category": "cs.CV",
+      "title": "Efficient Test-time Adaptation through Candidate Verification and Divergence Shifts",
+      "authors": [
+        "Seungmin Oh",
+        "Seunghun Kang",
+        "Jongbin Ryu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06135",
+      "abs_url": "https://arxiv.org/abs/2610.06135",
+      "source_category": "cs.CV",
+      "title": "AnchorGen: Anchored Optimization for Customizable Generative 3D Design",
+      "authors": [
+        "Hantao Zhang",
+        "Oliver Heinimann",
+        "Jieke Wu",
+        "Yingxuan You",
+        "Emilien Seiler",
+        "Pascal Fua"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06102",
+      "abs_url": "https://arxiv.org/abs/2610.06102",
+      "source_category": "cs.CV",
+      "title": "Benchmarking CLIP for Zero-Shot Face and Periocular Gender Estimation",
+      "authors": [
+        "Fernando Alonso-Fernandez",
+        "Kevin Hernandez-Diaz",
+        "Jose Maria Buades",
+        "Josef Bigun"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06094",
+      "abs_url": "https://arxiv.org/abs/2610.06094",
+      "source_category": "cs.CV",
+      "title": "Anatomy-preserving unpaired cone-beam CT refinement for image-guided radiotherapy using pseudo-label guided diffusion",
+      "authors": [
+        "Qi Lai",
+        "Yutong He"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06063",
+      "abs_url": "https://arxiv.org/abs/2610.06063",
+      "source_category": "cs.CV",
+      "title": "Vision Transformer Ensembles for Panoramic Street Segmentation",
+      "authors": [
+        "Yunus Serhat Bıçakçı"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06056",
+      "abs_url": "https://arxiv.org/abs/2610.06056",
+      "source_category": "cs.CV",
+      "title": "ROT: Rotating Hidden States towards Contextual Vectors for Hallucination Mitigation in LVLMs",
+      "authors": [
+        "Yijing Du",
+        "Xiangcheng Zhan",
+        "Shuo Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06052",
+      "abs_url": "https://arxiv.org/abs/2610.06052",
+      "source_category": "cs.CV",
+      "title": "Local2Mesh: Spatially Localized Contour-to-Mesh for Left Ventricular Reconstruction from Sparse 2D Cardiac MRI",
+      "authors": [
+        "Haoyu Wu",
+        "Ling Lin",
+        "Pascal Lefèvre",
+        "Ruizhe Li",
+        "Xiaowu Sun"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06041",
+      "abs_url": "https://arxiv.org/abs/2610.06041",
+      "source_category": "cs.CV",
+      "title": "Representation Disentanglement for Fair Chest X-Ray Diagnosis",
+      "authors": [
+        "Yujie Sun",
+        "Ruizhe Li",
+        "Xiaowu Sun"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06035",
+      "abs_url": "https://arxiv.org/abs/2610.06035",
+      "source_category": "cs.CV",
+      "title": "Casual Flash Lighting for Gaussian Splat Inverse Rendering",
+      "authors": [
+        "Jiamin Xu",
+        "Dongheng Wei",
+        "Jiarong Zhao",
+        "Qi Wang",
+        "James Tompkin",
+        "Weiwei Xu",
+        "Gang Xu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06021",
+      "abs_url": "https://arxiv.org/abs/2610.06021",
+      "source_category": "cs.CV",
+      "title": "Scalable Minimal-Change Learning for Controllable Image Editing",
+      "authors": [
+        "Shuo Chen",
+        "Fengming Huang",
+        "Yu Yao",
+        "Mingming Gong",
+        "Tongliang Liu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06020",
+      "abs_url": "https://arxiv.org/abs/2610.06020",
+      "source_category": "cs.CV",
+      "title": "Patch-based Querying Identifies Structures of Interest in Electron Microscopy",
+      "authors": [
+        "Niels Vyncke",
+        "Nicolas Nadisic",
+        "Yvan Saeys",
+        "Aleksandra Pižurica"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06018",
+      "abs_url": "https://arxiv.org/abs/2610.06018",
+      "source_category": "cs.CV",
+      "title": "Investigating Query-Insensitive Behavior in Spatio-Temporal Video Grounding",
+      "authors": [
+        "Eryk Kołodziejczyk",
+        "Alberto Presta",
+        "Karol Szurkowski",
+        "Michal Byra"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05993",
+      "abs_url": "https://arxiv.org/abs/2610.05993",
+      "source_category": "cs.CV",
+      "title": "From Transformation to Target State: Rethinking Query Representation for Zero-Shot Composed Image Retrieval",
+      "authors": [
+        "Yihe Zhao",
+        "Songhe Feng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05987",
+      "abs_url": "https://arxiv.org/abs/2610.05987",
+      "source_category": "cs.CV",
+      "title": "Label-Free Coreset Selection with Foundation Models for Efficient Annotation in Computational Pathology",
+      "authors": [
+        "Tuo Yin",
+        "Jennifer Dhont"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05967",
+      "abs_url": "https://arxiv.org/abs/2610.05967",
+      "source_category": "cs.CV",
+      "title": "JLD: Perceptual Distance Through A Jacobian Lens",
+      "authors": [
+        "Shreshth Saini",
+        "Balu Adsumilli",
+        "Alan C. Bovik"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05940",
+      "abs_url": "https://arxiv.org/abs/2610.05940",
+      "source_category": "cs.CV",
+      "title": "ReMem: Streaming Video Understanding With Long Context Retention",
+      "authors": [
+        "Li Yiheng",
+        "He Xu",
+        "Wang Shaobo",
+        "Shao Ling",
+        "Lu Shijian"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05932",
+      "abs_url": "https://arxiv.org/abs/2610.05932",
+      "source_category": "cs.CV",
+      "title": "UltraDub: Towards Authentic Dubbing by Unifying Visually-Steered Flow Learning and Trajectory Guidance",
+      "authors": [
+        "Gaoxiang Cong",
+        "Liang Li",
+        "Jianwei Wen",
+        "Zhedong Zhang",
+        "Zheng-Jun Zha",
+        "Qingming Huang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.MM",
+        "cs.SD"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05918",
+      "abs_url": "https://arxiv.org/abs/2610.05918",
+      "source_category": "cs.CV",
+      "title": "Prompt and Refinement: Asymmetric Mutual Learning for Infrared Small Target Detection with Noisy Labels",
+      "authors": [
+        "Yimin Fu",
+        "Songbo Wang",
+        "Lizhuo Liu",
+        "Baicheng Pan",
+        "Zhunga Liu",
+        "Michael K. Ng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05911",
+      "abs_url": "https://arxiv.org/abs/2610.05911",
+      "source_category": "cs.CV",
+      "title": "Every View Counts: View-Consistent Panoptic Quality for Multi-view Panoptic Segmentation",
+      "authors": [
+        "Youngmin Lee",
+        "Byungha Ko",
+        "Guhnoo Yun",
+        "Dong Hwan Kim"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05910",
+      "abs_url": "https://arxiv.org/abs/2610.05910",
+      "source_category": "cs.CV",
+      "title": "AstraSR: Real-World Thermal Super-Resolution with GPT-6 Astra",
+      "authors": [
+        "Mengyuan Li",
+        "Changhong Fu",
+        "Jun Zhang",
+        "Ziyu Lu",
+        "Yuhang Zhang",
+        "Haobo Zuo"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05908",
+      "abs_url": "https://arxiv.org/abs/2610.05908",
+      "source_category": "cs.CV",
+      "title": "Safe Image Generation via Reinforcement Learning",
+      "authors": [
+        "Eungyeol Han",
+        "Jong-Seok Lee"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05900",
+      "abs_url": "https://arxiv.org/abs/2610.05900",
+      "source_category": "cs.CV",
+      "title": "End-to-End Autonomous Recursive Arborescence Deformable Flow and Non-Linear Hemodynamics for Patient-Specific Coronary Centerline Extraction",
+      "authors": [
+        "Zeyu Jia",
+        "Xin Ming"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "q-bio.TO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05899",
+      "abs_url": "https://arxiv.org/abs/2610.05899",
+      "source_category": "cs.CV",
+      "title": "LoDEOT: Low-Dimensional and Efficient Offset Tokens for Building Footprint Extraction from Off-Nadir Imagery",
+      "authors": [
+        "Kai Li",
+        "Zigan Zhou",
+        "Zhenyang Li",
+        "Hui Shan",
+        "Zhe Chen",
+        "Yupeng Deng",
+        "Zhihao Xi",
+        "Yu Meng",
+        "Yifan Peng",
+        "Xiangyu Zhao"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05897",
+      "abs_url": "https://arxiv.org/abs/2610.05897",
+      "source_category": "cs.CV",
+      "title": "Fitting Vision Adapters at Frontier Scales",
+      "authors": [
+        "Jaehoon Lee",
+        "Harry Partridge",
+        "Mudith Jayasekara",
+        "Charles O'Neill",
+        "Max Kirkby",
+        "Michael Psenka"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05896",
+      "abs_url": "https://arxiv.org/abs/2610.05896",
+      "source_category": "cs.CV",
+      "title": "TasteRoute: Personalized Routing for Video Generation",
+      "authors": [
+        "Zhi Rui Tam",
+        "Chao-Chung Wu",
+        "Sin-Han Yang",
+        "Peyton Ku",
+        "Brendan Kuang",
+        "Tzu-Ting Hsieh",
+        "Min-Fang Hsu",
+        "Fang-Ling Tsai",
+        "Yun-Nung Chen",
+        "Wei-Chiu Ma",
+        "Chieh-Yen Lin"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05891",
+      "abs_url": "https://arxiv.org/abs/2610.05891",
+      "source_category": "cs.CV",
+      "title": "Spatial Supervision Without Attribution Optimization: Improving Post-Hoc Class Activation Maps via Box-Guided Evidence Routing",
+      "authors": [
+        "Wenhao Liang",
+        "Liangwei Nathan Zheng",
+        "Lin Yue",
+        "Wei Emma Zhang",
+        "Mingyu Guo",
+        "Weitong Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05880",
+      "abs_url": "https://arxiv.org/abs/2610.05880",
+      "source_category": "cs.CV",
+      "title": "fMRI-TAMCL: Text-Anchored Supervised Multimodal Contrastive Learning for fMRI-Based Brain Disorder Classification",
+      "authors": [
+        "Juliana Mantebea Danso",
+        "Enoch Opanin Gyamfi",
+        "Mylene C.Q. Farias"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05870",
+      "abs_url": "https://arxiv.org/abs/2610.05870",
+      "source_category": "cs.CV",
+      "title": "Certification of Real Images through Calibrated Content Authentication",
+      "authors": [
+        "Sarim Hashmi",
+        "Abdelrahman Elsayed",
+        "Mohammed Talha Alam",
+        "Samuele Poppi",
+        "Nils Lukas"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05865",
+      "abs_url": "https://arxiv.org/abs/2610.05865",
+      "source_category": "cs.CV",
+      "title": "Weave Mamba Fusion: Global Cross-Scale Interaction for Lightweight Face Detection",
+      "authors": [
+        "Dohun Kim",
+        "Jinmyung Jung"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05861",
+      "abs_url": "https://arxiv.org/abs/2610.05861",
+      "source_category": "cs.CV",
+      "title": "Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training",
+      "authors": [
+        "Yongxin Ning",
+        "Runliang Niu",
+        "Qianli Xing",
+        "Zhiyi Duan",
+        "Qingzu He",
+        "Pan Wang",
+        "Qi Wang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05816",
+      "abs_url": "https://arxiv.org/abs/2610.05816",
+      "source_category": "cs.CV",
+      "title": "Level-of-Token Diffusion",
+      "authors": [
+        "Kiyohiro Nakayama",
+        "Brian Chao",
+        "Jan Ackermann",
+        "Hansheng Chen",
+        "Federico Tombari",
+        "Leonidas Guibas",
+        "Lior Yariv",
+        "Gordon Wetzstein"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05801",
+      "abs_url": "https://arxiv.org/abs/2610.05801",
+      "source_category": "cs.CV",
+      "title": "Gauss-Map Variation for Image Denoising: Geometric Analysis and an Anderson--Accelerated Majorization--Minimization Method",
+      "authors": [
+        "Haibin Su"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05790",
+      "abs_url": "https://arxiv.org/abs/2610.05790",
+      "source_category": "cs.CV",
+      "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
+      "authors": [
+        "Md Aminur Hossain",
+        "Omkumar Vaghasiya",
+        "Rajeev Ranjan Dwivedi",
+        "Vinod Kurmi",
+        "Biplab Banerjee"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05779",
+      "abs_url": "https://arxiv.org/abs/2610.05779",
+      "source_category": "cs.CV",
+      "title": "A Spatiotemporal Semantic Importance-Guided Unified Compression and Editing Framework for AI-Generated Videos",
+      "authors": [
+        "Xihua Sheng",
+        "Dong Liu",
+        "Chang Wen Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.MM"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05775",
+      "abs_url": "https://arxiv.org/abs/2610.05775",
+      "source_category": "cs.CV",
+      "title": "InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems",
+      "authors": [
+        "Enxin Song",
+        "Suhao Yu",
+        "Yifei Xu",
+        "Barbara Su",
+        "Weili Xu",
+        "Wenhao Chai",
+        "Yao Tang",
+        "Jie Deng",
+        "Haiyang Xu",
+        "Jiatao Gu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05771",
+      "abs_url": "https://arxiv.org/abs/2610.05771",
+      "source_category": "cs.CV",
+      "title": "Controllable Road Marking Generation",
+      "authors": [
+        "Zhiyu",
+        "Yufan Zhang",
+        "Ruichen Tan",
+        "Zengxiang Lei",
+        "Satish Ukkusuri"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05758",
+      "abs_url": "https://arxiv.org/abs/2610.05758",
+      "source_category": "cs.CV",
+      "title": "A Three-Dimensional Reverse-Projection Method for Sparse Point Cloud Completion and Its Application to High-Speed Train Nose Reconstruction",
+      "authors": [
+        "Xiaozhen Ma",
+        "Zhao Tang",
+        "Hanbin Lai",
+        "Ruiqi Chen",
+        "Jin Jin"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05756",
+      "abs_url": "https://arxiv.org/abs/2610.05756",
+      "source_category": "cs.CV",
+      "title": "Vision-enabled detection of safety helmet compliance in construction zones",
+      "authors": [
+        "Tri Nhut Do*",
+        "Ba Loc Pham"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05749",
+      "abs_url": "https://arxiv.org/abs/2610.05749",
+      "source_category": "cs.CV",
+      "title": "A new design of a fall detection system integrating landmark identification and deep learning techniques",
+      "authors": [
+        "Tri Nhut Do",
+        "Thi Thuy Le"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05743",
+      "abs_url": "https://arxiv.org/abs/2610.05743",
+      "source_category": "cs.CV",
+      "title": "Robust Local Optimization Done Right",
+      "authors": [
+        "James Pritts",
+        "Kevin Köser"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.MS"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05739",
+      "abs_url": "https://arxiv.org/abs/2610.05739",
+      "source_category": "cs.CV",
+      "title": "HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models",
+      "authors": [
+        "Zhuokun Chen",
+        "Feng Chen",
+        "Xi Lin",
+        "Xiyu Wu",
+        "Jiahao He",
+        "Jianfei Cai",
+        "Bohan Zhuang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05731",
+      "abs_url": "https://arxiv.org/abs/2610.05731",
+      "source_category": "cs.CV",
+      "title": "T-JEPA: A Temporal Joint-Embedding Predictive Architecture for Learning Better Remote Sensing Representations",
+      "authors": [
+        "Bowen Peng",
+        "Li Liu",
+        "Yongxiang Liu",
+        "Weijie Li",
+        "Jie Zhou",
+        "Zhen Liu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05715",
+      "abs_url": "https://arxiv.org/abs/2610.05715",
+      "source_category": "cs.CV",
+      "title": "Rotated, but How Far? Diagnosing and Improving Object-Rotation Reasoning in VLMs",
+      "authors": [
+        "Zhaochen Wang",
+        "Yujun Cai",
+        "Huangbo Zou",
+        "Hower Yang",
+        "Naipeng Dong",
+        "Miao Xu",
+        "Haibin Ling"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05707",
+      "abs_url": "https://arxiv.org/abs/2610.05707",
+      "source_category": "cs.CV",
+      "title": "Difference Feature Map Distillation: Transferring Inter-Sample Relational Knowledge Towards Efficient Transformer-Based Tracking",
+      "authors": [
+        "Zhicheng Ding",
+        "Xinyu Chu",
+        "Qing Tian"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05664",
+      "abs_url": "https://arxiv.org/abs/2610.05664",
+      "source_category": "cs.CV",
+      "title": "StageVLN: Spatial and Trajectory Auxiliary Guidance for Efficient Vision-Language Navigation",
+      "authors": [
+        "Anh Dao",
+        "Quan-Dung Pham",
+        "Le Danh Vinh",
+        "Anh Nguyen",
+        "Nguyen Viet Tri Pham",
+        "Yiyu Chen",
+        "Pham Tuyen Le",
+        "Van-Truong Nguyen",
+        "Quan Nguyen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05608",
+      "abs_url": "https://arxiv.org/abs/2610.05608",
+      "source_category": "cs.CV",
+      "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+      "authors": [
+        "Team Kandinsky",
+        "Julia Agafonova",
+        "Bulat Akhmatov",
+        "Mikhail Aksyutin",
+        "Grigorii Alekseenko",
+        "Anastasia Aliaskina",
+        "Olga Androsova",
+        "Vladimir Arkhipkin",
+        "Anna Averchenkova",
+        "Alexander Belykh",
+        "Serafima Bocharova",
+        "Sofiya Bogakovskaya",
+        "Anton Bukashkin",
+        "Mark Bulygin",
+        "Kirill Buzygin",
+        "Irina Cheremnykh",
+        "Kirill Chernyshev",
+        "Mikhail Chernyshov",
+        "Vladimir Chernyy",
+        "David Chikovani",
+        "Georgy Daniltsev",
+        "Denis Dimitrov",
+        "Anna Dmitrienko",
+        "Vladimir Dokholyan",
+        "Sergey Emelyanov",
+        "Dmitry Ermilov",
+        "Georgii Fedorov",
+        "Polina Gavrilova",
+        "Nikolai Gerasimenko",
+        "Aleksandr Gordeev",
+        "Andrey Inozemtsev",
+        "Andrei Ivaniuta",
+        "Alexander Ivanov",
+        "Mikhail Karaev",
+        "Anastasiia Kargapoltseva",
+        "Ivan Kirillov",
+        "Nikita Kiselev",
+        "Valeria Kobenko",
+        "Yury Kolabushin",
+        "Denis Koposov",
+        "Anatoly Korobov",
+        "Vladimir Korviakov",
+        "Kirill Kozlov",
+        "Denis Krzhivokolskiy",
+        "Konstantin Kuklev",
+        "Alexander Kunitsyn",
+        "Sergey Kuzin",
+        "Vladislav Lakhtionov",
+        "Alexey Letunovskiy",
+        "Maxim Litvinov",
+        "Alexander Lyulkov",
+        "Georgy Makarov",
+        "Kirill Malakhov",
+        "Egor Malykh",
+        "Mikhail Mamaev",
+        "Dmitrii Mikhailov",
+        "Polina Mikhailova",
+        "Ivan Mikheev",
+        "Elizaveta Muromtseva",
+        "Nikolai Nazarkin",
+        "Tatiana Nikulina",
+        "Lev Novitskiy",
+        "Stanislav Onuchin",
+        "Nikita Osterov",
+        "Denis Parkhomenko",
+        "Anatoliy Parpara",
+        "Vladimir Polovnikov",
+        "Konstantin Reznikov",
+        "Azat Saginbaev",
+        "Nikita Samsonov",
+        "Alexander Sentsov",
+        "Nikita Shaimov",
+        "Artem Sherstyuk",
+        "Andrey Shutkin",
+        "Egor Silvestrov",
+        "Bulat Suleimanov",
+        "Matvey Suprunov",
+        "Sergey Taranov",
+        "Irina Tolstykh",
+        "Tatiana Trofimuk",
+        "Ilya Trushkin",
+        "Aleksandra Tsybina",
+        "Olga Varlashina",
+        "Viacheslav Vasilev",
+        "Ilya Vasiliev",
+        "Eugeny Vilisov",
+        "Sergey Yakubson",
+        "Konstantin Zakharov"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05603",
+      "abs_url": "https://arxiv.org/abs/2610.05603",
+      "source_category": "cs.CV",
+      "title": "EchoDino: A pediatric foundation model for transferable echocardiographic analysis across the lifespan",
+      "authors": [
+        "Sheng Cheng",
+        "Donnchadh M. O'Sullivan",
+        "Daniel J. Penny",
+        "Craig G. Rusin",
+        "Minh B. Nguyen",
+        "Devika Subramanian"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05587",
+      "abs_url": "https://arxiv.org/abs/2610.05587",
+      "source_category": "cs.CV",
+      "title": "Generating the Wild: Individual-Consistent Image-to-Video Generation for Wildlife",
+      "authors": [
+        "Yuzhuo Li",
+        "Di Zhao",
+        "Xinyu Zhang",
+        "Daniel Wilson",
+        "Yun Sing Koh"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05576",
+      "abs_url": "https://arxiv.org/abs/2610.05576",
+      "source_category": "cs.CV",
+      "title": "SteadySplats: Resampling of Low-Variance Gaussians for High-Fidelity Stochastic Rendering",
+      "authors": [
+        "Felix Windisch",
+        "Thomas Köhler",
+        "Lukas Radl",
+        "Chris Wyman",
+        "Georgios Kopanas",
+        "Bernhard Kerb",
+        "Markus Steinberger"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05552",
+      "abs_url": "https://arxiv.org/abs/2610.05552",
+      "source_category": "cs.CV",
+      "title": "Monocular markerless biomechanics for clinically interpretable gait assessment in spinal cord injury",
+      "authors": [
+        "Shreyasvi Natraj",
+        "Mathieu Ruepp",
+        "Yanke Li",
+        "Robert Riener",
+        "Inge Eriks-Hoogland",
+        "Diego Paez-Granados"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05531",
+      "abs_url": "https://arxiv.org/abs/2610.05531",
+      "source_category": "cs.CV",
+      "title": "Deep Prior Learning for Embodied Perception",
+      "authors": [
+        "Yimou Wu",
+        "Jiaxin Guo",
+        "Yun-hui Liu",
+        "Zheng Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05529",
+      "abs_url": "https://arxiv.org/abs/2610.05529",
+      "source_category": "cs.CV",
+      "title": "DynaMesh: Dynamic 3D Texture Generation",
+      "authors": [
+        "Raj Hansini",
+        "Guan Chen",
+        "Rana Hanocka",
+        "Itai Lang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05425",
+      "abs_url": "https://arxiv.org/abs/2610.05425",
+      "source_category": "cs.CV",
+      "title": "Unmentioned Checklist Findings Change How Reinforcement Learning Appears to Improve Chest Radiograph Report Checking",
+      "authors": [
+        "Ali Vosoughi",
+        "Akhil Kasturi",
+        "Chenliang Xu",
+        "Axel Wismueller"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05417",
+      "abs_url": "https://arxiv.org/abs/2610.05417",
+      "source_category": "cs.CV",
+      "title": "Render to Reason: Novel-View Semantic Prediction Improves Spatial Understanding in VLMs",
+      "authors": [
+        "Yuqun Wu",
+        "Yao Xiao",
+        "Chuhang Zou",
+        "Shenlong Wang",
+        "Derek Hoiem"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05416",
+      "abs_url": "https://arxiv.org/abs/2610.05416",
+      "source_category": "cs.CV",
+      "title": "Prism: Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training",
+      "authors": [
+        "Shuyuan Tu",
+        "Qi Tian",
+        "Yinming Huang",
+        "Yue Wu",
+        "Xintong Han",
+        "Kaihang Pan",
+        "Weijie Kong",
+        "Jiangfeng Xiong",
+        "Jian-Wei Zhang",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05413",
+      "abs_url": "https://arxiv.org/abs/2610.05413",
+      "source_category": "cs.CV",
+      "title": "A Strong Baseline for Evaluating Vision Encoders in Multimodal Large Language Models",
+      "authors": [
+        "Yilin Yang",
+        "Jun-Tao Tang",
+        "Kengyi Wang",
+        "Siyuan Su",
+        "Gaoyong Luo",
+        "Mingda Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05411",
+      "abs_url": "https://arxiv.org/abs/2610.05411",
+      "source_category": "cs.CV",
+      "title": "CleanMDM: Clean Motion Diffusion Model for Multimodal Motion Cleanup",
+      "authors": [
+        "Zhe Li",
+        "Shicheng Wang",
+        "Bowen Cai",
+        "Huan Fu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05349",
+      "abs_url": "https://arxiv.org/abs/2610.05349",
+      "source_category": "cs.CV",
+      "title": "Learning Conditional Source Distribution via Flow Reversal for Temporal Flow Matching",
+      "authors": [
+        "Kuan-Hsun Tu",
+        "Hsuan-Chi Liu",
+        "Jia-Wei Liao",
+        "Chien-Sheng Chiang",
+        "Tsung-Wei Ke"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05342",
+      "abs_url": "https://arxiv.org/abs/2610.05342",
+      "source_category": "cs.CV",
+      "title": "IRSTD-Agent: Agentic Infrared Small Target Detection via Zoom-Guided Interaction Learning",
+      "authors": [
+        "Jiawen Xi",
+        "Yu Zhang",
+        "Tianyi Zhao",
+        "Zhu Liu",
+        "Maoxun Yuan",
+        "Xingxing Wei"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05341",
+      "abs_url": "https://arxiv.org/abs/2610.05341",
+      "source_category": "cs.CV",
+      "title": "WILLIE: A Unified Framework and Benchmark for Wound Classification, Segmentation, and Localization",
+      "authors": [
+        "Gopi Trinadh Maddikunta",
+        "Shannan Hamlin",
+        "Hsin-Mei Chen",
+        "Kimaya Barnes",
+        "Peizhu Qian"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05326",
+      "abs_url": "https://arxiv.org/abs/2610.05326",
+      "source_category": "cs.CV",
+      "title": "Riemannian Shape Analysis of the Corpus Callosum in Kendall Space: Aging and Alzheimer's Disease",
+      "authors": [
+        "Olakunle S. Abawonse",
+        "Fatou Fall"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "math.DG",
+        "math.OC"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05325",
+      "abs_url": "https://arxiv.org/abs/2610.05325",
+      "source_category": "cs.CV",
+      "title": "Shadow Feature Refinement Network: Progressive Feature Refinement based on Knowledge Distillation for Effective Shadow Removal",
+      "authors": [
+        "Donghyun Han",
+        "Byoung-Dai Lee"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05306",
+      "abs_url": "https://arxiv.org/abs/2610.05306",
+      "source_category": "cs.CV",
+      "title": "Kinematics-Centric Continuous Sign Language Retrieval with Gloss-Guided Boundary-Aware Alignment",
+      "authors": [
+        "Chang Liu",
+        "Ke Han",
+        "Davide Talon",
+        "Elisa Ricci",
+        "Nicu Sebe"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05298",
+      "abs_url": "https://arxiv.org/abs/2610.05298",
+      "source_category": "cs.CV",
+      "title": "Revisiting Ground-Truth Synthesis from High-Speed Video: Exact Validity Conditions and an Audited Consumer Capture Corpus",
+      "authors": [
+        "Abdullah Al Shafi",
+        "Sumaiya Rahim Suma"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05293",
+      "abs_url": "https://arxiv.org/abs/2610.05293",
+      "source_category": "cs.CV",
+      "title": "BossouChimpanzee: Long-term Chimpanzee Video Dataset",
+      "authors": [
+        "Daniel Schofield",
+        "Susana Carvalho",
+        "Vladimir Iashin",
+        "Andrew Zisserman",
+        "Max Bain",
+        "Arsha Nagrani",
+        "David Ng",
+        "Claudia Sousa",
+        "Boniface Zogbila",
+        "Jules Doré",
+        "Dora Biro",
+        "Misato Hayashi",
+        "Tetsuro Matsuzawa"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05289",
+      "abs_url": "https://arxiv.org/abs/2610.05289",
+      "source_category": "cs.CV",
+      "title": "Mobile-4DGS: Unified Static-Dynamic Real-time Mobile Gaussian Splatting",
+      "authors": [
+        "Xiaobiao Du",
+        "Beixi Hao",
+        "Zhen Fang",
+        "Tianqing Zhu",
+        "Richard Hartley",
+        "Xin Yu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05274",
+      "abs_url": "https://arxiv.org/abs/2610.05274",
+      "source_category": "cs.CV",
+      "title": "Answer with Evidence: Consistency-Aware Grounded Visual Question Answering for Roadside Traffic Scenes",
+      "authors": [
+        "Runwei Guan",
+        "Rongsheng Hu",
+        "Shangshu Chen",
+        "Ningwei Ouyang",
+        "Shaofeng Liang",
+        "Heyi Lin",
+        "Jinjing Zhu",
+        "Yang Shi",
+        "Dongming Wu",
+        "Daizong Liu",
+        "Henghui Ding",
+        "Hui Xiong"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.HC"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05273",
+      "abs_url": "https://arxiv.org/abs/2610.05273",
+      "source_category": "cs.CV",
+      "title": "When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA",
+      "authors": [
+        "Tianjun Shi",
+        "Haotian Xiong",
+        "Ziyu Gong",
+        "Qi Lu",
+        "Li Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05254",
+      "abs_url": "https://arxiv.org/abs/2610.05254",
+      "source_category": "cs.CV",
+      "title": "Hybrid-Basis Feature Forecasting for Diffusion Sampling Acceleration",
+      "authors": [
+        "Kai-Liang Cheng",
+        "Yuan-Yuan Cheng",
+        "Yu-fan Jin",
+        "Xiao-Ming Fu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05252",
+      "abs_url": "https://arxiv.org/abs/2610.05252",
+      "source_category": "cs.CV",
+      "title": "MGPO: Manifold-Guided Diffusion Alignment for Task-Aware Dataset Distillation",
+      "authors": [
+        "Yunyi Chen",
+        "Chenru Wang",
+        "Xinyi Ye",
+        "Zexin Zheng",
+        "Chi Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05249",
+      "abs_url": "https://arxiv.org/abs/2610.05249",
+      "source_category": "cs.CV",
+      "title": "ArticuTable: Generating Instance-Level Interactive Rigid-Articulated 3D Tabletop Scenes from a Single Image",
+      "authors": [
+        "Kai Lv",
+        "Yibo Yin",
+        "Lijun Guo",
+        "Heng Fan",
+        "Kaihao Zhang",
+        "Xingping Dong"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05233",
+      "abs_url": "https://arxiv.org/abs/2610.05233",
+      "source_category": "cs.CV",
+      "title": "PixReenact: Pixel-Conditioned Causal Video Diffusion for Streaming Head-Avatar Reenactment",
+      "authors": [
+        "Gavriel Habib",
+        "Dvir Samuel",
+        "Or Shimshi",
+        "Rami Ben-Ari"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05207",
+      "abs_url": "https://arxiv.org/abs/2610.05207",
+      "source_category": "cs.CV",
+      "title": "F$^2$ SLAM: Turning Feed-Forward Geometry into Persistent Factors for SLAM",
+      "authors": [
+        "Zhisong Xu",
+        "Fan Zhu",
+        "Jiawei Qian",
+        "Ziyu Chen",
+        "Zhenjun Zhao",
+        "Javier Civera"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05195",
+      "abs_url": "https://arxiv.org/abs/2610.05195",
+      "source_category": "cs.CV",
+      "title": "Long-MDR: Long-Context Reinforcement Learning for Multimodal Deep-Research Agents",
+      "authors": [
+        "On Tai Tang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05191",
+      "abs_url": "https://arxiv.org/abs/2610.05191",
+      "source_category": "cs.CV",
+      "title": "Order Matters: Competition-Guided Query Ordering for RNN-Based Object Detection",
+      "authors": [
+        "Shengjian Wu",
+        "Li Sun",
+        "Yu Shangguan",
+        "Qingli Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05185",
+      "abs_url": "https://arxiv.org/abs/2610.05185",
+      "source_category": "cs.CV",
+      "title": "Recurrent Latent Visual Search for GUI Grounding",
+      "authors": [
+        "Kaiyu Wu",
+        "Beichen Zheng",
+        "Weiyao Huang",
+        "Keze Wang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05154",
+      "abs_url": "https://arxiv.org/abs/2610.05154",
+      "source_category": "cs.CV",
+      "title": "Construction and Evaluation of Machine Learning Models for Near-Real-Time Fire Detection from MTG FCI Imagery",
+      "authors": [
+        "Asaf Vanunu",
+        "Boaz Nadler",
+        "Arnon Karnieli"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05141",
+      "abs_url": "https://arxiv.org/abs/2610.05141",
+      "source_category": "cs.CV",
+      "title": "SemCam: Semantic Camera Motion Control for Video Generation",
+      "authors": [
+        "Janna Bruner",
+        "Omer Talmi",
+        "Ianir Ideses",
+        "Lior Fritz",
+        "Lior Wolf",
+        "Sagie Benaim"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05135",
+      "abs_url": "https://arxiv.org/abs/2610.05135",
+      "source_category": "cs.CV",
+      "title": "How Does Geometry Enter Generated Motion?",
+      "authors": [
+        "Weihan Li",
+        "Junhao Wu",
+        "Yuhan Song",
+        "Xiaofeng Lin",
+        "Xinlei Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05131",
+      "abs_url": "https://arxiv.org/abs/2610.05131",
+      "source_category": "cs.CV",
+      "title": "RoMod: Temporal Routing Modulation via Mixture-of-Experts for Video Anomaly Detection",
+      "authors": [
+        "Chao Huang",
+        "Pengfei Wei",
+        "Benfeng Wang",
+        "Chengliang Liu",
+        "Wei Wang",
+        "Li Shen",
+        "Wenqi Ren",
+        "Xiaochun Cao"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05129",
+      "abs_url": "https://arxiv.org/abs/2610.05129",
+      "source_category": "cs.CV",
+      "title": "Representation--Behavior Alignment for Explainable Weakly-Supervised Video Anomaly Detection",
+      "authors": [
+        "Chao Huang",
+        "Pengfei Wei",
+        "Kaige Li",
+        "Chengliang Liu",
+        "Wei Wang",
+        "Wenqi Ren",
+        "Xiaochun Cao"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05115",
+      "abs_url": "https://arxiv.org/abs/2610.05115",
+      "source_category": "cs.CV",
+      "title": "PCLM: Small-target localization with frozen CLIP via prototype contrast and local magnification",
+      "authors": [
+        "Zhipeng Ye",
+        "Feng Jiang",
+        "Qiufeng Wang",
+        "Hao Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05109",
+      "abs_url": "https://arxiv.org/abs/2610.05109",
+      "source_category": "cs.CV",
+      "title": "LoopMoEVR: Loop-Based Degradation-Aware Mixture-of-Experts for Unified UHD Video Restoration",
+      "authors": [
+        "Yucheng Xin",
+        "Runci Bai",
+        "Yongcong Wang",
+        "Guangwei Gao",
+        "Jiao Liu",
+        "Dianjie Lu",
+        "Linwei Fan",
+        "Zhuoran Zheng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05097",
+      "abs_url": "https://arxiv.org/abs/2610.05097",
+      "source_category": "cs.CV",
+      "title": "ReMAP: Restoring the Perceptual Cycle with Reasoning-Time Latent Visual Memory",
+      "authors": [
+        "Hao Jiang",
+        "Zhanyu Guo",
+        "Chenwei Wu",
+        "Yichen Guo",
+        "Qizhe Zhang",
+        "Junchi Yao",
+        "Jixian Wu",
+        "Jinhao You",
+        "Kai Tang",
+        "Jiajun Cao",
+        "Tinghao Wang",
+        "Mengyu Wang",
+        "Leo Anthony Celi",
+        "Shanghang Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05078",
+      "abs_url": "https://arxiv.org/abs/2610.05078",
+      "source_category": "cs.CV",
+      "title": "CGDD-Net: Context-Guided Dynamic Detail Modeling for Retinal Vessel Segmentation",
+      "authors": [
+        "Xincheng Li",
+        "Xiaoqi Sheng",
+        "Xinyu Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05066",
+      "abs_url": "https://arxiv.org/abs/2610.05066",
+      "source_category": "cs.CV",
+      "title": "Salvation Lies Within: Eliciting Inherent Style Transfer in Step-Distilled Diffusion Models",
+      "authors": [
+        "Shengyin Sun",
+        "Yiming Li",
+        "Yingzhao Lian",
+        "Xing Li",
+        "Xingzhi Zhou",
+        "Anxin Tian",
+        "Zhili Wang",
+        "Haoyang Li",
+        "Ziqiang Cui",
+        "Chen Ma"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05053",
+      "abs_url": "https://arxiv.org/abs/2610.05053",
+      "source_category": "cs.CV",
+      "title": "CoDG-Net: Structure-Guided Style Diffusion and Collaborative Learning to Mitigate Catastrophic Forgetting in Medical Image Domain Generalization",
+      "authors": [
+        "Yucheng Song",
+        "Jincan Wang",
+        "Haokang Ding",
+        "Zhiqiang Tian",
+        "Kangxu Fan",
+        "Zhifang Liao"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05033",
+      "abs_url": "https://arxiv.org/abs/2610.05033",
+      "source_category": "cs.CV",
+      "title": "Code2Games: Enabling Coding Agents for Gaming World Generation",
+      "authors": [
+        "Wei Wu",
+        "Ziyang Xu",
+        "Zeyu Zhang",
+        "Yang Zhao",
+        "Hao Tang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05029",
+      "abs_url": "https://arxiv.org/abs/2610.05029",
+      "source_category": "cs.CV",
+      "title": "SPACE-CLIPv2: Decoding Local Geometry from Frozen CLIP for Monocular Depth Estimation",
+      "authors": [
+        "Hyun Song",
+        "Taewan Cho",
+        "Kangmin Kim",
+        "Andrew Jaeyong Choi"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05026",
+      "abs_url": "https://arxiv.org/abs/2610.05026",
+      "source_category": "cs.CV",
+      "title": "GeoBridge-VLA: Geometry-Aware Residual Adaptation for Vision-Language-Action Models",
+      "authors": [
+        "Hyun Song",
+        "Kangmin Kim",
+        "Loren Jinsoo Um",
+        "Minhui Han",
+        "Jaehyeok Park",
+        "Taewan Cho",
+        "Andrew Jaeyong Choi"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05025",
+      "abs_url": "https://arxiv.org/abs/2610.05025",
+      "source_category": "cs.CV",
+      "title": "Triggering Generalist Reasoning via Predictive Uncertainty for Dual-System VLA",
+      "authors": [
+        "Hyemin Yang",
+        "Wooseong Jeong",
+        "Giwon Lee",
+        "Kuk-Jin Yoon"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05024",
+      "abs_url": "https://arxiv.org/abs/2610.05024",
+      "source_category": "cs.CV",
+      "title": "LightVLN: Efficient Aerial Vision-and-Language Navigation with Compact Memory and History-Guided Local Aggregation",
+      "authors": [
+        "Yiming Zhao",
+        "Tianshun Li",
+        "Jingle He",
+        "Ruonan Chai",
+        "Xinhu Zheng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05023",
+      "abs_url": "https://arxiv.org/abs/2610.05023",
+      "source_category": "cs.CV",
+      "title": "Look Where You Say You're Looking: Self-Grounded Attention for Visual Reasoning",
+      "authors": [
+        "Uri Berger",
+        "Gal Chechik",
+        "Gal Dalal"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05013",
+      "abs_url": "https://arxiv.org/abs/2610.05013",
+      "source_category": "cs.CV",
+      "title": "EMBER-Bench: Benchmarking Cross-Event Causal Memory in Long-Horizon Embodied Tasks",
+      "authors": [
+        "Aoyang Cai",
+        "Boning Zhao",
+        "Shaoxuan Xie",
+        "Dahui Gao",
+        "Huan Yang",
+        "Zhongyuan Wang",
+        "Zhiwei Yu",
+        "Guocai Yao"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05010",
+      "abs_url": "https://arxiv.org/abs/2610.05010",
+      "source_category": "cs.CV",
+      "title": "PortraitAes: Intent-Conditioned Structured Portrait Aesthetics Assessment",
+      "authors": [
+        "Junzhou Xie",
+        "Haozhong Xiong",
+        "Xunyun Tian",
+        "Kaile Du",
+        "Tianchen Yu",
+        "Qiang Li",
+        "Wei Liu",
+        "Jiaming Liu",
+        "Ruihua Huang",
+        "Yang Shi",
+        "Guangcan Liu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05000",
+      "abs_url": "https://arxiv.org/abs/2610.05000",
+      "source_category": "cs.CV",
+      "title": "VisualErase: Dual-Branch Visual Trajectory Redirection for Robust Concept Erasure in Text-to-Image Diffusion Models",
+      "authors": [
+        "Qianlong Xiang",
+        "Miao Zhang",
+        "Kun Wang",
+        "Yupeng Hu",
+        "Junhui Hou",
+        "Liqiang Nie"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04980",
+      "abs_url": "https://arxiv.org/abs/2610.04980",
+      "source_category": "cs.CV",
+      "title": "Geometry-Aware Preference Optimization for Text-to-Image Diffusion Models",
+      "authors": [
+        "Lei Wang",
+        "Zhen Wang",
+        "Yuexiang Xie",
+        "Yaliang Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04979",
+      "abs_url": "https://arxiv.org/abs/2610.04979",
+      "source_category": "cs.CV",
+      "title": "Robust Tensor Completion via Reflective Convolution Nuclear Norm Minimization",
+      "authors": [
+        "Weiguo Zhou",
+        "Feng Zhang",
+        "Wenjin Qin",
+        "Jianwen Huang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04922",
+      "abs_url": "https://arxiv.org/abs/2610.04922",
+      "source_category": "cs.CV",
+      "title": "TRACE: Time-Adaptive Residual Attention Control with Content-Style Decomposition for Training-Free Diffusion Style Transfer",
+      "authors": [
+        "Duc Khoan Le",
+        "Kim Ngoc Tran",
+        "Minh Nhat Le",
+        "Thanh An Tran",
+        "Viet Toan Nguyen",
+        "Khanh An Lay",
+        "Tran Thai Son",
+        "Hoang Pham Minh"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04920",
+      "abs_url": "https://arxiv.org/abs/2610.04920",
+      "source_category": "cs.CV",
+      "title": "PWM: Personalized World Models with Online Reinforcement Learning",
+      "authors": [
+        "Zhexin Lou",
+        "Guancheng Lu",
+        "Zeyu Zhang",
+        "Yi Zhang",
+        "Yang Zhao",
+        "Hao Tang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04883",
+      "abs_url": "https://arxiv.org/abs/2610.04883",
+      "source_category": "cs.CV",
+      "title": "Reflection-Robust 6DoF Object Tracking with Light Fields",
+      "authors": [
+        "Nikolai Goncharov",
+        "Donald G. Dansereau"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04864",
+      "abs_url": "https://arxiv.org/abs/2610.04864",
+      "source_category": "cs.CV",
+      "title": "Enhancing Long-Video VLM Embeddings with Query-Aware Streaming Latent Reasoning",
+      "authors": [
+        "Haozhe Chi",
+        "Song Jin",
+        "Yang Jin",
+        "Yadong Mu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04853",
+      "abs_url": "https://arxiv.org/abs/2610.04853",
+      "source_category": "cs.CV",
+      "title": "One Tile, Multiple Instances: Rethinking MIL for Sparse Diagnostic Evidence",
+      "authors": [
+        "Runsheng Liu",
+        "Cheng Jin",
+        "Hao Jiang",
+        "Hao Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04836",
+      "abs_url": "https://arxiv.org/abs/2610.04836",
+      "source_category": "cs.CV",
+      "title": "RSure-Agent: Reliable Use of Tool Observations for Remote Sensing Agents",
+      "authors": [
+        "Fuyuan Liu",
+        "Nayu Liu",
+        "Wenhao Yu",
+        "Peijin Wang",
+        "Yingchao Feng",
+        "Fanglong Yao",
+        "Liang Wan",
+        "Wei Feng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04819",
+      "abs_url": "https://arxiv.org/abs/2610.04819",
+      "source_category": "cs.CV",
+      "title": "DriftSR: One-Step Real-World Image Super-Resolution via Distribution Drifting",
+      "authors": [
+        "Wei Zhu",
+        "Kai Zhang",
+        "Yu Zheng",
+        "Zhaopeng Yang",
+        "Lei Luo",
+        "Yong Guo",
+        "Jian Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04814",
+      "abs_url": "https://arxiv.org/abs/2610.04814",
+      "source_category": "cs.CV",
+      "title": "MOXIE: Discovering Alternative Explanations for Biomedical Image Classifiers",
+      "authors": [
+        "Abiha Tahsin Chowdhury",
+        "Rahul Dubey"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.NE"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04787",
+      "abs_url": "https://arxiv.org/abs/2610.04787",
+      "source_category": "cs.CV",
+      "title": "Active-DiNTS: Active Differentiable Network Topology Search",
+      "authors": [
+        "Gean Trindade Pereira",
+        "Thierry Urruty",
+        "Muriel Visani",
+        "André C. P. L. F. de Carvalho"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.NE"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04785",
+      "abs_url": "https://arxiv.org/abs/2610.04785",
+      "source_category": "cs.CV",
+      "title": "Lollypop: Camera-to-Motion-Capture Calibration Verification with a Reference Target",
+      "authors": [
+        "Tianyi Liu",
+        "Kevin Harris",
+        "Mihika Dave",
+        "Kun He"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04781",
+      "abs_url": "https://arxiv.org/abs/2610.04781",
+      "source_category": "cs.CV",
+      "title": "Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate",
+      "authors": [
+        "Wanzhou Lei",
+        "Cuifeng Sheng",
+        "Yanjin He",
+        "Maohua Li",
+        "Hua Yuan",
+        "Per-Olof Persson",
+        "Hanlin Tang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04777",
+      "abs_url": "https://arxiv.org/abs/2610.04777",
+      "source_category": "cs.CV",
+      "title": "ARISE: Adaptive Agentic Reasoning with Image-grounded Self-Evaluation for Interpretable IBD Assessment",
+      "authors": [
+        "Pronoma Banerjee",
+        "Anuva Shah",
+        "Jason Wu",
+        "Md. Masudur Rahman",
+        "Sanjay Mohanty",
+        "Satya Kurada",
+        "Juan P. Wachs"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04743",
+      "abs_url": "https://arxiv.org/abs/2610.04743",
+      "source_category": "cs.CV",
+      "title": "ThyCLIPNet: A BiomedCLIP-Guided Lightweight Attention-Enhanced DeepLabV3+ Framework for Robust Thyroid Nodule Segmentation",
+      "authors": [
+        "Tasnim Jahan",
+        "Md Easin Arafat",
+        "Swakkhar Shatabda"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04736",
+      "abs_url": "https://arxiv.org/abs/2610.04736",
+      "source_category": "cs.CV",
+      "title": "Probabilistic Pedestrian Forecasts from a Handheld Phone: World-Frame Heat Maps, Visual-Inertial Height Drift, and Evaluation without Ground Truth",
+      "authors": [
+        "Danial Safaei"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04727",
+      "abs_url": "https://arxiv.org/abs/2610.04727",
+      "source_category": "cs.CV",
+      "title": "Investigating Spatiotemporal Redundancy in Video Transformer for Collision Anticipation",
+      "authors": [
+        "Xiaoshan Zhou"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04722",
+      "abs_url": "https://arxiv.org/abs/2610.04722",
+      "source_category": "cs.CV",
+      "title": "NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis",
+      "authors": [
+        "Ramil Khafizov",
+        "Ilya Statsenko",
+        "Ruslan Rakhimov",
+        "Artem Komarichev",
+        "Peter Wonka",
+        "Evgeny Burnaev"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04721",
+      "abs_url": "https://arxiv.org/abs/2610.04721",
+      "source_category": "cs.CV",
+      "title": "Knossos and Ariadne: Benchmarking and Learning Complete Diagram Topology Extraction with Vision-Language Models",
+      "authors": [
+        "Bangwei Guo",
+        "Xujiang Zhao",
+        "Shengyu Chen",
+        "Yanchi Liu",
+        "Wei Cheng",
+        "Xi Zhu",
+        "Guoning Zhang",
+        "Dimitris N. Metaxas",
+        "Haifeng Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04700",
+      "abs_url": "https://arxiv.org/abs/2610.04700",
+      "source_category": "cs.CV",
+      "title": "Decouple, Purify and Unite: Semantic-Structural Prototype Learning for Federated Medical Segmentation",
+      "authors": [
+        "Xingyue Zhao",
+        "Wenke Huang",
+        "Linghao Zhuang",
+        "Yanzhou Su",
+        "Zhifeng Wang",
+        "Haoyu Zhao",
+        "Mengfan Li",
+        "Junjun He",
+        "Tao Tan",
+        "Dakai Jin",
+        "Le Lu",
+        "Mang Ye",
+        "Qiang Yang",
+        "Ming Feng"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04680",
+      "abs_url": "https://arxiv.org/abs/2610.04680",
+      "source_category": "cs.CV",
+      "title": "COMPASS: Comet Object Measurement Pipeline with Automated Selection and Scoring",
+      "authors": [
+        "Jack Roberts",
+        "Canya Lu",
+        "Alexis Michelle Lawson",
+        "Kaitlyn Holden",
+        "Gerald S. Wilkinson",
+        "Anne M. Bronikowski",
+        "Ritambhara Singh"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04664",
+      "abs_url": "https://arxiv.org/abs/2610.04664",
+      "source_category": "cs.CV",
+      "title": "FLASHSWIN: Unlocking Large Windows and Dense Tokens in Swin Vision Transformers with Memory Efficient Attention",
+      "authors": [
+        "Tushar Kataria",
+        "Gerald Sabin",
+        "Ponnuswamy Sadayappan",
+        "Shireen Y. Elhabian"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04627",
+      "abs_url": "https://arxiv.org/abs/2610.04627",
+      "source_category": "cs.CV",
+      "title": "Task-Sensitive Geometry of Representation Transfer for Object Detection under Image Degradation",
+      "authors": [
+        "Van Vung Pham"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04606",
+      "abs_url": "https://arxiv.org/abs/2610.04606",
+      "source_category": "cs.CV",
+      "title": "Sparse-View 4D Gaussian Splatting via Spatiotemporal Priors and Generative Assistance",
+      "authors": [
+        "Shengqi Wang",
+        "Zhengxian Yang",
+        "Kaiwen Tian",
+        "Yang Liu",
+        "Bowen Liu",
+        "Hua Du",
+        "Taicheng Huang",
+        "Jiamin Wu",
+        "Tao Yu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04605",
+      "abs_url": "https://arxiv.org/abs/2610.04605",
+      "source_category": "cs.CV",
+      "title": "ConEx: Human-Interpretable Saliency Maps via Concept-Aware Attribution",
+      "authors": [
+        "Yehonatan Elisha",
+        "Oren Barkan",
+        "Ziv Weiss Haddad",
+        "Noam Koenigstein"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04602",
+      "abs_url": "https://arxiv.org/abs/2610.04602",
+      "source_category": "cs.CV",
+      "title": "Organize Primitives into Semantic Parts: Reinforcement Reasoning for 3D Segmentation",
+      "authors": [
+        "Xiaoming Gong",
+        "Ruoyu Wu",
+        "Zhenhong Sun",
+        "Chunlin Chen",
+        "Daoyi Dong",
+        "Huadong Mo",
+        "Zhi Wang",
+        "Hongdong Li"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04601",
+      "abs_url": "https://arxiv.org/abs/2610.04601",
+      "source_category": "cs.CV",
+      "title": "WASP: Weakly Aligned Spatiotemporal Pairs for Fetal Brain MRI-Ultrasound Learning",
+      "authors": [
+        "Francesco Correnti",
+        "Gabriele Magrini",
+        "Marco Mistretta",
+        "Niccolò Biondi",
+        "Pietro Pala",
+        "Alessandro Ramalli",
+        "Simona Fiori",
+        "Andrew D. Bagdanov",
+        "Matteo Lenge"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04585",
+      "abs_url": "https://arxiv.org/abs/2610.04585",
+      "source_category": "cs.CV",
+      "title": "Frozen in a Frame: The Velocity Blind Spot in JEPA World Models",
+      "authors": [
+        "Tinghe Zhang",
+        "Chunyu Liu",
+        "Yu Leon Liu",
+        "Zerui Zhao",
+        "Jiaheng Chen",
+        "Yucheng Xiao",
+        "Jiaxing Li",
+        "Yunlong Wang",
+        "Alex Lamb"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04554",
+      "abs_url": "https://arxiv.org/abs/2610.04554",
+      "source_category": "cs.CV",
+      "title": "EagleDepth: Efficient Fine-Grained Depth Estimation via Pixel Diffusion Decoder",
+      "authors": [
+        "Bowen Chai",
+        "Tianbao Zhang",
+        "Shuyu Wu",
+        "Dexin Zuo",
+        "Zhaoxin Fan",
+        "Danping Zou"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04538",
+      "abs_url": "https://arxiv.org/abs/2610.04538",
+      "source_category": "cs.CV",
+      "title": "FASTER: Fast Adjoint Stochastic Transport for Endpoint Refinement in Reward-Guided Image Editing",
+      "authors": [
+        "Yimiao Zhou",
+        "Zejia Zhong",
+        "Jingya Wang",
+        "Ye Shi"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04529",
+      "abs_url": "https://arxiv.org/abs/2610.04529",
+      "source_category": "cs.CV",
+      "title": "TAME:Topology-Aware Text-Driven Motion Editing across Heterogeneous Humanoid Skeletons",
+      "authors": [
+        "Qichen Zheng",
+        "Siyuan Yang",
+        "Chong Wang",
+        "Jun Liu",
+        "Shijian Lu",
+        "Alex Kot",
+        "Kwok-Yan Lam"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04506",
+      "abs_url": "https://arxiv.org/abs/2610.04506",
+      "source_category": "cs.CV",
+      "title": "EgoExo-Next:Benchmarking Vision-Language Models on Visual-Option Next-State and Cross-View Reasoning",
+      "authors": [
+        "Yutong Li",
+        "Molin Wang",
+        "Xiaotong Li",
+        "Yanyan Fang",
+        "Daoguo Dong",
+        "Ziyi Ye"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04502",
+      "abs_url": "https://arxiv.org/abs/2610.04502",
+      "source_category": "cs.CV",
+      "title": "Localization Lens for Improving Medical Vision-Language Models",
+      "authors": [
+        "Hasan Farooq",
+        "Murtaza Taj",
+        "Mehwish Nasim",
+        "Arif Mahmood"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04499",
+      "abs_url": "https://arxiv.org/abs/2610.04499",
+      "source_category": "cs.CV",
+      "title": "Homogeneous Semantic Alignment and Hierarchical Expert Routing for Radiology Report Generation",
+      "authors": [
+        "Erjian Zhang",
+        "Jiayuan Ma",
+        "Liejun Wang",
+        "Yikemaiti Sataer",
+        "Xiaoming Tao",
+        "Zhiqing Guo"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04457",
+      "abs_url": "https://arxiv.org/abs/2610.04457",
+      "source_category": "cs.CV",
+      "title": "RPFQ-ViT: Rotated Phase-Frame Quantization for Extremely Low-Bit Weights in Vision Transformers",
+      "authors": [
+        "Mengyuan Fan",
+        "Bokai Huang",
+        "JiaMing Pan",
+        "Xiaokun Yuan",
+        "Peizhuang Cong",
+        "Zhewen Tan",
+        "Tong Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04456",
+      "abs_url": "https://arxiv.org/abs/2610.04456",
+      "source_category": "cs.CV",
+      "title": "Multi-Crop Leaf Disease Recognition: A Unified Benchmark and Cross-Region Study",
+      "authors": [
+        "Rosemary Nalwanga",
+        "Sebastian Bunda",
+        "Godliver Owomugisha",
+        "Luuk Spreeuwers",
+        "Estefania Talavera Martinez"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04432",
+      "abs_url": "https://arxiv.org/abs/2610.04432",
+      "source_category": "cs.CV",
+      "title": "Video2World: Benchmarking Coding Agents for Interactive World Modeling from Embodied Videos",
+      "authors": [
+        "Jinzhou Tang",
+        "Zijun Zhang",
+        "Jing Yang",
+        "Yuchen Yan",
+        "Kun Zhou",
+        "Lingjun Mao",
+        "Ruobing Han",
+        "Jinglin Cao",
+        "Wenpeng Xu",
+        "Lukun He",
+        "Minghao Fu",
+        "Fan Feng",
+        "Biwei Huang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04425",
+      "abs_url": "https://arxiv.org/abs/2610.04425",
+      "source_category": "cs.CV",
+      "title": "AgroGround: Multi-Granularity Grounded Recognition in Agriculture",
+      "authors": [
+        "Abdulla Alshehhi",
+        "Zongyan Han",
+        "Rao Anwer"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04392",
+      "abs_url": "https://arxiv.org/abs/2610.04392",
+      "source_category": "cs.CV",
+      "title": "Detecting Defects that Matter: An Application-Driven Benchmark for Anomaly Detection in Manufacturing and Retail Logistics (VAND 4.0 Challenge)",
+      "authors": [
+        "Lars Heckler-Kram",
+        "Dorian Henning",
+        "Ashwin Vaidya",
+        "Jan-Hendrik Neudeck",
+        "Ulla Scheler",
+        "Anton Milan",
+        "Samet Akcay",
+        "Paula Ramos",
+        "Sebastian Höfer"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04381",
+      "abs_url": "https://arxiv.org/abs/2610.04381",
+      "source_category": "cs.CV",
+      "title": "Beyond Plausibility: Verifiable Fine-Grained Image Editing on Structured Assets",
+      "authors": [
+        "Muyao Wang",
+        "Chen Zhu",
+        "Shiqi Yang",
+        "DongHyun Hwan",
+        "Hideki Nakayama"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04361",
+      "abs_url": "https://arxiv.org/abs/2610.04361",
+      "source_category": "cs.CV",
+      "title": "TRIM-ReID: Duplication-Aware Token Reduction and Modality-Aligned Interaction for Multi-Modal Object Re-Identification",
+      "authors": [
+        "Wanke Xia",
+        "Ruiding Zhu",
+        "Xingguo Xu",
+        "Zhengbo Zhang",
+        "Dongxia Liu",
+        "Yuan Jin",
+        "Taojie Zhu",
+        "Yiting Zhao",
+        "Yihang Ding"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04356",
+      "abs_url": "https://arxiv.org/abs/2610.04356",
+      "source_category": "cs.CV",
+      "title": "SelectOccFlow: Selective Spatiotemporal Aggregation for 3D Occupancy and Scene Flow Prediction",
+      "authors": [
+        "Yuhang Wang",
+        "Kai Luo",
+        "Yuanfan Zheng",
+        "Kailun Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04351",
+      "abs_url": "https://arxiv.org/abs/2610.04351",
+      "source_category": "cs.CV",
+      "title": "LoCoSplat: Real-Time Feed-Forward 3D Gaussian Splatting with Minimal 3D Reasoning",
+      "authors": [
+        "Sinan Wang",
+        "Jinjin He",
+        "Yuchen Sun",
+        "Duowen Chen",
+        "Shenyifan Lu",
+        "Bo Zhu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04346",
+      "abs_url": "https://arxiv.org/abs/2610.04346",
+      "source_category": "cs.CV",
+      "title": "Any-scale Object Detection using Arbitrary-scaled Images",
+      "authors": [
+        "Kazutoshi Akita",
+        "Norimichi Ukita"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04336",
+      "abs_url": "https://arxiv.org/abs/2610.04336",
+      "source_category": "cs.CV",
+      "title": "A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics",
+      "authors": [
+        "Tian Xu",
+        "Soroush Atashi",
+        "Tianju Xue"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04335",
+      "abs_url": "https://arxiv.org/abs/2610.04335",
+      "source_category": "cs.CV",
+      "title": "Synthetic-to-Real ViT-Based Pose Estimation of a Noncooperative UAV",
+      "authors": [
+        "Krishnanujam Srinivas",
+        "Hanish Acharla",
+        "Brij Agrawal",
+        "Leonardo Herrera"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04327",
+      "abs_url": "https://arxiv.org/abs/2610.04327",
+      "source_category": "cs.CV",
+      "title": "Trust the View That Sees the Target: Mining Cross-View Conflicts for Reliability-Gated Disaster Damage Assessment",
+      "authors": [
+        "Yifan Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04318",
+      "abs_url": "https://arxiv.org/abs/2610.04318",
+      "source_category": "cs.CV",
+      "title": "Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency",
+      "authors": [
+        "Sixun Dong",
+        "Wei Li",
+        "Andong Deng",
+        "Qi Qian",
+        "Victor Zhu",
+        "Zhengping Ji",
+        "Chen Chen"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04300",
+      "abs_url": "https://arxiv.org/abs/2610.04300",
+      "source_category": "cs.CV",
+      "title": "A Geometric-Transformation Feature-Adaptive Manifold Restoration Method for Open-Vocabulary Semantic Segmentation of Remote Sensing Images",
+      "authors": [
+        "Jianzheng Wang",
+        "Huan Ni",
+        "Xiaonan Niu",
+        "Danfeng Hong",
+        "Haiyan Guan"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04281",
+      "abs_url": "https://arxiv.org/abs/2610.04281",
+      "source_category": "cs.CV",
+      "title": "OctMesh: A Unified Octree-Hierarchical Framework for Lossless Triangle Mesh Compression",
+      "authors": [
+        "Shiyu Feng",
+        "Xihua Sheng",
+        "Lingyu Zhu",
+        "Chunyang Fu",
+        "Shiqi Wang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04225",
+      "abs_url": "https://arxiv.org/abs/2610.04225",
+      "source_category": "cs.CV",
+      "title": "FlashGaze: Training-Free Multi-Scale Patch Pruning For Efficient Video Understanding",
+      "authors": [
+        "Ziye Zhu",
+        "Yanghao Zhou",
+        "Lixing Tan",
+        "Jialiang Kang",
+        "Shuxuan Li",
+        "Xiao Yang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04203",
+      "abs_url": "https://arxiv.org/abs/2610.04203",
+      "source_category": "cs.CV",
+      "title": "Sparse-GS2Mesh: 3D Gaussian Splatting Guided by Novel Stereo Views and 2DGS for Sparse View Surface Reconstruction}",
+      "authors": [
+        "Younghyun Noh",
+        "Minje Kim",
+        "Tae-Kyun Kim"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04199",
+      "abs_url": "https://arxiv.org/abs/2610.04199",
+      "source_category": "cs.CV",
+      "title": "CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging",
+      "authors": [
+        "Yingda Tao",
+        "Guoyu Lu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04185",
+      "abs_url": "https://arxiv.org/abs/2610.04185",
+      "source_category": "cs.CV",
+      "title": "Referring Multi-Object Tracking in Moving-Camera Videos via Global Motion Compensation",
+      "authors": [
+        "Hsin-Chen Pai",
+        "Jyun-Kai Wang",
+        "Yi-Cheng Peng",
+        "Wei-Ta Chu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04159",
+      "abs_url": "https://arxiv.org/abs/2610.04159",
+      "source_category": "cs.CV",
+      "title": "Diagnosis-Conditioned Spatial Gating and Decoder-Level Supervised Contrastive Learning for Radiology Report Generation",
+      "authors": [
+        "Md Mustafizur Rahman",
+        "Mylene C. Q. Farias"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04152",
+      "abs_url": "https://arxiv.org/abs/2610.04152",
+      "source_category": "cs.CV",
+      "title": "Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution",
+      "authors": [
+        "Feiran Wang",
+        "Bin Duan",
+        "Junyi Wu",
+        "Gaowen Liu",
+        "Yan Yan"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04151",
+      "abs_url": "https://arxiv.org/abs/2610.04151",
+      "source_category": "cs.CV",
+      "title": "Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video",
+      "authors": [
+        "Seyedmahdi Kazempourradi",
+        "Ramtin Mojtahedi",
+        "Behrang Mohseni"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04139",
+      "abs_url": "https://arxiv.org/abs/2610.04139",
+      "source_category": "cs.CV",
+      "title": "From Sight to Foresight: Predictive Spatial Reasoning in Vision-Language Models",
+      "authors": [
+        "Feiran Wang",
+        "Xiaoqi Wang",
+        "Ziwei Li",
+        "Wenbin He",
+        "Yan Yan",
+        "Liu Ren"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04104",
+      "abs_url": "https://arxiv.org/abs/2610.04104",
+      "source_category": "cs.CV",
+      "title": "Where Does the Semantic Gain Come From? A Reproduction and Extension of Semantic Knowledge-driven Contrastive Learning for Long-Tailed Recognition",
+      "authors": [
+        "Sushrut Ghimire"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04095",
+      "abs_url": "https://arxiv.org/abs/2610.04095",
+      "source_category": "cs.CV",
+      "title": "Scaling 3D Visual Grounding in Abdominal CT",
+      "authors": [
+        "Sam Church",
+        "Danyal Maqbool",
+        "Joshua D. Warner",
+        "Andrew Voter",
+        "Junjie Hu",
+        "Meghan G. Lubner",
+        "Tyler J. Bradshaw"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04092",
+      "abs_url": "https://arxiv.org/abs/2610.04092",
+      "source_category": "cs.CV",
+      "title": "UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation",
+      "authors": [
+        "Haiyang Ying",
+        "Allen Tu",
+        "Jiaye Wu",
+        "Tom Goldstein",
+        "Matthias Zwicker"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04084",
+      "abs_url": "https://arxiv.org/abs/2610.04084",
+      "source_category": "cs.CV",
+      "title": "Dependable AI-Assisted Engineering: A Formal Framework for AI Participation and Assurance in Safety-Critical Workflows",
+      "authors": [
+        "Puxue Tan"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04076",
+      "abs_url": "https://arxiv.org/abs/2610.04076",
+      "source_category": "cs.CV",
+      "title": "VCURF: Virtual Camera-based Uncertainty of Radiance Fields",
+      "authors": [
+        "Liyan Chen",
+        "Nathaniel Burgdorfer",
+        "Philippos Mordohai"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04073",
+      "abs_url": "https://arxiv.org/abs/2610.04073",
+      "source_category": "cs.CV",
+      "title": "Why Convolution Still Matters: Evaluating Inductive Biases in Cryospheric Image Classification",
+      "authors": [
+        "Chhaya Kulkarni",
+        "Emam Hossain"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04066",
+      "abs_url": "https://arxiv.org/abs/2610.04066",
+      "source_category": "cs.CV",
+      "title": "Evaluating Zone-Guided Front Extraction for Glacier Calving-Front Delineation in SAR Imagery",
+      "authors": [
+        "Chhaya Kulkarni",
+        "Emam Hossain"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04052",
+      "abs_url": "https://arxiv.org/abs/2610.04052",
+      "source_category": "cs.CV",
+      "title": "A Theory of Shape Reconstruction from Heat Conduction and Shading",
+      "authors": [
+        "Akihiko Oharazawa",
+        "Sriram Narayanan",
+        "Mani Ramanagopal",
+        "Srinivasa G. Narasimhan"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04051",
+      "abs_url": "https://arxiv.org/abs/2610.04051",
+      "source_category": "cs.CV",
+      "title": "ASD-FEAT: A Multi-Modal Infant Video-Derived Dataset for Early ASD Risk Prediction",
+      "authors": [
+        "Sidrah Liaqat",
+        "Halil Helvaci",
+        "Sen-Ching Cheung",
+        "Chongruo Wu",
+        "Dongjie Chen",
+        "Chen Nee Chuah",
+        "Sally Ozonoff"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04044",
+      "abs_url": "https://arxiv.org/abs/2610.04044",
+      "source_category": "cs.CV",
+      "title": "Dynamic Quadtree Tokenization and Transformer for Adaptive Mesh PDE Forecasting",
+      "authors": [
+        "Yilin Zhuang",
+        "Noah Zambrano",
+        "Karthik Duraisamy"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04036",
+      "abs_url": "https://arxiv.org/abs/2610.04036",
+      "source_category": "cs.CV",
+      "title": "MAGEFormer: Learning Metric-Consistent Representations for Anisotropic CT Segmentation",
+      "authors": [
+        "Jiaying Li",
+        "Paolo Remagnino"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04028",
+      "abs_url": "https://arxiv.org/abs/2610.04028",
+      "source_category": "cs.CV",
+      "title": "Learning Subject-Specific Anatomical Representations via Manifold Expansion: Application to Accelerated Multi-Contrast MRI",
+      "authors": [
+        "Ruimin Feng",
+        "Wanyu Bian",
+        "Albert Jang",
+        "Zachary Stewart",
+        "Fang Liu"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.IR"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04020",
+      "abs_url": "https://arxiv.org/abs/2610.04020",
+      "source_category": "cs.CV",
+      "title": "ClasSAE: Class-Aligned Sparse Autoencoders via Differentiable Feature-Class Affinity",
+      "authors": [
+        "Jakub Stępień",
+        "Marcin Mazur",
+        "Jacek Tabor",
+        "Przemysław Spurek"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04014",
+      "abs_url": "https://arxiv.org/abs/2610.04014",
+      "source_category": "cs.CV",
+      "title": "PhysMamba: Selective State Space Models as Learned Articulated Body Simulators",
+      "authors": [
+        "Haochuan Zhang",
+        "Sinisa Todorovic"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04007",
+      "abs_url": "https://arxiv.org/abs/2610.04007",
+      "source_category": "cs.CV",
+      "title": "VolS-GS: Relightable Gaussian Splatting with Volumetric Subsurface Scattering",
+      "authors": [
+        "Junyeong Ahn",
+        "Jaegul Choo"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04006",
+      "abs_url": "https://arxiv.org/abs/2610.04006",
+      "source_category": "cs.CV",
+      "title": "Verifier-Guided Synthetic Augmentation for 3D Human Shape Generation",
+      "authors": [
+        "Yuexuan Wu",
+        "Yang Xiang",
+        "Hamid Laga",
+        "Dip Das",
+        "Anuj Srivastava",
+        "Zhengwu Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "stat.ML"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03991",
+      "abs_url": "https://arxiv.org/abs/2610.03991",
+      "source_category": "cs.CV",
+      "title": "Masked Privileged-Information Distillation for Multimodal Skin Lesion Classification Under Missing Clinical Metadata",
+      "authors": [
+        "Anirban Barua",
+        "Md Mahir Abrar Khan",
+        "Ayman Iktidar",
+        "Md. Sajjatul Islam"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03980",
+      "abs_url": "https://arxiv.org/abs/2610.03980",
+      "source_category": "cs.CV",
+      "title": "FADE: Frame-Aware Diffusion-Transformer-based Multi-Concept Erasure for Video Unlearning",
+      "authors": [
+        "Yuchen Li",
+        "Kaiyuan Deng",
+        "Chaoran Feng",
+        "Zhenyu Tang",
+        "Li Yuan"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03942",
+      "abs_url": "https://arxiv.org/abs/2610.03942",
+      "source_category": "cs.CV",
+      "title": "Dynamic Time Step Prediction in Inverse Heat Dissipation for Blur-Like Image Restoration Tasks",
+      "authors": [
+        "Cap Dang Xuan Kiet",
+        "Tat-Jen Cham"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03928",
+      "abs_url": "https://arxiv.org/abs/2610.03928",
+      "source_category": "cs.CV",
+      "title": "DABACO: A Multi-Camera Dataset and Benchmark for Screen Localization and Pointing Estimation",
+      "authors": [
+        "Óscar Gómez-Cárdenes",
+        "José Gil Marichal-Hernández",
+        "Juan Manuel Martín-Doñas"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.MM"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03873",
+      "abs_url": "https://arxiv.org/abs/2610.03873",
+      "source_category": "cs.CV",
+      "title": "Streaming Multi-Track Timeline Control for 3D Human Motion Generation",
+      "authors": [
+        "Yangsong Zhang",
+        "Anujith Muraleedharan",
+        "Rikhat Akizhanov",
+        "Gül Varol",
+        "Fabio Pizzati",
+        "Ivan Laptev"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03826",
+      "abs_url": "https://arxiv.org/abs/2610.03826",
+      "source_category": "cs.CV",
+      "title": "Are We Measuring Anticipation? Auditing Privileged Information in Procedural Video Evaluation",
+      "authors": [
+        "Mahsa Mohammadi",
+        "Sareh Rowlands"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03822",
+      "abs_url": "https://arxiv.org/abs/2610.03822",
+      "source_category": "cs.CV",
+      "title": "Beyond Token Accuracy: Prioritizing What Matters for Visual Reconstruction",
+      "authors": [
+        "Zhicheng Liu",
+        "Zhouxiang Zhao",
+        "Chenliang Wu",
+        "Zhaohui Yang",
+        "Zhaoyang Zhang"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03799",
+      "abs_url": "https://arxiv.org/abs/2610.03799",
+      "source_category": "cs.CV",
+      "title": "StepCAD: Mesh-to-CAD Code Generation via LLM Policy and Geometry-Guided Search",
+      "authors": [
+        "Ghadi Nehme",
+        "Faez Ahmed"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03797",
+      "abs_url": "https://arxiv.org/abs/2610.03797",
+      "source_category": "cs.CV",
+      "title": "WAMJET: A Harness for World Action Model Acceleration",
+      "authors": [
+        "Le Chen",
+        "Lixin Liu",
+        "Jan Schneider",
+        "Zeju Qiu",
+        "Simon Guist",
+        "Bernhard Schölkopf",
+        "Dieter Büchler"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03792",
+      "abs_url": "https://arxiv.org/abs/2610.03792",
+      "source_category": "cs.CV",
+      "title": "What Do Verifiable Rewards Teach Video-Language Models About Time? A Controlled Multi-Model Study",
+      "authors": [
+        "Avyay Sadhu",
+        "Patrick Cooper"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03772",
+      "abs_url": "https://arxiv.org/abs/2610.03772",
+      "source_category": "cs.CV",
+      "title": "Energy Variation in Training Modern Computer Vision Architectures",
+      "authors": [
+        "David Cortes",
+        "Carlos Juiz",
+        "Belen Bermejo"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.PF"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03771",
+      "abs_url": "https://arxiv.org/abs/2610.03771",
+      "source_category": "cs.CV",
+      "title": "LoRA Direction Extraction for Controllable Light Toggling in FLUX.1 Kontext",
+      "authors": [
+        "Petr Golenderov",
+        "Dmitry Mazyar",
+        "Natalia Sovpel",
+        "Alexander Aksenov"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03765",
+      "abs_url": "https://arxiv.org/abs/2610.03765",
+      "source_category": "cs.CV",
+      "title": "Do Motion Tokenizers for Co-Speech Gesture Generation Encode Gesture Semantics?",
+      "authors": [
+        "Varsha Suresh",
+        "Divij Jain",
+        "Jia Liu",
+        "M. Hamza Mughal",
+        "Vera Demberg"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03755",
+      "abs_url": "https://arxiv.org/abs/2610.03755",
+      "source_category": "cs.CV",
+      "title": "Fractal Cross Product: Theory, Differentiable Implementation and Application to Medical Image Analysis",
+      "authors": [
+        "Noaman Khan",
+        "Nihad Hadj Sahraoui",
+        "Samir Brahim Belhaouari"
+      ],
+      "primary_subject": "Computer Vision and Pattern Recognition (cs.CV)",
+      "subject_categories": [
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06850",
+      "abs_url": "https://arxiv.org/abs/2610.06850",
+      "source_category": "cs.CV",
+      "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+      "authors": [
+        "Yucheng Zhang",
+        "Sirui Xu",
+        "Jinhong Li",
+        "Liuyu Bian",
+        "Anatulya Nandi",
+        "Derek Zhang",
+        "Xiangchen Liu",
+        "Xueting Li",
+        "Umar Iqbal",
+        "Yu-Xiong Wang",
+        "Liang-Yan Gui"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06825",
+      "abs_url": "https://arxiv.org/abs/2610.06825",
+      "source_category": "cs.CV",
+      "title": "PlotGround: Grounding Plot Digitization in Real Scientific Figures and Their Source Data",
+      "authors": [
+        "Yaohui Zhang",
+        "Binxu Li",
+        "Haoyi Duan",
+        "Jiacheng Miao",
+        "Yixin Wang",
+        "Xinran Du",
+        "Chenyue Li",
+        "Shilong Liu",
+        "Kevin Wu",
+        "James Zou"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06674",
+      "abs_url": "https://arxiv.org/abs/2610.06674",
+      "source_category": "cs.CV",
+      "title": "Detecting Nighttime Anomalies from NASA Black Marble Using a Generalized Spatio-Temporally Robust Framework of Machine Leaning Ensembles",
+      "authors": [
+        "Srija Chakraborty"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06643",
+      "abs_url": "https://arxiv.org/abs/2610.06643",
+      "source_category": "cs.CV",
+      "title": "AffordCraft: Scalable Construction of Task-Ready Simulation Assets from Single Images",
+      "authors": [
+        "Haoyun Yang",
+        "Xueyang Zhou",
+        "Ziyi Xie",
+        "Yongchao Chen"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06598",
+      "abs_url": "https://arxiv.org/abs/2610.06598",
+      "source_category": "cs.CV",
+      "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+      "authors": [
+        "Xiaodong Wang",
+        "Tianle Li",
+        "Chuanxin Song",
+        "Junliang Xie",
+        "Zhanmi Zhong",
+        "Suiying Wu",
+        "Peixi Peng"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06505",
+      "abs_url": "https://arxiv.org/abs/2610.06505",
+      "source_category": "cs.CV",
+      "title": "Improving Proactive AI Assistance with Hierarchical Procedural Understanding",
+      "authors": [
+        "Jin-Seop Lee",
+        "TaeYeon Won",
+        "SeongJun Jung",
+        "JungHoon Kim",
+        "Boyang Albert Li",
+        "Jin-Young Park",
+        "Jaehong Yoon",
+        "Jee-Hyong Lee"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06327",
+      "abs_url": "https://arxiv.org/abs/2610.06327",
+      "source_category": "cs.CV",
+      "title": "Dual Variational Autoencoders for Efficient Sim-to-Real Transfer in Low-Cost Robotic Navigation",
+      "authors": [
+        "Álvaro Díez",
+        "Fidel Aznar"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06226",
+      "abs_url": "https://arxiv.org/abs/2610.06226",
+      "source_category": "cs.CV",
+      "title": "LeAVJEPA: A Minimalist Architecture for Audio-Visual Self-Supervised Learning",
+      "authors": [
+        "Benjamin Robson",
+        "Santeri Mentu",
+        "Wenshuai Zhao",
+        "Arno Solin"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06195",
+      "abs_url": "https://arxiv.org/abs/2610.06195",
+      "source_category": "cs.CV",
+      "title": "Loss-Invariant Projections as Passive Probes of Learned Representations",
+      "authors": [
+        "Akshay Chandrasekhar",
+        "Pavlo Melnyk"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06146",
+      "abs_url": "https://arxiv.org/abs/2610.06146",
+      "source_category": "cs.CV",
+      "title": "Impact of Data Augmentation on Confidence Calibration in Melanoma Classification",
+      "authors": [
+        "Morgan May",
+        "Simon Caton",
+        "Pierpaolo Dondio"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.LO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06139",
+      "abs_url": "https://arxiv.org/abs/2610.06139",
+      "source_category": "cs.CV",
+      "title": "On Impact of Loss Function on the Performance of Neural Networks in Melanoma Diagnosis",
+      "authors": [
+        "Morgan May",
+        "Pierpaolo Dondio",
+        "Simon Caton"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06034",
+      "abs_url": "https://arxiv.org/abs/2610.06034",
+      "source_category": "cs.CV",
+      "title": "How well do routinely collected demographic and clinical variables aid point-of-care lung ultrasound TB classification",
+      "authors": [
+        "Joshua M. Jansen van Vüren",
+        "Christiaan M. Geldenhuys",
+        "Devendra S. Parihar",
+        "Véronique Suttels",
+        "Trevor Brokowski",
+        "Ablo P. Wachinou",
+        "Mary-Anne Hartley",
+        "Rensu P. Theart",
+        "Grant Theron",
+        "Thomas R. Niesler"
+      ],
+      "primary_subject": "Image and Video Processing (eess.IV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.06008",
+      "abs_url": "https://arxiv.org/abs/2610.06008",
+      "source_category": "cs.CV",
+      "title": "Ultrasound Operator Guidance Using World Modeling and Retrieval Based Action Planning",
+      "authors": [
+        "Noortje I.P. Schueler",
+        "Hans van Gorp",
+        "Ruud J.G. van Sloun"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05954",
+      "abs_url": "https://arxiv.org/abs/2610.05954",
+      "source_category": "cs.CV",
+      "title": "MEND: RL For Flow Models via Proximal Velocity Matching",
+      "authors": [
+        "Shreshth Saini",
+        "Neil Birkbeck",
+        "Yilin Wang",
+        "Balu Adsumilli",
+        "Alan C. Bovik"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05939",
+      "abs_url": "https://arxiv.org/abs/2610.05939",
+      "source_category": "cs.CV",
+      "title": "Structural Foundations of Nonlinear Systems with Unknown Inputs: The UID-Induced Normal Form and Minimal-Sensing Structure-from-Motion",
+      "authors": [
+        "Agostino Martinelli"
+      ],
+      "primary_subject": "Optimization and Control (math.OC)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO",
+        "math.OC"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05921",
+      "abs_url": "https://arxiv.org/abs/2610.05921",
+      "source_category": "cs.CV",
+      "title": "Beyond Transport Cost: Routing Differences between Flow Matching and Optimal Transport",
+      "authors": [
+        "Eungyeol Han",
+        "Jong-Seok Lee"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05902",
+      "abs_url": "https://arxiv.org/abs/2610.05902",
+      "source_category": "cs.CV",
+      "title": "On Hyperparameter Tuning on the Test Set",
+      "authors": [
+        "Matteo Fregonara",
+        "Tom Viering",
+        "Jan van Gemert"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05839",
+      "abs_url": "https://arxiv.org/abs/2610.05839",
+      "source_category": "cs.CV",
+      "title": "Dual-Rate Force-Image Control with Model-Based Orientation Limits for Robotic Ultrasound",
+      "authors": [
+        "Tyler Foster",
+        "Qiang Zhang",
+        "A B M Tahidul Haque",
+        "Anh Thu Nguyen"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05711",
+      "abs_url": "https://arxiv.org/abs/2610.05711",
+      "source_category": "cs.CV",
+      "title": "From Pixels, Without Pre-training: Joint Generative and Self-Supervised Representation Learning in One Model",
+      "authors": [
+        "Vicente Balmaseda",
+        "Ching-Long Lin",
+        "Tianbao Yang"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05674",
+      "abs_url": "https://arxiv.org/abs/2610.05674",
+      "source_category": "cs.CV",
+      "title": "Bayesian Data Augmentation for DNN Retraining with Binomial Outcomes in Vision-Based UAV Landing",
+      "authors": [
+        "Ashik E Rasul",
+        "Hyung-Jin Yoon"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05637",
+      "abs_url": "https://arxiv.org/abs/2610.05637",
+      "source_category": "cs.CV",
+      "title": "Visual Grounding Safety in Vision-Language Models",
+      "authors": [
+        "Erfan Shayegani",
+        "Kundan Krishna",
+        "Yue Dong",
+        "Nael Abu-Ghazaleh",
+        "Leon Gatys",
+        "Shruti Palaskar"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.CV",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05630",
+      "abs_url": "https://arxiv.org/abs/2610.05630",
+      "source_category": "cs.CV",
+      "title": "Atomic Visual Entailment: Enhancing Zero-Shot Vision-Language Reasoning through Atomic Fact Decomposition and Learned Selection",
+      "authors": [
+        "Nallathambi Vethiappan",
+        "Derya Soydaner",
+        "Gijs Wijnholds"
+      ],
+      "primary_subject": "Computation and Language (cs.CL)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05615",
+      "abs_url": "https://arxiv.org/abs/2610.05615",
+      "source_category": "cs.CV",
+      "title": "DREAM: Dynamic Resolution Assignment For Multimodal Multi-agent Debate",
+      "authors": [
+        "Khanh-Binh Nguyen",
+        "Van Dai Do",
+        "Tien Anh Nguyen",
+        "Svetha Venkatesh",
+        "Hung Le"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05578",
+      "abs_url": "https://arxiv.org/abs/2610.05578",
+      "source_category": "cs.CV",
+      "title": "Rethinking Streaming-Perception Evaluation on Heterogeneous Edge Platforms",
+      "authors": [
+        "Misun Yu",
+        "Jinyoung Moon",
+        "Jemin Lee"
+      ],
+      "primary_subject": "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.DC"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05505",
+      "abs_url": "https://arxiv.org/abs/2610.05505",
+      "source_category": "cs.CV",
+      "title": "Robust 2D Traversability Mapping for Construction AMRs via Failure-Mode-Aware Fusion of LiDAR Geometry and Monocular Semantics",
+      "authors": [
+        "Manoj Karnekar",
+        "Om Mandhane",
+        "Gautham Ramkumar"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05491",
+      "abs_url": "https://arxiv.org/abs/2610.05491",
+      "source_category": "cs.CV",
+      "title": "Robust Surgical Robotic Instrument Tracking via Sequential Multi-Cue Fusion and Sim-to-Real Self-Training",
+      "authors": [
+        "Hanyang Hu",
+        "Zekai Liang",
+        "Florian Richter",
+        "Michael C. Yip"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05484",
+      "abs_url": "https://arxiv.org/abs/2610.05484",
+      "source_category": "cs.CV",
+      "title": "Universal Test-Time Training",
+      "authors": [
+        "Zefan Cai",
+        "Qinzhe Hu",
+        "Ziqiao Ma",
+        "Hao Tan",
+        "Junjie Hu"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05463",
+      "abs_url": "https://arxiv.org/abs/2610.05463",
+      "source_category": "cs.CV",
+      "title": "Human-Like Attention? A Psychophysical Comparison of Visual Search in Humans and MLLMs",
+      "authors": [
+        "Renchi Zhang",
+        "Joost C. F. de Winter",
+        "Dimitra Dodou",
+        "Harleigh C. Seyffert",
+        "Yke Bauke Eisma"
+      ],
+      "primary_subject": "Human-Computer Interaction (cs.HC)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.HC"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05453",
+      "abs_url": "https://arxiv.org/abs/2610.05453",
+      "source_category": "cs.CV",
+      "title": "The Poisoned Conversation: Privacy-Leaking Watermarks in Unified Multimodal Models",
+      "authors": [
+        "Tobias Braun",
+        "Jonas Henry Grebe",
+        "Emil Sivic",
+        "Patrick Mohr Gordillo",
+        "Hossein Shakibania",
+        "Marcus Rohrbach",
+        "Anna Rohrbach"
+      ],
+      "primary_subject": "Cryptography and Security (cs.CR)",
+      "subject_categories": [
+        "cs.CR",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05418",
+      "abs_url": "https://arxiv.org/abs/2610.05418",
+      "source_category": "cs.CV",
+      "title": "EvoMem-VLA: State-Evolution Memory for Long-Horizon Robot Manipulation",
+      "authors": [
+        "Yuheng Na",
+        "Zhide Zhong",
+        "Junjie He",
+        "Junfeng Li",
+        "Haodong Yan",
+        "Jiaan Wang",
+        "Jiaguan Zhu",
+        "Yangyang Zheng",
+        "Tianyu Huang",
+        "Haoang Li"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05400",
+      "abs_url": "https://arxiv.org/abs/2610.05400",
+      "source_category": "cs.CV",
+      "title": "CASE: Cost-Aware Stopping for Efficient Long-Video Agents",
+      "authors": [
+        "Yiming Du",
+        "Chenghao Liu",
+        "Zhiyuan Liu",
+        "Fangxing Zheng",
+        "Zhao Wang",
+        "Junnan Nie",
+        "Songfang Huang"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05353",
+      "abs_url": "https://arxiv.org/abs/2610.05353",
+      "source_category": "cs.CV",
+      "title": "FACET: Factorized Asymmetric Conditioning for Efficient Transport in High-Fidelity Fluorescence Microscopy Synthesis",
+      "authors": [
+        "Sazan Mahbub",
+        "Caleb N. Ellington",
+        "Eric P. Xing"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05182",
+      "abs_url": "https://arxiv.org/abs/2610.05182",
+      "source_category": "cs.CV",
+      "title": "TIRMamba: A Thermal-Prior-Modulated State-Space Network for Sub-Million-Parameter Infrared Image Super-Resolution",
+      "authors": [
+        "Chun-An Lin",
+        "Tsung-Jung Liu",
+        "Yen-Chieh Ouyang"
+      ],
+      "primary_subject": "Image and Video Processing (eess.IV)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.05011",
+      "abs_url": "https://arxiv.org/abs/2610.05011",
+      "source_category": "cs.CV",
+      "title": "FreeLoc: Online Floorplan Localization via Diffusion-Aided Pose Refinement",
+      "authors": [
+        "Haocheng Peng",
+        "Boyang Zhou",
+        "Jiarui Hu",
+        "Xiyue Guo",
+        "Ziyang Zhang",
+        "Boming Zhao",
+        "Yifan Gao",
+        "Xiao Li",
+        "Hujun Bao",
+        "Zhaopeng Cui"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04911",
+      "abs_url": "https://arxiv.org/abs/2610.04911",
+      "source_category": "cs.CV",
+      "title": "VideoResearchAgent: Grounded Task Synthesis and Sim-to-Real RL for Open-Web Video Research",
+      "authors": [
+        "Yuhang Zhou",
+        "Fei Li",
+        "Yuxi Wu",
+        "Bin Zhu",
+        "Jingjing Chen"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04805",
+      "abs_url": "https://arxiv.org/abs/2610.04805",
+      "source_category": "cs.CV",
+      "title": "ExStereo: Lifting 2D Vision-Language-Action Models to 3D with Explicit Stereo Representations",
+      "authors": [
+        "I-Chun Arthur Liu",
+        "Jason Chen",
+        "Gaurav S. Sukhatme",
+        "Daniel Seita"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04800",
+      "abs_url": "https://arxiv.org/abs/2610.04800",
+      "source_category": "cs.CV",
+      "title": "MedImageOSWorld: Benchmarking GUI Agents for Medical Image Consoles",
+      "authors": [
+        "Ziyang Long",
+        "Xinqi Li",
+        "Lujing Xing",
+        "Hsin-Jung Yang"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04792",
+      "abs_url": "https://arxiv.org/abs/2610.04792",
+      "source_category": "cs.CV",
+      "title": "Do More Modalities Always Help? A Geometric Perspective on Missing-Modality Robustness",
+      "authors": [
+        "Songyuan Sui",
+        "Zhen Tan",
+        "Mohan Zhang",
+        "Rana Muhammad Shahroz Khan",
+        "Xia Hu",
+        "Tianlong Chen"
+      ],
+      "primary_subject": "Artificial Intelligence (cs.AI)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04786",
+      "abs_url": "https://arxiv.org/abs/2610.04786",
+      "source_category": "cs.CV",
+      "title": "KALEIDO: Input-Space Adaptation of a Vision Model for Time-Series Forecasting Through Gated Fold Geometries",
+      "authors": [
+        "Xiangyu Shi",
+        "Qinghua Liu",
+        "Sam Heshmati",
+        "Zubin Abraham"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04703",
+      "abs_url": "https://arxiv.org/abs/2610.04703",
+      "source_category": "cs.CV",
+      "title": "Learning Discriminative Geometry for Drifting Models",
+      "authors": [
+        "Doudou Zhang",
+        "Wenwen Hou",
+        "Yilin Chen",
+        "Qi Chen"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04616",
+      "abs_url": "https://arxiv.org/abs/2610.04616",
+      "source_category": "cs.CV",
+      "title": "PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training",
+      "authors": [
+        "Mingyu Liu",
+        "Chonghao Sima",
+        "Tianjian Feng",
+        "Hanqing Wang",
+        "Cong Chen",
+        "Hao Chen",
+        "Chunhua Shen"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04607",
+      "abs_url": "https://arxiv.org/abs/2610.04607",
+      "source_category": "cs.CV",
+      "title": "ForeAct3D: Policy-Grounded Future World Modeling for VLA Policies",
+      "authors": [
+        "Zhe Tao",
+        "Feiran Wang",
+        "Gaowen Liu",
+        "Ramana Rao Kompella$",
+        "Yan Yan"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04553",
+      "abs_url": "https://arxiv.org/abs/2610.04553",
+      "source_category": "cs.CV",
+      "title": "Cross-Modal Solar Image Synthesis: Adapting the Surya Foundation Model from He I 10830 Å to EUV Translation and Coronal Hole Segmentation",
+      "authors": [
+        "Marco Marena",
+        "Andrés Muñoz Jaramillo",
+        "Qin Li",
+        "Haodi Jiang",
+        "Jinghao Cao",
+        "Wen He",
+        "Ziyang Zhang",
+        "Chenxi Yuan",
+        "Chao Wang",
+        "Haimin Wang",
+        "Bo Shen"
+      ],
+      "primary_subject": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "subject_categories": [
+        "astro-ph.IM",
+        "astro-ph.SR",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04493",
+      "abs_url": "https://arxiv.org/abs/2610.04493",
+      "source_category": "cs.CV",
+      "title": "Understanding Clustering in Slot Attention via Particle Dynamics",
+      "authors": [
+        "Vasudev Joy",
+        "Rajat Rasal",
+        "Avinash Kori",
+        "Anthea Monod",
+        "Ben Glocker"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04426",
+      "abs_url": "https://arxiv.org/abs/2610.04426",
+      "source_category": "cs.CV",
+      "title": "UnAct: Gradient-Free Unlearning via Targeted Activation Intervention",
+      "authors": [
+        "Saeed Abdul Muizz",
+        "Aayat Rafiq",
+        "Iqra Altaf Gillani",
+        "Janibul Bashir"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04342",
+      "abs_url": "https://arxiv.org/abs/2610.04342",
+      "source_category": "cs.CV",
+      "title": "Asynchronous Tracking, Optical Communication and 3D Motion Capture using Event-based Sensors",
+      "authors": [
+        "Ziwei Wang",
+        "Angus Apps",
+        "Holly Battisson",
+        "Iain Guilliard",
+        "Timothy Molloy",
+        "Robert Mahony"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04258",
+      "abs_url": "https://arxiv.org/abs/2610.04258",
+      "source_category": "cs.CV",
+      "title": "FloVMos: Optical Flow-based Medical Video Mosaicking",
+      "authors": [
+        "Jinyang Liu",
+        "Sandesh Ghimire",
+        "Chaman Singh",
+        "Jennifer Dy",
+        "Milind Rajadhyaksha",
+        "Dana H. Brooks",
+        "Octavia Camps",
+        "Kivanc Kose"
+      ],
+      "primary_subject": "Image and Video Processing (eess.IV)",
+      "subject_categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04255",
+      "abs_url": "https://arxiv.org/abs/2610.04255",
+      "source_category": "cs.CV",
+      "title": "Grounded in Time: A Multi-Source Dataset and Benchmark for Temporal Grounding in Robotic Manipulation",
+      "authors": [
+        "Yi Wang",
+        "Yang Yang",
+        "Guangqi Xu",
+        "Sumin Lin",
+        "Ning Kang",
+        "Pengxiang Lu",
+        "Xiaotong Chen",
+        "Zeyu Xue",
+        "Ping Deng",
+        "Xing Liu",
+        "Chenguang Yang",
+        "Zhenyu Lu"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04009",
+      "abs_url": "https://arxiv.org/abs/2610.04009",
+      "source_category": "cs.CV",
+      "title": "SUAVE: Unified Video-Action Models via Masked Diffusion",
+      "authors": [
+        "Rhythm Syed",
+        "Jean Mercat",
+        "Sedrick Keh",
+        "Kushal Arora",
+        "Paarth Shah",
+        "Aykut Onol",
+        "Mengchao Zhang",
+        "Tony Dear"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.04003",
+      "abs_url": "https://arxiv.org/abs/2610.04003",
+      "source_category": "cs.CV",
+      "title": "Selective Backpropagation for Efficient Few-Shot Class-Incremental Learning",
+      "authors": [
+        "Eeham Khan",
+        "Abdulmoumen Al-Atrash",
+        "Ali Ayub"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03861",
+      "abs_url": "https://arxiv.org/abs/2610.03861",
+      "source_category": "cs.CV",
+      "title": "GOTT: Object-centric Dexterous Manipulation with a Reusable Cross-Embodiment Primitive",
+      "authors": [
+        "Yulin Liu",
+        "Lai Wei",
+        "Yen-Jen Wang",
+        "Akash Sharma",
+        "Pieter Abbeel",
+        "Henrik I. Christensen",
+        "Haozhi Qi"
+      ],
+      "primary_subject": "Robotics (cs.RO)",
+      "subject_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03817",
+      "abs_url": "https://arxiv.org/abs/2610.03817",
+      "source_category": "cs.CV",
+      "title": "Image-Based Breast Implant Detection for Mammography Dataset Curation and Near-Real-Time Deployment: Comparing Foundation Models and Task-Specific Convolutional Models",
+      "authors": [
+        "Vasisht Ishwar",
+        "Hari Trivedi",
+        "Young Seok Jeon",
+        "Beatrice Brown-Mulry",
+        "Frank Li",
+        "Rohan Satya Isaac",
+        "Mohammadreza Chavoshi",
+        "Judy Wawira Gichoya"
+      ],
+      "primary_subject": "Image and Video Processing (eess.IV)",
+      "subject_categories": [
+        "cs.CV",
+        "eess.IV",
+        "q-bio.TO"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03812",
+      "abs_url": "https://arxiv.org/abs/2610.03812",
+      "source_category": "cs.CV",
+      "title": "Least Squares for Time Series Forecasting",
+      "authors": [
+        "Weiu-qiou Ciang",
+        "Yuzhou Hong",
+        "Sherry Chen"
+      ],
+      "primary_subject": "Machine Learning (cs.LG)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announcement_date": "2026-10-06"
+    },
+    {
+      "paper_id": "2610.03720",
+      "abs_url": "https://arxiv.org/abs/2610.03720",
+      "source_category": "cs.CV",
+      "title": "Beyond the Good, the Bad, and the Ugly: Colormap Assessment through Data-Aware Perceptual Metric",
+      "authors": [
+        "Xi Duan",
+        "Yiwei Lin",
+        "Shiqing Xin",
+        "Aoying Wang",
+        "Yucheng Wang",
+        "Changhe Tu",
+        "Qiong Zeng"
+      ],
+      "primary_subject": "Human-Computer Interaction (cs.HC)",
+      "subject_categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.HC"
+      ],
+      "announcement_date": "2026-10-06"
+    }
+  ]
+}
